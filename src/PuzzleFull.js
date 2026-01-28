@@ -9,7 +9,6 @@ export default function PuzzleFull() {
       title="Full Screen Puzzle"
       src={`https://crosshare.org/embed/list/${puzzleId}`}
       allow="clipboard-write *"
-      allowFullScreen
       style={{
         width: "100vw",
         height: "100vh",
