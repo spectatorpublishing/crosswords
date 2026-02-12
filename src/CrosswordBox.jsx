@@ -75,6 +75,7 @@ const Header = styled.div`
   gap: 8px;
 `;
 
+/*
 const Title = styled.div`
   position: relative;
   z-index: 1;
@@ -89,6 +90,7 @@ const Title = styled.div`
   -webkit-box-orient: vertical;
   overflow: hidden;
 `;
+*/
 
 const Footer = styled.div`
   position: relative;
@@ -124,7 +126,7 @@ const Open = styled.div`
 `;
 
 
-const list_id = "RNwE74wUBUW0a8bezMCE2nn7Snf2";
+const list_id = "VrpqDMgLzHOLOGWBtAmbA5zdV0s2";
 
 function transformLink(link) {
     if (!link) return null;
