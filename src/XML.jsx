@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
+import Spotlight from "./components/Spotlight";
 
 function XML() {
   const [items, setItems] = useState([]);
+  const [latestCrossword, setLatestCrossword] = useState(null);
   const LIST_ID = "RNwE74wUBUW0a8bezMCE2nn7Snf2";
 
   useEffect(() => {
@@ -22,6 +24,11 @@ function XML() {
         );
 
         setItems(parsedItems);
+
+        const sortedItems = parsedItems.sort(
+          (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
+        );
+        setLatestCrossword(sortedItems[0]);
       });
   }, []);
 
@@ -30,6 +37,7 @@ function XML() {
       style={{ backgroundColor: "#B9D9EB", width: "100%", minHeight: "100vh" }}
     >
       <Header />
+      <Spotlight crossword={latestCrossword} />
       <div
         style={{
           display: "flex",
@@ -39,14 +47,16 @@ function XML() {
           marginLeft: "20px",
         }}
       >
-        {items.map((item, i) => (
-          <CrosswordBox
-            key={i}
-            title={item.title}
-            link={item.link}
-            pubDate={item.pubDate}
-          />
-        ))}
+        {items
+          .filter((item) => item.link !== latestCrossword?.link)
+          .map((item, i) => (
+            <CrosswordBox
+              key={i}
+              title={item.title}
+              link={item.link}
+              pubDate={item.pubDate}
+            />
+          ))}
       </div>
     </div>
   );

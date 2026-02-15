@@ -1,4 +1,7 @@
-html, body, #root {
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
+html,
+body,
+#root {
   margin: 0;
   padding: 0;
   width: 100%;

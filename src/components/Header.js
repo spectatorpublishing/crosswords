@@ -6,9 +6,12 @@ const Header = () => {
     <header
       style={{
         boxShadow: "0 4px 2px rgba(0,0,0,0.5)",
-        marginBottom: "30px",
+        marginBottom: "25px",
         padding: "15px 20px",
         backgroundColor: "#FFFFFF",
+        display: "flex",
+        alignItems: "center",
+        gap: "15px",
       }}
     >
       <img
@@ -16,6 +19,31 @@ const Header = () => {
         alt="Spectator Logo"
         style={{ height: "50px" }}
       />
+
+      <div
+        style={{
+          width: "1px",
+          height: "30px",
+          backgroundColor: "#000000",
+        }}
+      />
+
+      <button
+        style={{
+          padding: "10px 20px",
+          fontSize: "20px",
+          backgroundColor: "transparent",
+          border: "none",
+          cursor: "pointer",
+          fontFamily: "Bitter, serif",
+          fontWeight: "bold",
+        }}
+        onClick={() => {
+          window.location.href = "/crosswords";
+        }}
+      >
+        Crosswords
+      </button>
     </header>
   );
 };
