@@ -10,35 +10,24 @@ const Spotlight = ({ crossword }) => {
       style={{
         backgroundColor: "#FFFFFF",
         display: "flex",
-        flexDirection: "column",
         alignItems: "center",
+        justifyContent: "center",
+        gap: "250px",
         marginBottom: "25px",
         marginLeft: "20px",
         marginRight: "20px",
         borderRadius: "10px",
+        padding: "60px 40px",
       }}
     >
       <div
         style={{
-          marginBottom: "25px",
-          padding: "15px 20px",
-          display: "flex",
-          alignItems: "center",
-          gap: "15px",
           fontFamily: "Bitter, serif",
-          marginLeft: "20px",
-          marginRight: "20px",
-          borderRadius: "8px",
         }}
       >
         <h1>Latest Crossword</h1>
       </div>
-      <div
-        style={{
-          marginBottom: "25px",
-          padding: "15px 20px",
-        }}
-      >
+      <div style={{ transform: "scale(1.3)" }}>
         <CrosswordBox
           title={crossword.title}
           link={crossword.link}

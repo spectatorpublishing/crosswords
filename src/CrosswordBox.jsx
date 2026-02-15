@@ -27,8 +27,8 @@ const Card = styled.div`
   overflow: hidden;
 
   background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
 
   display: flex;
   flex-direction: column;
@@ -37,10 +37,7 @@ const Card = styled.div`
   text-decoration: none;
   color: inherit;
 
-  /* "POP" baseline shadow */
-  box-shadow:
-    0 14px 30px rgba(15, 23, 42, 0.1),
-    0 2px 8px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
   transition:
     transform 180ms ease,
@@ -48,15 +45,13 @@ const Card = styled.div`
     border-color 180ms ease;
 
   &:hover {
-    transform: translateY(-8px) scale(1.01);
-    border-color: rgba(37, 99, 235, 0.38);
-    box-shadow:
-      0 22px 48px rgba(15, 23, 42, 0.16),
-      0 10px 26px rgba(37, 99, 235, 0.18);
+    transform: translateY(-3px);
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   }
 
   &:active {
-    transform: translateY(-4px) scale(1.005);
+    transform: translateY(-2px);
   }
 `;
 
@@ -66,6 +61,7 @@ const Header = styled.div`
 
   font-size: 20px;
   font-weight: 700;
+  font-family: "Bitter", serif;
   color: #1d4ed8;
   letter-spacing: 0.5px;
 
@@ -80,6 +76,7 @@ const Title = styled.div`
 
   font-size: 16px;
   font-weight: 700;
+  font-family: "Bitter", serif;
   color: #0f172a;
   line-height: 1.25;
 
@@ -100,12 +97,14 @@ const Footer = styled.div`
 
 const PubDate = styled.div`
   font-size: 11px;
+  font-family: "Bitter", serif;
   color: #64748b;
 `;
 
 const Open = styled.div`
   font-size: 12px;
   font-weight: 800;
+  font-family: "Bitter", serif;
   color: #1d4ed8;
 
   padding: 6px 10px;
