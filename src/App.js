@@ -1,22 +1,21 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
-
-// Ping XML-API
-import XML from "./XML";
+import { Routes, Route, Link } from "react-router-dom";
+import FullPage from "./pages/FullPage";
+import MinisPage from "./pages/MinisPage";
 
 function App() {
   return (
-    <Router>
+    <>
+      <nav style={{ padding: 16, display: "flex", gap: 12 }}>
+        <Link to="/">Crosswords</Link>
+        <Link to="/minis">Minis</Link>
+      </nav>
+
       <Routes>
-        <Route path="/" element={<Navigate to="/crosswords" replace />} />
-        <Route path="/crosswords" element={<XML />} />
+        <Route path="/" element={<FullPage />} />
+        <Route path="/minis" element={<MinisPage />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 

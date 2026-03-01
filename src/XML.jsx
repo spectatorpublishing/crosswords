@@ -3,41 +3,83 @@ import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
 import Spotlight from "./components/Spotlight";
 
-function XML() {
+const BUILD_ID = "vyRXtEvG8s-ccCLAr5L1g";
+const SLUG = "CUDailySpectator";
+
+async function fetchJsonThroughCorsProxy(url) {
+  const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+  const res = await fetch(proxiedUrl, {
+    headers: { Accept: "application/json" },
+  });
+  const text = await res.text();
+  return JSON.parse(text);
+}
+
+async function fetchAllPuzzles() {
+  const all = [];
+  let page = 1;
+
+  while (true) {
+    const url = `https://crosshare.org/_next/data/${BUILD_ID}/en/${SLUG}/page/${page}.json`;
+    const data = await fetchJsonThroughCorsProxy(url);
+    const puzzles = data?.pageProps?.puzzles ?? [];
+    all.push(...puzzles);
+
+    const nextPage = data?.pageProps?.nextPage;
+    if (!nextPage) break;
+    page = nextPage;
+  }
+
+  return all;
+}
+
+export default function XML({ mode = "all" }) {
   const [items, setItems] = useState([]);
   const [latestCrossword, setLatestCrossword] = useState(null);
-  const LIST_ID = "RNwE74wUBUW0a8bezMCE2nn7Snf2";
 
   useEffect(() => {
-    fetch("https://corsproxy.io/?https://crosshare.org/api/feed/spectest")
-      .then((res) => res.text())
-      .then((xmlStr) => {
-        const parser = new DOMParser();
-        const xml = parser.parseFromString(xmlStr, "application/xml");
-
-        const parsedItems = Array.from(xml.querySelectorAll("item")).map(
-          (item) => ({
-            title: item.querySelector("title")?.textContent,
-            link: item.querySelector("link")?.textContent,
-            pubDate: item.querySelector("pubDate")?.textContent,
-          }),
-        );
+    async function loadPuzzles() {
+      try {
+        const puzzles = await fetchAllPuzzles();
+        const parsedItems = puzzles.map((p) => ({
+          id: p.id,
+          title: p.title,
+          pubDate: new Date(p.publishTime).toISOString(),
+          isMini: (p.autoTags || []).includes("mini"),
+        }));
 
         setItems(parsedItems);
 
-        const sortedItems = parsedItems.sort(
+        // Find latest crossword
+        const sortedItems = [...parsedItems].sort(
           (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
         );
-        setLatestCrossword(sortedItems[0]);
-      });
+        setLatestCrossword(sortedItems[0] || null);
+      } catch (err) {
+        console.error("Failed to fetch puzzles:", err);
+      }
+    }
+
+    loadPuzzles();
   }, []);
+
+  const shown =
+    mode === "mini"
+      ? items.filter((x) => x.isMini)
+      : mode === "full"
+        ? items.filter((x) => !x.isMini)
+        : items;
 
   return (
     <div
       style={{ backgroundColor: "#B9D9EB", width: "100%", minHeight: "100vh" }}
     >
       <Header />
-      <Spotlight crossword={latestCrossword} />
+      {latestCrossword && <Spotlight crossword={latestCrossword} />}
+
+      <h2>Crosshare Puzzles</h2>
+      <div>Number of puzzles: {shown.length}</div>
+
       <div
         style={{
           display: "flex",
@@ -45,21 +87,18 @@ function XML() {
           flexWrap: "wrap",
           alignItems: "stretch",
           marginLeft: "20px",
+          marginTop: 10,
         }}
       >
-        {items
-          .filter((item) => item.link !== latestCrossword?.link)
-          .map((item, i) => (
-            <CrosswordBox
-              key={i}
-              title={item.title}
-              link={item.link}
-              pubDate={item.pubDate}
-            />
-          ))}
+        {shown.map((item) => (
+          <CrosswordBox
+            key={item.id}
+            title={item.title}
+            link={`https://crosshare.org/crosswords/${item.id}`}
+            pubDate={item.pubDate}
+          />
+        ))}
       </div>
     </div>
   );
 }
-
-export default XML;
