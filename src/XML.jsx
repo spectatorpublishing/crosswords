@@ -3,7 +3,6 @@ import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
 import Spotlight from "./components/Spotlight";
 
-const BUILD_ID = "vyRXtEvG8s-ccCLAr5L1g";
 const SLUG = "CUDailySpectator";
 
 async function fetchJsonThroughCorsProxy(url) {
@@ -15,12 +14,30 @@ async function fetchJsonThroughCorsProxy(url) {
   return JSON.parse(text);
 }
 
+// get current build ID
+async function getBuildId() {
+  const pageUrl = `https://crosshare.org/${SLUG}?page=1`;
+  const proxied = `https://corsproxy.io/?${encodeURIComponent(pageUrl)}`;
+
+  const res = await fetch(proxied);
+  const html = await res.text();
+
+  const match = html.match(/"buildId":"(.*?)"/);
+
+  if (!match) {
+    throw new Error("Could not find buildId in page HTML");
+  }
+
+  return match[1];
+}
+
 async function fetchAllPuzzles() {
+  const buildId = await getBuildId();
   const all = [];
   let page = 1;
 
   while (true) {
-    const url = `https://crosshare.org/_next/data/${BUILD_ID}/en/${SLUG}/page/${page}.json`;
+    const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}/page/${page}.json`;
     const data = await fetchJsonThroughCorsProxy(url);
     const puzzles = data?.pageProps?.puzzles ?? [];
     all.push(...puzzles);
