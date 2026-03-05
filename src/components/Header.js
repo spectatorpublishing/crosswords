@@ -39,10 +39,35 @@ const Header = () => {
           fontWeight: "bold",
         }}
         onClick={() => {
-          window.location.href = "/crosswords";
+          window.location.href = "/";
         }}
       >
         Crosswords
+      </button>
+
+      <div
+        style={{
+          width: "1px",
+          height: "30px",
+          backgroundColor: "#000000",
+        }}
+      />
+
+      <button
+        style={{
+          padding: "10px 20px",
+          fontSize: "20px",
+          backgroundColor: "transparent",
+          border: "none",
+          cursor: "pointer",
+          fontFamily: "Bitter, serif",
+          fontWeight: "bold",
+        }}
+        onClick={() => {
+          window.location.href = "/minis";
+        }}
+      >
+        Minis
       </button>
     </header>
   );

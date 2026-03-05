@@ -52,7 +52,6 @@ async function fetchAllPuzzles() {
 
 export default function XML({ mode = "all" }) {
   const [items, setItems] = useState([]);
-  const [latestCrossword, setLatestCrossword] = useState(null);
 
   useEffect(() => {
     async function loadPuzzles() {
@@ -66,12 +65,6 @@ export default function XML({ mode = "all" }) {
         }));
 
         setItems(parsedItems);
-
-        // Find latest crossword
-        const sortedItems = [...parsedItems].sort(
-          (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
-        );
-        setLatestCrossword(sortedItems[0] || null);
       } catch (err) {
         console.error("Failed to fetch puzzles:", err);
       }
@@ -79,6 +72,14 @@ export default function XML({ mode = "all" }) {
 
     loadPuzzles();
   }, []);
+
+  const latestCrossword = items
+    .filter((x) => !x.isMini)
+    .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))[0];
+
+  const latestMini = items
+    .filter((x) => x.isMini)
+    .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))[0];
 
   const shown =
     mode === "mini"
@@ -92,10 +93,11 @@ export default function XML({ mode = "all" }) {
       style={{ backgroundColor: "#B9D9EB", width: "100%", minHeight: "100vh" }}
     >
       <Header />
-      {latestCrossword && <Spotlight crossword={latestCrossword} />}
+      {latestCrossword && (
+        <Spotlight crossword={mode === "full" ? latestCrossword : latestMini} />
+      )}
 
-      <h2>Crosshare Puzzles</h2>
-      <div>Number of puzzles: {shown.length}</div>
+      {/* <div>Number of puzzles: {shown.length}</div> */}
 
       <div
         style={{
@@ -107,14 +109,17 @@ export default function XML({ mode = "all" }) {
           marginTop: 10,
         }}
       >
-        {shown.map((item) => (
-          <CrosswordBox
-            key={item.id}
-            title={item.title}
-            link={`https://crosshare.org/crosswords/${item.id}`}
-            pubDate={item.pubDate}
-          />
-        ))}
+        {shown
+          .filter((item) => item.id !== latestCrossword?.id)
+          .filter((item) => item.id !== latestMini?.id)
+          .map((item) => (
+            <CrosswordBox
+              key={item.id}
+              title={item.title}
+              link={`https://crosshare.org/crosswords/${item.id}`}
+              pubDate={item.pubDate}
+            />
+          ))}
       </div>
     </div>
   );
