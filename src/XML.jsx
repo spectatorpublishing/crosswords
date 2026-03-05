@@ -99,27 +99,28 @@ export default function XML({ mode = "all" }) {
 
       {/* <div>Number of puzzles: {shown.length}</div> */}
 
-      <div
-        style={{
-          display: "flex",
-          gap: "15px",
-          flexWrap: "wrap",
-          alignItems: "stretch",
-          marginLeft: "20px",
-          marginTop: 10,
-        }}
-      >
-        {shown
-          .filter((item) => item.id !== latestCrossword?.id)
-          .filter((item) => item.id !== latestMini?.id)
-          .map((item) => (
-            <CrosswordBox
-              key={item.id}
-              title={item.title}
-              link={`https://crosshare.org/crosswords/${item.id}`}
-              pubDate={item.pubDate}
-            />
-          ))}
+      <div style={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+            rowGap: "30px",
+            columnGap: "0px",
+            width: "90%",
+          }}
+        >
+          {shown
+            .filter((item) => item.id !== latestCrossword?.id)
+            .filter((item) => item.id !== latestMini?.id)
+            .map((item) => (
+              <CrosswordBox
+                key={item.id}
+                title={item.title}
+                link={`https://crosshare.org/crosswords/${item.id}`}
+                pubDate={item.pubDate}
+              />
+            ))}
+        </div>
       </div>
     </div>
   );
