@@ -60,6 +60,7 @@ export default function XML({ mode = "all" }) {
         const parsedItems = puzzles.map((p) => ({
           id: p.id,
           title: p.title,
+          link: `https://crosshare.org/crosswords/${p.id}`,
           pubDate: new Date(p.publishTime).toISOString(),
           isMini: (p.autoTags || []).includes("mini"),
         }));
@@ -116,7 +117,7 @@ export default function XML({ mode = "all" }) {
               <CrosswordBox
                 key={item.id}
                 title={item.title}
-                link={`https://crosshare.org/crosswords/${item.id}`}
+                link={item.link}
                 pubDate={item.pubDate}
               />
             ))}

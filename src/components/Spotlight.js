@@ -1,4 +1,3 @@
-import react from "react";
 import CrosswordBox from "../CrosswordBox";
 
 const Spotlight = ({ crossword }) => {
@@ -27,7 +26,7 @@ const Spotlight = ({ crossword }) => {
       >
         <h1>Latest Crossword</h1>
       </div>
-      <div style={{ transform: "scale(1.3)" }}>
+      <div style={{ zoom: 1.3 }}>
         <CrosswordBox
           title={crossword.title}
           link={crossword.link}

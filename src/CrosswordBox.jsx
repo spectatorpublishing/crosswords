@@ -90,7 +90,7 @@ const Title = styled.div`
 
 const Footer = styled.div`
   position: relative;
-  z-index: 1;
+  z-index: 5;
 
   display: flex;
   justify-content: space-between;
