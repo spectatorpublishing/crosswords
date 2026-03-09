@@ -6,6 +6,7 @@ const CrossWordImage = styled.div`
   flex: 1;
   display: grid;
   place-items: center;
+  min-height: 0;
 `;
 
 const Logo = styled.img`
@@ -58,6 +59,7 @@ const Card = styled.div`
 const Header = styled.div`
   position: relative;
   z-index: 1;
+  flex-shrink: 0
 
   font-size: 20px;
   font-weight: 700;
@@ -66,6 +68,8 @@ const Header = styled.div`
   letter-spacing: 0.5px;
 
   display: inline-flex;
+  -webkit-line-clamp: 2;            
+  -webkit-box-orient: vertical;
   align-items: center;
   gap: 8px;
 `;
@@ -91,6 +95,7 @@ const Title = styled.div`
 const Footer = styled.div`
   position: relative;
   z-index: 5;
+  flex-shrink: 0;
 
   display: flex;
   justify-content: space-between;
