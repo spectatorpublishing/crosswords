@@ -16,7 +16,7 @@ async function fetchJsonThroughCorsProxy(url) {
 
 // get current build ID
 async function getBuildId() {
-  const pageUrl = `https://crosshare.org/${SLUG}?page=1`;
+  const pageUrl = `https://crosshare.org/${SLUG}?page=0`;
   const proxied = `https://corsproxy.io/?${encodeURIComponent(pageUrl)}`;
 
   const res = await fetch(proxied);
@@ -34,7 +34,7 @@ async function getBuildId() {
 async function fetchAllPuzzles() {
   const buildId = await getBuildId();
   const all = [];
-  let page = 1;
+  let page = 0;
 
   while (true) {
     const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}/page/${page}.json`;
