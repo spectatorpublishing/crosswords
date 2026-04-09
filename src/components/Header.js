@@ -1,7 +1,18 @@
 import React from "react";
 import spectatorLogo from "../images/spectator-logo.png";
 
-const Header = () => {
+const Header = ({ mode }) => {
+  const tabStyle = (isActive) => ({
+    padding: "10px 20px",
+    fontSize: "20px",
+    backgroundColor: "transparent",
+    border: "none",
+    borderBottom: isActive ? "3px solid black" : "3px solid transparent",
+    cursor: "pointer",
+    fontFamily: "Bitter, serif",
+    fontWeight: "bold",
+  });
+
   return (
     <header
       style={{
@@ -29,15 +40,7 @@ const Header = () => {
       />
 
       <button
-        style={{
-          padding: "10px 20px",
-          fontSize: "20px",
-          backgroundColor: "transparent",
-          border: "none",
-          cursor: "pointer",
-          fontFamily: "Bitter, serif",
-          fontWeight: "bold",
-        }}
+        style={tabStyle(mode === "full" || mode === "all")}
         onClick={() => {
           window.location.href = "/";
         }}
@@ -54,15 +57,7 @@ const Header = () => {
       />
 
       <button
-        style={{
-          padding: "10px 20px",
-          fontSize: "20px",
-          backgroundColor: "transparent",
-          border: "none",
-          cursor: "pointer",
-          fontFamily: "Bitter, serif",
-          fontWeight: "bold",
-        }}
+        style={tabStyle(mode === "mini")}
         onClick={() => {
           window.location.href = "/minis";
         }}
