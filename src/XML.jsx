@@ -1,9 +1,39 @@
 import { useEffect, useState } from "react";
+import styled from "styled-components";
 import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
 import Spotlight from "./components/Spotlight";
 
 const SLUG = "CUDailySpectator";
+
+const Page = styled.div`
+  background-color: #b9d9eb;
+  width: 100%;
+  min-height: 100vh;
+`;
+
+const CrosswordGridWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  padding: 0 16px 32px;
+  box-sizing: border-box;
+`;
+
+const CrosswordGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+
+  @media (max-width: 640px) {
+    grid-template-columns: minmax(0, 320px);
+  }
+`;
 
 async function fetchJsonThroughCorsProxy(url) {
   const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
@@ -90,9 +120,7 @@ export default function XML({ mode = "all" }) {
         : items;
 
   return (
-    <div
-      style={{ backgroundColor: "#B9D9EB", width: "100%", minHeight: "100vh" }}
-    >
+    <Page>
       <Header />
       {latestCrossword && (
         <Spotlight crossword={mode === "full" ? latestCrossword : latestMini} />
@@ -100,16 +128,8 @@ export default function XML({ mode = "all" }) {
 
       {/* <div>Number of puzzles: {shown.length}</div> */}
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-            rowGap: "30px",
-            columnGap: "0px",
-            width: "90%",
-          }}
-        >
+      <CrosswordGridWrap>
+        <CrosswordGrid>
           {shown
             .filter((item) => item.id !== latestCrossword?.id)
             .filter((item) => item.id !== latestMini?.id)
@@ -121,8 +141,8 @@ export default function XML({ mode = "all" }) {
                 pubDate={item.pubDate}
               />
             ))}
-        </div>
-      </div>
-    </div>
+        </CrosswordGrid>
+      </CrosswordGridWrap>
+    </Page>
   );
 }

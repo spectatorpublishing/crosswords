@@ -19,7 +19,8 @@ const Logo = styled.img`
 `;
 
 const Card = styled.div`
-  width: 220px;
+  width: 100%;
+  max-width: 220px;
   height: 220px;
   padding: 16px;
   box-sizing: border-box;
@@ -53,6 +54,13 @@ const Card = styled.div`
 
   &:active {
     transform: translateY(-2px);
+  }
+
+  @media (max-width: 640px) {
+    width: min(320px, calc(100vw - 32px));
+    max-width: none;
+    height: auto;
+    aspect-ratio: 1;
   }
 `;
 
