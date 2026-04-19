@@ -10,6 +10,19 @@ const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   gap: 15px;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+    padding: 12px 16px;
+  }
+`;
+
+const HeaderLogo = styled.img`
+  height: 50px;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 const HeaderButton = styled.button`
@@ -20,22 +33,37 @@ const HeaderButton = styled.button`
   cursor: pointer;
   font-family: Bitter, serif;
   font-weight: bold;
+
+  @media (max-width: 640px) {
+    padding: 10px 14px;
+    font-size: 18px;
+  }
 `;
 
 const VerticalBar = styled.div`
   width: 1px;
   height: 30px;
   background-color: #000000;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
+`;
+
+const MobileVerticalBar = styled(VerticalBar)`
+  @media (max-width: 640px) {
+    display: block;
+  }
+  @media (min-width: 641px) {
+    display: none;
+  }
+    
 `;
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <img
-        src={spectatorLogo}
-        alt="Spectator Logo"
-        style={{ height: "50px" }}
-      />
+      <HeaderLogo src={spectatorLogo} alt="Spectator Logo" />
 
       <VerticalBar />
 
@@ -48,6 +76,7 @@ const Header = () => {
       </HeaderButton>
 
       <VerticalBar />
+      <MobileVerticalBar />
 
       <HeaderButton
         onClick={() => {
