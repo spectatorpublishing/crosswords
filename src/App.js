@@ -1,15 +1,15 @@
 import React from "react";
-
-
-//Ping XML-API
-import XML from "./XML";
-
-
+import { Routes, Route } from "react-router-dom";
+import FullPage from "./pages/FullPage";
+import MinisPage from "./pages/MinisPage";
 
 function App() {
   return (
     <>
-    <XML></XML>
+      <Routes>
+        <Route path="/" element={<FullPage />} />
+        <Route path="/minis" element={<MinisPage />} />
+      </Routes>
     </>
   );
 }

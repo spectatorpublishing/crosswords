@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import SpecCrosswords from "./images/SpecCrosswords.png";
 
-
 const CrossWordImage = styled.div`
   flex: 1;
   display: grid;
   place-items: center;
+  min-height: 0;
 `;
 
 const Logo = styled.img`
@@ -18,7 +18,6 @@ const Logo = styled.img`
   pointer-events: none;
 `;
 
-
 const Card = styled.div`
   width: 220px;
   height: 220px;
@@ -29,8 +28,8 @@ const Card = styled.div`
   overflow: hidden;
 
   background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
 
   display: flex;
   flex-direction: column;
@@ -39,48 +38,50 @@ const Card = styled.div`
   text-decoration: none;
   color: inherit;
 
-  /* "POP" baseline shadow */
-  box-shadow:
-    0 14px 30px rgba(15, 23, 42, 0.10),
-    0 2px 8px rgba(37, 99, 235, 0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
-  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
 
   &:hover {
-    transform: translateY(-8px) scale(1.01);
-    border-color: rgba(37, 99, 235, 0.38);
-    box-shadow:
-      0 22px 48px rgba(15, 23, 42, 0.16),
-      0 10px 26px rgba(37, 99, 235, 0.18);
+    transform: translateY(-3px);
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   }
 
   &:active {
-    transform: translateY(-4px) scale(1.005);
+    transform: translateY(-2px);
   }
 `;
-
-
 
 const Header = styled.div`
   position: relative;
   z-index: 1;
+  flex-shrink: 0
 
   font-size: 20px;
   font-weight: 700;
+  font-family: "Bitter", serif;
   color: #1d4ed8;
   letter-spacing: 0.5px;
 
   display: inline-flex;
+  -webkit-line-clamp: 2;            
+  -webkit-box-orient: vertical;
   align-items: center;
   gap: 8px;
 `;
 
+/*
 const Title = styled.div`
   position: relative;
   z-index: 1;
 
   font-size: 16px;
   font-weight: 700;
+  font-family: "Bitter", serif;
   color: #0f172a;
   line-height: 1.25;
 
@@ -89,10 +90,12 @@ const Title = styled.div`
   -webkit-box-orient: vertical;
   overflow: hidden;
 `;
+*/
 
 const Footer = styled.div`
   position: relative;
-  z-index: 1;
+  z-index: 5;
+  flex-shrink: 0;
 
   display: flex;
   justify-content: space-between;
@@ -101,12 +104,14 @@ const Footer = styled.div`
 
 const PubDate = styled.div`
   font-size: 11px;
+  font-family: "Bitter", serif;
   color: #64748b;
 `;
 
 const Open = styled.div`
   font-size: 12px;
   font-weight: 800;
+  font-family: "Bitter", serif;
   color: #1d4ed8;
 
   padding: 6px 10px;
@@ -114,7 +119,10 @@ const Open = styled.div`
   background: rgba(37, 99, 235, 0.08);
   border: 1px solid rgba(37, 99, 235, 0.16);
 
-  transition: background 180ms ease, transform 180ms ease, border-color 180ms ease;
+  transition:
+    background 180ms ease,
+    transform 180ms ease,
+    border-color 180ms ease;
 
   ${Card}:hover & {
     background: rgba(37, 99, 235, 0.12);
@@ -123,36 +131,34 @@ const Open = styled.div`
   }
 `;
 
-
-const list_id = "RNwE74wUBUW0a8bezMCE2nn7Snf2";
+const list_id = "VrpqDMgLzHOLOGWBtAmbA5zdV0s2";
 
 function transformLink(link) {
-    if (!link) return null;
-    const match = link.match(/crosswords\/([^/]+)/);
-    if (!match) return null;
-    const puzzleId = match[1];
-    return `https://crosshare.org/embed/${puzzleId}/${list_id}`;
-  }
+  if (!link) return null;
+  const match = link.match(/crosswords\/([^/]+)/);
+  if (!match) return null;
+  const puzzleId = match[1];
+  return `https://crosshare.org/embed/${puzzleId}/${list_id}`;
+}
 
 const CrosswordBox = ({ title, link, pubDate }) => {
   return (
     <Card
-    as={transformLink(link) ? "a" : "div"}
-    href={transformLink(link) || undefined}
-    target={transformLink(link) ? "_blank" : undefined}
-    rel={transformLink(link) ? "noreferrer" : undefined}
+      as={transformLink(link) ? "a" : "div"}
+      href={transformLink(link) || undefined}
+      target={transformLink(link) ? "_blank" : undefined}
+      rel={transformLink(link) ? "noreferrer" : undefined}
     >
-    <Header>🧩 {title || "Untitled Crossword"}</Header>
+      <Header>{title || "Untitled Crossword"}</Header>
 
-    <CrossWordImage>
+      <CrossWordImage>
         <Logo src={SpecCrosswords} alt="Spec Crosswords" />
-    </CrossWordImage>
+      </CrossWordImage>
 
-
-    <Footer>
+      <Footer>
         <PubDate>{pubDate ? new Date(pubDate).toDateString() : ""}</PubDate>
         <Open>Play Now</Open>
-    </Footer>
+      </Footer>
     </Card>
   );
 };
