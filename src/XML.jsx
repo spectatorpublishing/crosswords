@@ -26,7 +26,6 @@ async function fetchJsonThroughCorsProxy(url) {
 async function fetchTextThroughCorsProxy(url) {
   const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
   const res = await fetch(proxiedUrl, { cache: "no-store" });
-
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} for ${url}`);
   }
