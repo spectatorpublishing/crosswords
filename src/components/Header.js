@@ -28,7 +28,18 @@ const VerticalBar = styled.div`
   background-color: #000000;
 `;
 
-const Header = () => {
+const Header = ({ mode }) => {
+  const tabStyle = (isActive) => ({
+    padding: "10px 20px",
+    fontSize: "20px",
+    backgroundColor: "transparent",
+    border: "none",
+    borderBottom: isActive ? "3px solid black" : "3px solid transparent",
+    cursor: "pointer",
+    fontFamily: "Bitter, serif",
+    fontWeight: "bold",
+  });
+
   return (
     <HeaderContainer>
       <img
@@ -54,8 +65,11 @@ const Header = () => {
           window.location.href = "/minis";
         }}
       >
+
+
         Minis
       </HeaderButton>
+
     </HeaderContainer>
   );
 };
