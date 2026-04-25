@@ -36,6 +36,38 @@ const CrosswordGrid = styled.div`
   }
 `;
 
+const PageNavigator = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+`;
+
+const BackButton = styled.button`
+  font-size: 15px;
+  padding: 4px 10px;
+  cursor: ${(props) => (props.canGoPrev ? "pointer" : "default")};
+  opacity: ${(props) => (props.canGoPrev ? 1 : 0.4)};
+`;
+
+const PageNumber = styled.span`
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Bitter", serif;
+  color: #1d4ed8;
+  letter-spacing: 0.5px;
+`;
+
+const ForwardButton = styled.button`
+  font-size: 15px;
+  padding: 4px 10px;
+  cursor: ${(props) =>
+    props.canGoNext && !props.loadingMore ? "pointer" : "default"};
+  opacity: ${(props) => (props.canGoNext && !props.loadingMore ? 1 : 0.4)};
+`;
+
 async function fetchJsonThroughCorsProxy(url) {
   const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
   const res = await fetch(proxiedUrl, {
@@ -291,54 +323,26 @@ export default function XML({ mode = "all" }) {
       </CrosswordGridWrap>
 
       {!loading && (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-            marginTop: "30px",
-            paddingBottom: "40px",
-          }}
-        >
-          <button
+        <PageNavigator>
+          <BackButton
             onClick={handlePrev}
             disabled={!canGoPrev}
-            style={{
-              fontSize: "15px",
-              padding: "4px 10px",
-              cursor: canGoPrev ? "pointer" : "default",
-              opacity: canGoPrev ? 1 : 0.4,
-            }}
+            canGoPrev={canGoPrev}
           >
             ←
-          </button>
+          </BackButton>
 
-          <span
-            style={{
-              fontSize: "20px",
-              fontWeight: 700,
-              fontFamily: "Bitter, serif",
-              color: "#1d4ed8",
-              letterSpacing: "0.5px",
-            }}
-          >
-            Page {page}
-          </span>
+          <PageNumber>Page {page}</PageNumber>
 
-          <button
+          <ForwardButton
             onClick={handleNext}
             disabled={!canGoNext || loadingMore}
-            style={{
-              fontSize: "15px",
-              padding: "4px 10px",
-              cursor: canGoNext && !loadingMore ? "pointer" : "default",
-              opacity: canGoNext && !loadingMore ? 1 : 0.4,
-            }}
+            canGoNext={canGoNext}
+            loadingMore={loadingMore}
           >
             →
-          </button>
-        </div>
+          </ForwardButton>
+        </PageNavigator>
       )}
     </Page>
   );
