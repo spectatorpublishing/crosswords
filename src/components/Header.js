@@ -57,10 +57,20 @@ const MobileVerticalBar = styled(VerticalBar)`
   @media (min-width: 641px) {
     display: none;
   }
-    
 `;
 
-const Header = () => {
+const Header = ({ mode }) => {
+  const tabStyle = (isActive) => ({
+    padding: "10px 20px",
+    fontSize: "20px",
+    backgroundColor: "transparent",
+    border: "none",
+    borderBottom: isActive ? "3px solid black" : "3px solid transparent",
+    cursor: "pointer",
+    fontFamily: "Bitter, serif",
+    fontWeight: "bold",
+  });
+
   return (
     <HeaderContainer>
       <HeaderLogo src={spectatorLogo} alt="Spectator Logo" />
