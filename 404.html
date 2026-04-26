@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#b9d9eb" />
+    <meta
+      name="description"
+      content="The Spectator Crosswords page you were looking for could not be found."
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Page Not Found | Spectator Crosswords</title>
+    <style>
+      :root {
+        --paper: #ffffff;
+        --ink: #111111;
+        --blue: #b9d9eb;
+        --blue-dark: #7ab0cf;
+        --gold: #f4c542;
+        --line: #d7e1e7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        color: var(--ink);
+        font-family: Bitter, Georgia, serif;
+        background:
+          linear-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.18) 1px, transparent 1px),
+          var(--blue);
+        background-size: 34px 34px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 15px 20px;
+        background: var(--paper);
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.35);
+      }
+
+      .brand {
+        font-size: clamp(1.15rem, 4vw, 1.65rem);
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--ink);
+      }
+
+      .divider {
+        width: 1px;
+        height: 30px;
+        background: var(--ink);
+      }
+
+      nav {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+
+      nav a {
+        padding: 10px 14px;
+        border-bottom: 3px solid transparent;
+        color: var(--ink);
+        font-size: clamp(1rem, 3vw, 1.25rem);
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      nav a:hover,
+      nav a:focus-visible {
+        border-bottom-color: var(--ink);
+      }
+
+      main {
+        display: grid;
+        place-items: center;
+        min-height: calc(100vh - 80px);
+        padding: 32px 18px;
+      }
+
+      .not-found {
+        width: min(920px, 100%);
+        display: grid;
+        grid-template-columns: minmax(240px, 0.85fr) minmax(280px, 1fr);
+        gap: clamp(28px, 6vw, 64px);
+        align-items: center;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        aspect-ratio: 1;
+        border: 3px solid var(--ink);
+        background: var(--ink);
+        box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.14);
+      }
+
+      .cell {
+        display: grid;
+        place-items: center;
+        margin: 1px;
+        background: var(--paper);
+        font-size: clamp(1.45rem, 5vw, 3.1rem);
+        font-weight: 700;
+      }
+
+      .cell.dark {
+        background: var(--ink);
+      }
+
+      .cell.hint {
+        background: var(--gold);
+      }
+
+      .copy {
+        max-width: 500px;
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.4rem, 9vw, 5rem);
+        line-height: 0.95;
+      }
+
+      p {
+        margin: 20px 0 0;
+        color: #202020;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: clamp(1rem, 2.5vw, 1.16rem);
+        line-height: 1.6;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 11px 18px;
+        border: 2px solid var(--ink);
+        background: var(--ink);
+        color: var(--paper);
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .button.secondary {
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 rgba(0, 0, 0, 0.16);
+      }
+
+      @media (max-width: 720px) {
+        header {
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+
+        .brand,
+        .divider {
+          display: none;
+        }
+
+        main {
+          min-height: calc(100vh - 72px);
+          padding-top: 26px;
+        }
+
+        .not-found {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+
+        .grid {
+          width: min(310px, 88vw);
+          justify-self: center;
+        }
+
+        .actions {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">Spectator Crosswords</a>
+      <span class="divider" aria-hidden="true"></span>
+      <nav aria-label="Primary navigation">
+        <a href="/">Crosswords</a>
+        <span class="divider" aria-hidden="true"></span>
+        <a href="/minis">Minis</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="not-found" aria-labelledby="page-title">
+        
+        </div>
+
+        <div class="copy">
+          <p class="eyebrow">404 not found</p>
+      
+          <p>
+            The puzzle you followed may have moved, expired, or never crossed
+            this way. Head back to the latest crosswords and minis.
+          </p>
+          <div class="actions" aria-label="Helpful links">
+            <a class="button" href="/">Back to Crosswords</a>
+            <a class="button secondary" href="/minis">Try the Minis</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
