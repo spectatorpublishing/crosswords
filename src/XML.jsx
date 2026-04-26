@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import { useEffect, useMemo, useRef, useState } from "react";
 import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
@@ -6,7 +7,67 @@ import Spotlight from "./components/Spotlight";
 const SLUG = "CUDailySpectator";
 const PAGE_SIZE = 20; // to show 20 items per page, change this to change the amt of puzzles per page
 
-// fetch JSON through a CORS proxy because Crosshare doesn't allow direct browser requests
+const Page = styled.div`
+  background-color: #b9d9eb;
+  width: 100%;
+  min-height: 100vh;
+`;
+
+const CrosswordGridWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  padding: 0 16px 32px;
+  box-sizing: border-box;
+`;
+
+const CrosswordGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+
+  @media (max-width: 640px) {
+    grid-template-columns: minmax(0, 320px);
+  }
+`;
+
+const PageNavigator = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+`;
+
+const BackButton = styled.button`
+  font-size: 15px;
+  padding: 4px 10px;
+  cursor: ${(props) => (props.canGoPrev ? "pointer" : "default")};
+  opacity: ${(props) => (props.canGoPrev ? 1 : 0.4)};
+`;
+
+const PageNumber = styled.span`
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Bitter", serif;
+  color: #1d4ed8;
+  letter-spacing: 0.5px;
+`;
+
+const ForwardButton = styled.button`
+  font-size: 15px;
+  padding: 4px 10px;
+  cursor: ${(props) =>
+    props.canGoNext && !props.loadingMore ? "pointer" : "default"};
+  opacity: ${(props) => (props.canGoNext && !props.loadingMore ? 1 : 0.4)};
+`;
+
 async function fetchJsonThroughCorsProxy(url) {
   const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
   const res = await fetch(proxiedUrl, {
@@ -84,7 +145,7 @@ function mergeUniqueById(existing, incoming) {
   });
 
   return Array.from(map.values()).sort(
-    (a, b) => new Date(b.pubDate) - new Date(a.pubDate)
+    (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
   );
 }
 
@@ -144,7 +205,7 @@ export default function XML({ mode = "all" }) {
       ) {
         const result = await fetchArchivePagePuzzles(
           buildIdRef.current,
-          nextPageRef.current
+          nextPageRef.current,
         );
 
         const normalized = normalizePuzzles(result.puzzles);
@@ -182,12 +243,12 @@ export default function XML({ mode = "all" }) {
         ) {
           const result = await fetchArchivePagePuzzles(
             buildId,
-            nextPageRef.current
+            nextPageRef.current,
           );
 
           workingItems = mergeUniqueById(
             workingItems,
-            normalizePuzzles(result.puzzles)
+            normalizePuzzles(result.puzzles),
           );
 
           nextPageRef.current = result.nextPage;
@@ -206,12 +267,12 @@ export default function XML({ mode = "all" }) {
     loadInitial();
   }, [mode]);
 
-  const spotlightItem = useMemo(() => getSpotlightItem(items, mode), [items, mode]);
-
-  const gridPuzzles = useMemo(
-    () => getGridPuzzles(items, mode),
-    [items, mode]
+  const spotlightItem = useMemo(
+    () => getSpotlightItem(items, mode),
+    [items, mode],
   );
+
+  const gridPuzzles = useMemo(() => getGridPuzzles(items, mode), [items, mode]);
 
   const totalLoadedPages = Math.ceil(gridPuzzles.length / PAGE_SIZE);
   const start = (page - 1) * PAGE_SIZE;
@@ -223,7 +284,7 @@ export default function XML({ mode = "all" }) {
     await ensureEnoughForPage(targetPage);
 
     const availablePages = Math.ceil(
-      getGridPuzzles(itemsRef.current, mode).length / PAGE_SIZE
+      getGridPuzzles(itemsRef.current, mode).length / PAGE_SIZE,
     );
 
     if (targetPage <= availablePages) {
@@ -239,9 +300,7 @@ export default function XML({ mode = "all" }) {
   const canGoNext = page < totalLoadedPages || hasMoreServerPages;
 
   return (
-    <div
-      style={{ backgroundColor: "#B9D9EB", width: "100%", minHeight: "100vh" }}
-    >
+    <Page>
       <Header mode={mode} />
 
       {spotlightItem && <Spotlight crossword={spotlightItem} />}
@@ -250,16 +309,8 @@ export default function XML({ mode = "all" }) {
         <div style={{ textAlign: "center", marginTop: 20 }}>Loading...</div>
       )}
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: 10 }}>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-            rowGap: "30px",
-            columnGap: "0px",
-            width: "90%",
-          }}
-        >
+      <CrosswordGridWrap>
+        <CrosswordGrid>
           {currentPageItems.map((item) => (
             <CrosswordBox
               key={item.id}
@@ -268,56 +319,31 @@ export default function XML({ mode = "all" }) {
               pubDate={item.pubDate}
             />
           ))}
-        </div>
-      </div>
+        </CrosswordGrid>
+      </CrosswordGridWrap>
 
       {!loading && (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "16px",
-            marginTop: "30px",
-            paddingBottom: "40px",
-          }}
-        >
-          <button
+        <PageNavigator>
+          <BackButton
             onClick={handlePrev}
             disabled={!canGoPrev}
-            style={{
-              fontSize: "15px",
-              padding: "4px 10px",
-              cursor: canGoPrev ? "pointer" : "default",
-              opacity: canGoPrev ? 1 : 0.4,
-            }}
+            canGoPrev={canGoPrev}
           >
             ←
-          </button>
+          </BackButton>
 
-          <span style={{ 
-            fontSize: "20px", 
-            fontWeight: 700, 
-            fontFamily: "Bitter, serif", 
-            color: "#1d4ed8", 
-            letterSpacing: "0.5px" }}> 
-            Page {page}
-          </span>
+          <PageNumber>Page {page}</PageNumber>
 
-          <button
+          <ForwardButton
             onClick={handleNext}
             disabled={!canGoNext || loadingMore}
-            style={{
-              fontSize: "15px",
-              padding: "4px 10px",
-              cursor: canGoNext && !loadingMore ? "pointer" : "default",
-              opacity: canGoNext && !loadingMore ? 1 : 0.4,
-            }}
+            canGoNext={canGoNext}
+            loadingMore={loadingMore}
           >
             →
-          </button>
-        </div>
+          </ForwardButton>
+        </PageNavigator>
       )}
-    </div>
+    </Page>
   );
 }
