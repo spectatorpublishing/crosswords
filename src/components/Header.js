@@ -61,14 +61,7 @@ const MobileVerticalBar = styled(VerticalBar)`
 
 const Header = ({ mode }) => {
   const tabStyle = (isActive) => ({
-    padding: "10px 20px",
-    fontSize: "20px",
-    backgroundColor: "transparent",
-    border: "none",
     borderBottom: isActive ? "3px solid black" : "3px solid transparent",
-    cursor: "pointer",
-    fontFamily: "Bitter, serif",
-    fontWeight: "bold",
   });
 
   return (
@@ -78,6 +71,7 @@ const Header = ({ mode }) => {
       <VerticalBar />
 
       <HeaderButton
+        style={tabStyle(mode === "full")}
         onClick={() => {
           window.location.href = "/";
         }}
@@ -89,6 +83,7 @@ const Header = ({ mode }) => {
       <MobileVerticalBar />
 
       <HeaderButton
+        style={tabStyle(mode === "mini")}
         onClick={() => {
           window.location.href = "/minis";
         }}
