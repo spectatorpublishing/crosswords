@@ -69,7 +69,7 @@ const ForwardButton = styled.button`
 `;
 
 async function fetchJsonThroughCorsProxy(url) {
-  const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
   const res = await fetch(proxiedUrl, {
     headers: { Accept: "application/json" },
     cache: "no-store",
@@ -85,7 +85,7 @@ async function fetchJsonThroughCorsProxy(url) {
 
 // same idea as above, but for raw HTML/text
 async function fetchTextThroughCorsProxy(url) {
-  const proxiedUrl = `https://corsproxy.io/?${encodeURIComponent(url)}`;
+  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
   const res = await fetch(proxiedUrl, { cache: "no-store" });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} for ${url}`);
