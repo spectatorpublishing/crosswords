@@ -35,6 +35,11 @@ This is a non-exhaustive list, but these are the files you should be familiar wi
 
 This structure is typical for projects bootstrapped with Create React App.
 
+# The First Time You Run It
+
+## `npm install`
+
+Installs the dependencies for this project. Boom! All set up.
 
 # Getting Started with Create React App
 
