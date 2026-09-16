@@ -1,3 +1,46 @@
+# Project Structure
+
+This is a non-exhaustive list, but these are the files you should be familiar with when working with the Crosswords repo.
+
+- **`src/`**: This is the main source folder where all the React components, styles, and application logic reside. Key files include:
+  - **`App.js`**: The root component of the application.
+  - **`index.js`**: The entry point of the application, responsible for rendering the React app into the DOM.
+  - **`App.css`**: Contains styles specific to the `App` component.
+  - **`index.css`**: Global styles for the application.
+  - **`PuzzleList.js`**: renders a list of crossword puzzles with links to navigate to individual puzzle pages using React Router.
+  - **`PuzzleFull.js`**: 
+  This component renders a full-screen iframe that embeds a crossword puzzle based on the `puzzleId` retrieved from the URL parameters using `react-router-dom`.
+- **`PuzzleIndex.js`**: 
+  This component displays a list of crossword puzzles with their titles and publication times. Each puzzle is a clickable link that navigates to its full-screen view.
+- **`XML.jsx`**: 
+  This component fetches and displays a paginated list of crossword puzzles. It includes a spotlight feature for highlighting specific puzzles, a grid layout for displaying puzzles, and navigation buttons for pagination. It uses styled-components for styling and fetches data from an external API through a CORS proxy.
+
+- **`public/`**: This folder contains static assets that are served directly without processing. Key files include:
+  - **`index.html`**: The main HTML file that serves as the template for the React app.
+  - **`favicon.ico`**: The favicon for the application. (the little icon that you see on the tab of a website)
+
+- **`node_modules/`**: Contains all the dependencies and packages installed via npm.
+
+- **`package.json`**: Lists the project dependencies, scripts, and metadata.
+
+- **`package-lock.json`**: Automatically generated file that locks the versions of dependencies.
+
+- **`README.md`**: This file, which provides an overview of the project and instructions for usage.
+
+- **`.gitignore`**: Specifies files and directories to be ignored by Git.
+
+- **`build/`**: This folder is generated after running `npm run build` and contains the optimized production-ready code.
+
+- **`.env`**: (Optional) Used to define environment-specific variables.
+
+This structure is typical for projects bootstrapped with Create React App.
+
+# The First Time You Run It
+
+## `npm install`
+
+Installs the dependencies for this project. Boom! All set up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
