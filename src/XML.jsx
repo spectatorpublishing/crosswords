@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
 import Spotlight from "./components/Spotlight";
 
-const SLUG = "CUDailySpectator";
 const PAGE_SIZE = 20; // to show 20 items per page, change this to change the amt of puzzles per page
 
 const Page = styled.div`
@@ -63,91 +62,12 @@ const PageNumber = styled.span`
 const ForwardButton = styled.button`
   font-size: 15px;
   padding: 4px 10px;
-  cursor: ${(props) =>
-    props.canGoNext && !props.loadingMore ? "pointer" : "default"};
-  opacity: ${(props) => (props.canGoNext && !props.loadingMore ? 1 : 0.4)};
+  cursor: ${(props) => (props.canGoNext ? "pointer" : "default")};
+  opacity: ${(props) => (props.canGoNext ? 1 : 0.4)};
 `;
 
-async function fetchJsonThroughCorsProxy(url) {
-  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
-  const res = await fetch(proxiedUrl, {
-    headers: { Accept: "application/json" },
-    cache: "no-store",
-  });
-
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}`);
-  }
-
-  const text = await res.text();
-  return JSON.parse(text);
-}
-
-// same idea as above, but for raw HTML/text
-async function fetchTextThroughCorsProxy(url) {
-  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
-  const res = await fetch(proxiedUrl, { cache: "no-store" });
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}`);
-  }
-
-  return res.text();
-}
-
-async function getBuildId() {
-  const html = await fetchTextThroughCorsProxy(`https://crosshare.org/${SLUG}`);
-  const match = html.match(/"buildId":"(.*?)"/);
-
-  if (!match) {
-    throw new Error("Could not find buildId");
-  }
-
-  return match[1];
-}
-
-// root page = most recent puzzles
-async function fetchRootPagePuzzles(buildId) {
-  const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}.json`;
-  const data = await fetchJsonThroughCorsProxy(url);
-
-  return {
-    puzzles: data?.pageProps?.puzzles ?? [],
-    nextPage: data?.pageProps?.nextPage ?? null,
-  };
-}
-
-async function fetchArchivePagePuzzles(buildId, page) {
-  const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}/page/${page}.json`;
-  const data = await fetchJsonThroughCorsProxy(url);
-
-  return {
-    puzzles: data?.pageProps?.puzzles ?? [],
-    nextPage: data?.pageProps?.nextPage ?? null,
-  };
-}
-
-function normalizePuzzles(puzzles) {
-  return puzzles.map((p) => ({
-    id: p.id,
-    title: p.title,
-    link: `https://crosshare.org/crosswords/${p.id}`,
-    pubDate: new Date(p.publishTime).toISOString(),
-    isMini: (p.autoTags || []).includes("mini"),
-  }));
-}
-
-// merge new puzzles into existing ones without duplicates, then keep everything sorted newest to oldest
-function mergeUniqueById(existing, incoming) {
-  const map = new Map();
-
-  [...existing, ...incoming].forEach((item) => {
-    map.set(item.id, item);
-  });
-
-  return Array.from(map.values()).sort(
-    (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
-  );
-}
+// built by scripts/fetch-crosshare-data.mjs before every deploy
+const PUZZLES_URL = `${process.env.PUBLIC_URL}/crosshare-puzzles.json`;
 
 function getSpotlightItem(list, mode) {
   if (mode === "mini") {
@@ -178,94 +98,28 @@ export default function XML({ mode = "all" }) {
   const [items, setItems] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
-  const [loadingMore, setLoadingMore] = useState(false);
-  const [hasMoreServerPages, setHasMoreServerPages] = useState(false);
-
-  const buildIdRef = useRef(null);
-  const nextPageRef = useRef(null);
-  const itemsRef = useRef([]);
-  const fetchingRef = useRef(false);
-
-  async function ensureEnoughForPage(targetPage) {
-    if (fetchingRef.current) return;
-
-    const neededCount = targetPage * PAGE_SIZE;
-    let workingItems = [...itemsRef.current];
-
-    if (getGridPuzzles(workingItems, mode).length >= neededCount) return;
-    if (!buildIdRef.current || !nextPageRef.current) return;
-
-    fetchingRef.current = true;
-    setLoadingMore(true);
-
-    try {
-      while (
-        getGridPuzzles(workingItems, mode).length < neededCount &&
-        nextPageRef.current
-      ) {
-        const result = await fetchArchivePagePuzzles(
-          buildIdRef.current,
-          nextPageRef.current,
-        );
-
-        const normalized = normalizePuzzles(result.puzzles);
-        workingItems = mergeUniqueById(workingItems, normalized);
-
-        nextPageRef.current = result.nextPage;
-        setHasMoreServerPages(Boolean(result.nextPage));
-      }
-
-      itemsRef.current = workingItems;
-      setItems(workingItems);
-    } finally {
-      fetchingRef.current = false;
-      setLoadingMore(false);
-    }
-  }
+  const [error, setError] = useState(false);
 
   useEffect(() => {
-    async function loadInitial() {
+    async function loadPuzzles() {
       try {
-        setLoading(true);
-
-        const buildId = await getBuildId();
-        buildIdRef.current = buildId;
-
-        const first = await fetchRootPagePuzzles(buildId);
-        let workingItems = mergeUniqueById([], normalizePuzzles(first.puzzles));
-
-        nextPageRef.current = first.nextPage;
-        setHasMoreServerPages(Boolean(first.nextPage));
-
-        while (
-          getGridPuzzles(workingItems, mode).length < PAGE_SIZE &&
-          nextPageRef.current
-        ) {
-          const result = await fetchArchivePagePuzzles(
-            buildId,
-            nextPageRef.current,
-          );
-
-          workingItems = mergeUniqueById(
-            workingItems,
-            normalizePuzzles(result.puzzles),
-          );
-
-          nextPageRef.current = result.nextPage;
-          setHasMoreServerPages(Boolean(result.nextPage));
+        const res = await fetch(PUZZLES_URL);
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status} for ${PUZZLES_URL}`);
         }
 
-        itemsRef.current = workingItems;
-        setItems(workingItems);
+        const data = await res.json();
+        setItems(data.puzzles ?? []);
       } catch (err) {
         console.error("Failed to load puzzles:", err);
+        setError(true);
       } finally {
         setLoading(false);
       }
     }
 
-    loadInitial();
-  }, [mode]);
+    loadPuzzles();
+  }, []);
 
   const spotlightItem = useMemo(
     () => getSpotlightItem(items, mode),
@@ -274,22 +128,12 @@ export default function XML({ mode = "all" }) {
 
   const gridPuzzles = useMemo(() => getGridPuzzles(items, mode), [items, mode]);
 
-  const totalLoadedPages = Math.ceil(gridPuzzles.length / PAGE_SIZE);
+  const totalPages = Math.ceil(gridPuzzles.length / PAGE_SIZE);
   const start = (page - 1) * PAGE_SIZE;
   const currentPageItems = gridPuzzles.slice(start, start + PAGE_SIZE);
 
-  async function handleNext() {
-    const targetPage = page + 1;
-
-    await ensureEnoughForPage(targetPage);
-
-    const availablePages = Math.ceil(
-      getGridPuzzles(itemsRef.current, mode).length / PAGE_SIZE,
-    );
-
-    if (targetPage <= availablePages) {
-      setPage(targetPage);
-    }
+  function handleNext() {
+    setPage((p) => Math.min(totalPages, p + 1));
   }
 
   function handlePrev() {
@@ -297,7 +141,7 @@ export default function XML({ mode = "all" }) {
   }
 
   const canGoPrev = page > 1;
-  const canGoNext = page < totalLoadedPages || hasMoreServerPages;
+  const canGoNext = page < totalPages;
 
   return (
     <Page>
@@ -307,6 +151,12 @@ export default function XML({ mode = "all" }) {
 
       {loading && (
         <div style={{ textAlign: "center", marginTop: 20 }}>Loading...</div>
+      )}
+
+      {error && (
+        <div style={{ textAlign: "center", marginTop: 20 }}>
+          Couldn't load puzzles. Please try again later.
+        </div>
       )}
 
       <CrosswordGridWrap>
@@ -336,9 +186,8 @@ export default function XML({ mode = "all" }) {
 
           <ForwardButton
             onClick={handleNext}
-            disabled={!canGoNext || loadingMore}
+            disabled={!canGoNext}
             canGoNext={canGoNext}
-            loadingMore={loadingMore}
           >
             →
           </ForwardButton>

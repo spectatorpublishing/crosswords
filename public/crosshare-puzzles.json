@@ -1,0 +1,4606 @@
+{
+  "generatedAt": "2026-09-27T20:14:08.121Z",
+  "slug": "CUDailySpectator",
+  "totalPuzzles": 657,
+  "puzzles": [
+    {
+      "id": "wI4haa8s25STJYGbMfdb",
+      "title": "Daily Mini: 09/27/2026",
+      "link": "https://crosshare.org/crosswords/wI4haa8s25STJYGbMfdb",
+      "pubDate": "2026-09-27T04:26:02.711Z",
+      "isMini": true
+    },
+    {
+      "id": "r5R6DycmatkPxsgGIKph",
+      "title": "Daily Mini: 09/25/2025",
+      "link": "https://crosshare.org/crosswords/r5R6DycmatkPxsgGIKph",
+      "pubDate": "2026-09-25T02:54:44.216Z",
+      "isMini": true
+    },
+    {
+      "id": "szrK1Pn0AMGrsAdCnz2c",
+      "title": "Daily Mini: 09/24/2025",
+      "link": "https://crosshare.org/crosswords/szrK1Pn0AMGrsAdCnz2c",
+      "pubDate": "2026-09-24T00:37:09.323Z",
+      "isMini": true
+    },
+    {
+      "id": "by2eGonimTLS7W1oFnvI",
+      "title": "Alumni! Oh My!",
+      "link": "https://crosshare.org/crosswords/by2eGonimTLS7W1oFnvI",
+      "pubDate": "2026-09-24T00:28:05.094Z",
+      "isMini": false
+    },
+    {
+      "id": "54aLdvmToKkh1iTwymd2",
+      "title": "Daily Mini: 09/23/2026",
+      "link": "https://crosshare.org/crosswords/54aLdvmToKkh1iTwymd2",
+      "pubDate": "2026-09-23T02:00:35.240Z",
+      "isMini": true
+    },
+    {
+      "id": "1MpjPAj8ogCn3RbhKa8C",
+      "title": "Daily Mini: 09/22/2026",
+      "link": "https://crosshare.org/crosswords/1MpjPAj8ogCn3RbhKa8C",
+      "pubDate": "2026-09-22T01:15:37.425Z",
+      "isMini": true
+    },
+    {
+      "id": "9vCc27e7cPvnxuQIn5iO",
+      "title": "Daily Mini: 09/21/2026",
+      "link": "https://crosshare.org/crosswords/9vCc27e7cPvnxuQIn5iO",
+      "pubDate": "2026-09-21T03:46:51.869Z",
+      "isMini": true
+    },
+    {
+      "id": "AkQWcrOm06Aig0yu7mN9",
+      "title": "Daily Mini: 09/20/2026",
+      "link": "https://crosshare.org/crosswords/AkQWcrOm06Aig0yu7mN9",
+      "pubDate": "2026-09-20T04:08:18.008Z",
+      "isMini": true
+    },
+    {
+      "id": "pMWRhQKZNKlzGEYJDY0C",
+      "title": "Daily Mini: 09/19/2026",
+      "link": "https://crosshare.org/crosswords/pMWRhQKZNKlzGEYJDY0C",
+      "pubDate": "2026-09-19T00:32:49.549Z",
+      "isMini": true
+    },
+    {
+      "id": "VFFtC7jGv1eBZHErkBrp",
+      "title": "Daily Mini: 09/18/2026",
+      "link": "https://crosshare.org/crosswords/VFFtC7jGv1eBZHErkBrp",
+      "pubDate": "2026-09-18T02:55:34.822Z",
+      "isMini": true
+    },
+    {
+      "id": "5KLsUZBfDE7rt2V3U7cd",
+      "title": "Daily Mini: 09/17/2026",
+      "link": "https://crosshare.org/crosswords/5KLsUZBfDE7rt2V3U7cd",
+      "pubDate": "2026-09-17T01:43:36.035Z",
+      "isMini": true
+    },
+    {
+      "id": "nTKloYydtqR6il3qrzjE",
+      "title": "Daily Mini: 09/16/2026",
+      "link": "https://crosshare.org/crosswords/nTKloYydtqR6il3qrzjE",
+      "pubDate": "2026-09-16T02:11:07.143Z",
+      "isMini": true
+    },
+    {
+      "id": "0xsHsPSeYXindjZt04m4",
+      "title": "Daily Mini: 09/15/2026",
+      "link": "https://crosshare.org/crosswords/0xsHsPSeYXindjZt04m4",
+      "pubDate": "2026-09-15T01:34:33.151Z",
+      "isMini": true
+    },
+    {
+      "id": "c51TekqMlnOVHNwpHmAI",
+      "title": "Daily Mini 09/14/2026",
+      "link": "https://crosshare.org/crosswords/c51TekqMlnOVHNwpHmAI",
+      "pubDate": "2026-09-14T01:16:08.068Z",
+      "isMini": true
+    },
+    {
+      "id": "KPxlHYMNFQDV2TPssYhc",
+      "title": "It's a Number's Game!",
+      "link": "https://crosshare.org/crosswords/KPxlHYMNFQDV2TPssYhc",
+      "pubDate": "2026-09-14T00:38:29.122Z",
+      "isMini": false
+    },
+    {
+      "id": "L237M8u4NqPaJpYObGru",
+      "title": "Daily Mini: 09/13/2026",
+      "link": "https://crosshare.org/crosswords/L237M8u4NqPaJpYObGru",
+      "pubDate": "2026-09-12T23:50:43.423Z",
+      "isMini": true
+    },
+    {
+      "id": "LhPiXyxY5EpQDgd4VnlF",
+      "title": "Daily Mini: 09/12/2026",
+      "link": "https://crosshare.org/crosswords/LhPiXyxY5EpQDgd4VnlF",
+      "pubDate": "2026-09-12T01:56:48.974Z",
+      "isMini": true
+    },
+    {
+      "id": "ORN3dcVFBdE3JcktPYJp",
+      "title": "Daily Mini 09/10/2026",
+      "link": "https://crosshare.org/crosswords/ORN3dcVFBdE3JcktPYJp",
+      "pubDate": "2026-09-09T22:30:13.118Z",
+      "isMini": true
+    },
+    {
+      "id": "ux6Tz3KEAKxRFRojTFhC",
+      "title": "Daily Mini: 09/09/2026",
+      "link": "https://crosshare.org/crosswords/ux6Tz3KEAKxRFRojTFhC",
+      "pubDate": "2026-09-09T01:19:10.009Z",
+      "isMini": true
+    },
+    {
+      "id": "cQEYxq7u7yuV5JWaV7qg",
+      "title": "Daily Mini: 09/08/2026",
+      "link": "https://crosshare.org/crosswords/cQEYxq7u7yuV5JWaV7qg",
+      "pubDate": "2026-09-08T03:20:46.254Z",
+      "isMini": true
+    },
+    {
+      "id": "ef2EVDy35Z7ygyz75eJH",
+      "title": "Re-Orientation",
+      "link": "https://crosshare.org/crosswords/ef2EVDy35Z7ygyz75eJH",
+      "pubDate": "2026-08-20T14:49:31.773Z",
+      "isMini": false
+    },
+    {
+      "id": "6BTu7g6CSHj0m7Thlpns",
+      "title": "Commencement 2026",
+      "link": "https://crosshare.org/crosswords/6BTu7g6CSHj0m7Thlpns",
+      "pubDate": "2026-05-11T21:44:25.192Z",
+      "isMini": false
+    },
+    {
+      "id": "CSh8MvtGhRBkwsLeiWyO",
+      "title": "NYC in Bloom",
+      "link": "https://crosshare.org/crosswords/CSh8MvtGhRBkwsLeiWyO",
+      "pubDate": "2026-04-30T02:27:08.796Z",
+      "isMini": false
+    },
+    {
+      "id": "HJOEGeNwlA8knsm5RQXI",
+      "title": "Springtime",
+      "link": "https://crosshare.org/crosswords/HJOEGeNwlA8knsm5RQXI",
+      "pubDate": "2026-04-23T02:29:16.425Z",
+      "isMini": false
+    },
+    {
+      "id": "7sSSwtFBKSFTrII2nh9v",
+      "title": "Daily Mini: 04/20/2026",
+      "link": "https://crosshare.org/crosswords/7sSSwtFBKSFTrII2nh9v",
+      "pubDate": "2026-04-20T19:47:39.512Z",
+      "isMini": true
+    },
+    {
+      "id": "1sZi4wZu6eBQkz2YBVTP",
+      "title": "Our Power, Our Planet!",
+      "link": "https://crosshare.org/crosswords/1sZi4wZu6eBQkz2YBVTP",
+      "pubDate": "2026-04-16T03:53:16.977Z",
+      "isMini": false
+    },
+    {
+      "id": "vrXMcOTNtcij9ipB9oAt",
+      "title": "Bacchanal 2026",
+      "link": "https://crosshare.org/crosswords/vrXMcOTNtcij9ipB9oAt",
+      "pubDate": "2026-04-09T02:58:15.212Z",
+      "isMini": false
+    },
+    {
+      "id": "OzHeJpVe8wMjHB8z1rpz",
+      "title": "Daily Mini: 04/06/2026",
+      "link": "https://crosshare.org/crosswords/OzHeJpVe8wMjHB8z1rpz",
+      "pubDate": "2026-04-07T02:04:56.942Z",
+      "isMini": true
+    },
+    {
+      "id": "yQpEzDeqIFkWBhPJv5rM",
+      "title": "Star Fish",
+      "link": "https://crosshare.org/crosswords/yQpEzDeqIFkWBhPJv5rM",
+      "pubDate": "2026-04-02T01:49:18.807Z",
+      "isMini": false
+    },
+    {
+      "id": "0iYa1bBxjMGyOEjmpKq9",
+      "title": "Global corners: Places, peaks, and islands",
+      "link": "https://crosshare.org/crosswords/0iYa1bBxjMGyOEjmpKq9",
+      "pubDate": "2026-03-11T21:33:51.520Z",
+      "isMini": false
+    },
+    {
+      "id": "YyG9wKE11t5gfAWjlKRG",
+      "title": "Daily Mini: 03/09/2026",
+      "link": "https://crosshare.org/crosswords/YyG9wKE11t5gfAWjlKRG",
+      "pubDate": "2026-03-09T05:17:55.304Z",
+      "isMini": true
+    },
+    {
+      "id": "KzbYb2DzatyQgH4CfSLx",
+      "title": "On the Skein",
+      "link": "https://crosshare.org/crosswords/KzbYb2DzatyQgH4CfSLx",
+      "pubDate": "2026-03-05T04:33:30.817Z",
+      "isMini": false
+    },
+    {
+      "id": "exCt5GCBjEzCQ4Qv3c9R",
+      "title": "Brains and Brønsteds",
+      "link": "https://crosshare.org/crosswords/exCt5GCBjEzCQ4Qv3c9R",
+      "pubDate": "2026-02-26T05:44:32.035Z",
+      "isMini": false
+    },
+    {
+      "id": "gBUW1BzidqvX8s86ViyF",
+      "title": "Daily Mini: 02/23/2026",
+      "link": "https://crosshare.org/crosswords/gBUW1BzidqvX8s86ViyF",
+      "pubDate": "2026-02-23T05:18:38.063Z",
+      "isMini": true
+    },
+    {
+      "id": "bAZUYkPVZaszkfFZBKuc",
+      "title": "Daily Mini: 02/20/2026",
+      "link": "https://crosshare.org/crosswords/bAZUYkPVZaszkfFZBKuc",
+      "pubDate": "2026-02-20T04:58:58.905Z",
+      "isMini": true
+    },
+    {
+      "id": "aPIyXuPdpoh87LWh6zfJ",
+      "title": "Daily Mini: 02/19/2026",
+      "link": "https://crosshare.org/crosswords/aPIyXuPdpoh87LWh6zfJ",
+      "pubDate": "2026-02-19T04:53:56.934Z",
+      "isMini": true
+    },
+    {
+      "id": "WoanYn7Yp7le4Lu6mMOL",
+      "title": "Daily Mini: 02/17/2026",
+      "link": "https://crosshare.org/crosswords/WoanYn7Yp7le4Lu6mMOL",
+      "pubDate": "2026-02-16T22:42:29.535Z",
+      "isMini": true
+    },
+    {
+      "id": "YUDLnF80WJ2xXqoFe03C",
+      "title": "L is for...",
+      "link": "https://crosshare.org/crosswords/YUDLnF80WJ2xXqoFe03C",
+      "pubDate": "2026-02-12T05:18:04.692Z",
+      "isMini": false
+    },
+    {
+      "id": "W35UtiutCX8NBQHPxjoU",
+      "title": "Good Eats!",
+      "link": "https://crosshare.org/crosswords/W35UtiutCX8NBQHPxjoU",
+      "pubDate": "2026-02-05T07:01:17.883Z",
+      "isMini": false
+    },
+    {
+      "id": "yyLMxPh4txDZ2XjvIsN8",
+      "title": "Daily Mini: 02/03/2026",
+      "link": "https://crosshare.org/crosswords/yyLMxPh4txDZ2XjvIsN8",
+      "pubDate": "2026-02-03T05:40:39.108Z",
+      "isMini": true
+    },
+    {
+      "id": "ivMU7dRxqtjDpArGjztL",
+      "title": "Daily Mini: 02/02/2026",
+      "link": "https://crosshare.org/crosswords/ivMU7dRxqtjDpArGjztL",
+      "pubDate": "2026-02-02T22:04:26.774Z",
+      "isMini": true
+    },
+    {
+      "id": "GkoEaTkC7fU9uQLEhVaF",
+      "title": "Daily Mini: 2/1/2026",
+      "link": "https://crosshare.org/crosswords/GkoEaTkC7fU9uQLEhVaF",
+      "pubDate": "2026-02-01T02:51:51.108Z",
+      "isMini": true
+    },
+    {
+      "id": "VJL9fNRbXGCBue5j8dZI",
+      "title": "Daily Mini 1/31/2026",
+      "link": "https://crosshare.org/crosswords/VJL9fNRbXGCBue5j8dZI",
+      "pubDate": "2026-01-31T03:23:32.799Z",
+      "isMini": true
+    },
+    {
+      "id": "CB2yC9OIs4HUWZNjlrAO",
+      "title": "Daily Mini 1/30/2026",
+      "link": "https://crosshare.org/crosswords/CB2yC9OIs4HUWZNjlrAO",
+      "pubDate": "2026-01-30T04:45:51.446Z",
+      "isMini": true
+    },
+    {
+      "id": "LqVNOqZcUJL9hgvlcEeL",
+      "title": "Daily Mini: 1/29/2026",
+      "link": "https://crosshare.org/crosswords/LqVNOqZcUJL9hgvlcEeL",
+      "pubDate": "2026-01-29T05:01:12.850Z",
+      "isMini": true
+    },
+    {
+      "id": "5U24FkYwmHvgFv3IlXOt",
+      "title": "Whiteout",
+      "link": "https://crosshare.org/crosswords/5U24FkYwmHvgFv3IlXOt",
+      "pubDate": "2026-01-28T23:37:53.777Z",
+      "isMini": false
+    },
+    {
+      "id": "GrlaXDoJHdRlGvxsQwJq",
+      "title": "Daily Mini 1/28/2026",
+      "link": "https://crosshare.org/crosswords/GrlaXDoJHdRlGvxsQwJq",
+      "pubDate": "2026-01-28T05:04:44.666Z",
+      "isMini": true
+    },
+    {
+      "id": "I7Ui584Xbfg97ogSL6QW",
+      "title": "Daily Mini: 12/09/2025",
+      "link": "https://crosshare.org/crosswords/I7Ui584Xbfg97ogSL6QW",
+      "pubDate": "2025-12-08T21:16:47.171Z",
+      "isMini": true
+    },
+    {
+      "id": "SOvQ4E3BUY8hrR0pC9HU",
+      "title": "Daily Mini: 12/08/2025",
+      "link": "https://crosshare.org/crosswords/SOvQ4E3BUY8hrR0pC9HU",
+      "pubDate": "2025-12-08T21:10:50.616Z",
+      "isMini": true
+    },
+    {
+      "id": "IcUUVeBn1mxZhqmN7eG4",
+      "title": "Daily Mini: 12/07/2025",
+      "link": "https://crosshare.org/crosswords/IcUUVeBn1mxZhqmN7eG4",
+      "pubDate": "2025-12-07T22:27:01.457Z",
+      "isMini": true
+    },
+    {
+      "id": "gDxx54Uf0vgI9ogIJBfU",
+      "title": "Daily Mini: 12/05/2025",
+      "link": "https://crosshare.org/crosswords/gDxx54Uf0vgI9ogIJBfU",
+      "pubDate": "2025-12-05T07:32:15.851Z",
+      "isMini": true
+    },
+    {
+      "id": "5DvZ6p9uvFStbHjHp2e4",
+      "title": "Daily Mini: 12/03/2025",
+      "link": "https://crosshare.org/crosswords/5DvZ6p9uvFStbHjHp2e4",
+      "pubDate": "2025-12-03T23:00:10.693Z",
+      "isMini": true
+    },
+    {
+      "id": "RQUIviy1NxagGbGJ8BEJ",
+      "title": "Season’s greetings",
+      "link": "https://crosshare.org/crosswords/RQUIviy1NxagGbGJ8BEJ",
+      "pubDate": "2025-12-03T03:33:22.135Z",
+      "isMini": false
+    },
+    {
+      "id": "ty0NvWdSWVSzoEoozpBr",
+      "title": "Daily Mini: 12/02/2025",
+      "link": "https://crosshare.org/crosswords/ty0NvWdSWVSzoEoozpBr",
+      "pubDate": "2025-12-02T19:44:40.371Z",
+      "isMini": true
+    },
+    {
+      "id": "7V6RetyUkJhi03jULBGK",
+      "title": "Daily Mini: 12/01/2025",
+      "link": "https://crosshare.org/crosswords/7V6RetyUkJhi03jULBGK",
+      "pubDate": "2025-12-01T19:17:41.782Z",
+      "isMini": true
+    },
+    {
+      "id": "koTaC083lOitlNEW2Dxl",
+      "title": "Daily Mini: 11/30/2025",
+      "link": "https://crosshare.org/crosswords/koTaC083lOitlNEW2Dxl",
+      "pubDate": "2025-11-24T02:48:45.440Z",
+      "isMini": true
+    },
+    {
+      "id": "1TqjR9szZPM46J6Joatv",
+      "title": "Daily Mini: 11/29/2025",
+      "link": "https://crosshare.org/crosswords/1TqjR9szZPM46J6Joatv",
+      "pubDate": "2025-11-24T02:42:36.436Z",
+      "isMini": true
+    },
+    {
+      "id": "N0y8s7TwqlLaaAcWqnSI",
+      "title": "Niche Theme Friday: Mineral Madness",
+      "link": "https://crosshare.org/crosswords/N0y8s7TwqlLaaAcWqnSI",
+      "pubDate": "2025-11-24T02:35:08.717Z",
+      "isMini": true
+    },
+    {
+      "id": "Z13tUiEMNBUb14iEwxYu",
+      "title": "Daily Mini: 11/27/2025",
+      "link": "https://crosshare.org/crosswords/Z13tUiEMNBUb14iEwxYu",
+      "pubDate": "2025-11-24T02:28:14.255Z",
+      "isMini": true
+    },
+    {
+      "id": "P8VXrCpkZnDJP0ckzhq6",
+      "title": "Daily Mini: 11/26/2025",
+      "link": "https://crosshare.org/crosswords/P8VXrCpkZnDJP0ckzhq6",
+      "pubDate": "2025-11-24T02:22:50.172Z",
+      "isMini": true
+    },
+    {
+      "id": "BUGjAXPEA3sry4oHzTAa",
+      "title": "Daily Mini: 11/25/2025",
+      "link": "https://crosshare.org/crosswords/BUGjAXPEA3sry4oHzTAa",
+      "pubDate": "2025-11-24T02:16:40.371Z",
+      "isMini": true
+    },
+    {
+      "id": "S4LA3AanKrV1D0R2D7gI",
+      "title": "Daily Mini: 11/24/2025",
+      "link": "https://crosshare.org/crosswords/S4LA3AanKrV1D0R2D7gI",
+      "pubDate": "2025-11-24T02:08:23.616Z",
+      "isMini": true
+    },
+    {
+      "id": "D7eQijaNpMKDAhTaCGY1",
+      "title": "Daily Mini: 11/23/2025",
+      "link": "https://crosshare.org/crosswords/D7eQijaNpMKDAhTaCGY1",
+      "pubDate": "2025-11-23T04:58:04.878Z",
+      "isMini": true
+    },
+    {
+      "id": "1JSBLWOq2CBOMzAOPGla",
+      "title": "Daily Mini: 11/22/2025",
+      "link": "https://crosshare.org/crosswords/1JSBLWOq2CBOMzAOPGla",
+      "pubDate": "2025-11-21T00:38:05.919Z",
+      "isMini": true
+    },
+    {
+      "id": "fNgUNHSQgC504jFqyISr",
+      "title": "Niche Theme Friday: Time to Climb",
+      "link": "https://crosshare.org/crosswords/fNgUNHSQgC504jFqyISr",
+      "pubDate": "2025-11-20T16:37:01.720Z",
+      "isMini": true
+    },
+    {
+      "id": "0CZ6STmfddQyX3Df2Pvh",
+      "title": "Daily Mini: 11/20/2025",
+      "link": "https://crosshare.org/crosswords/0CZ6STmfddQyX3Df2Pvh",
+      "pubDate": "2025-11-20T08:40:06.522Z",
+      "isMini": true
+    },
+    {
+      "id": "ao9FMLnlgN6LiUW8PaiL",
+      "title": "Daily Mini: 11/19/2025",
+      "link": "https://crosshare.org/crosswords/ao9FMLnlgN6LiUW8PaiL",
+      "pubDate": "2025-11-19T21:45:06.586Z",
+      "isMini": true
+    },
+    {
+      "id": "tuXgwTNSQM7S9NPJdIOp",
+      "title": "Daily Mini: 11/18/2025",
+      "link": "https://crosshare.org/crosswords/tuXgwTNSQM7S9NPJdIOp",
+      "pubDate": "2025-11-18T18:30:22.069Z",
+      "isMini": true
+    },
+    {
+      "id": "mG7ZtWdWeueL1kC5uInW",
+      "title": "Autumnal greetings",
+      "link": "https://crosshare.org/crosswords/mG7ZtWdWeueL1kC5uInW",
+      "pubDate": "2025-11-18T00:45:18.775Z",
+      "isMini": false
+    },
+    {
+      "id": "gxBPSiPM8ffBAB5iStGw",
+      "title": "Daily Mini: 11/17/2025",
+      "link": "https://crosshare.org/crosswords/gxBPSiPM8ffBAB5iStGw",
+      "pubDate": "2025-11-17T01:03:33.416Z",
+      "isMini": true
+    },
+    {
+      "id": "G6Cct1mrSC01KM15JWBC",
+      "title": "Daily Mini: 11/16/2025",
+      "link": "https://crosshare.org/crosswords/G6Cct1mrSC01KM15JWBC",
+      "pubDate": "2025-11-13T03:58:36.888Z",
+      "isMini": true
+    },
+    {
+      "id": "W4g3DCrppD4hGVZcF50j",
+      "title": "Daily Mini: 11/15/2025",
+      "link": "https://crosshare.org/crosswords/W4g3DCrppD4hGVZcF50j",
+      "pubDate": "2025-11-13T03:51:36.065Z",
+      "isMini": true
+    },
+    {
+      "id": "p5Po0bkWB1RosEu74Vrp",
+      "title": "Daily Mini: 11/14/2025",
+      "link": "https://crosshare.org/crosswords/p5Po0bkWB1RosEu74Vrp",
+      "pubDate": "2025-11-13T03:46:40.728Z",
+      "isMini": true
+    },
+    {
+      "id": "y6j2JbjGoOSlkK2X7lw4",
+      "title": "Daily Mini: 11/13/2025",
+      "link": "https://crosshare.org/crosswords/y6j2JbjGoOSlkK2X7lw4",
+      "pubDate": "2025-11-13T03:37:51.086Z",
+      "isMini": true
+    },
+    {
+      "id": "t5aQFCeyDqnLzhSeKdt5",
+      "title": "Daily Mini: 11/12/2025",
+      "link": "https://crosshare.org/crosswords/t5aQFCeyDqnLzhSeKdt5",
+      "pubDate": "2025-11-13T03:33:16.853Z",
+      "isMini": true
+    },
+    {
+      "id": "XBAqyj1UnfiGKlwluwUD",
+      "title": "Daily Mini: 11/11/2025",
+      "link": "https://crosshare.org/crosswords/XBAqyj1UnfiGKlwluwUD",
+      "pubDate": "2025-11-11T04:33:49.457Z",
+      "isMini": true
+    },
+    {
+      "id": "QDXnuCQMoGPLdJHK2PMM",
+      "title": "Daily Mini: 11/10/2025",
+      "link": "https://crosshare.org/crosswords/QDXnuCQMoGPLdJHK2PMM",
+      "pubDate": "2025-11-10T04:04:24.534Z",
+      "isMini": true
+    },
+    {
+      "id": "9e4rXzMHECi8RY2EKh3l",
+      "title": "Gourd times ahead",
+      "link": "https://crosshare.org/crosswords/9e4rXzMHECi8RY2EKh3l",
+      "pubDate": "2025-11-07T22:09:32.117Z",
+      "isMini": false
+    },
+    {
+      "id": "ynXsjG63Cq8gWmABlv4T",
+      "title": "Daily Mini: 11/02/2025",
+      "link": "https://crosshare.org/crosswords/ynXsjG63Cq8gWmABlv4T",
+      "pubDate": "2025-10-30T15:41:03.489Z",
+      "isMini": true
+    },
+    {
+      "id": "1GKocv4vkEo51cdOpjZj",
+      "title": "Daily Mini: 11/01/2025",
+      "link": "https://crosshare.org/crosswords/1GKocv4vkEo51cdOpjZj",
+      "pubDate": "2025-10-30T15:35:14.666Z",
+      "isMini": true
+    },
+    {
+      "id": "6JJEPNksxQpdRFkdSUFH",
+      "title": "Daily Mini: 10/31/2025",
+      "link": "https://crosshare.org/crosswords/6JJEPNksxQpdRFkdSUFH",
+      "pubDate": "2025-10-30T15:28:52.143Z",
+      "isMini": true
+    },
+    {
+      "id": "Up2SbqUdpp2cToPXR91U",
+      "title": "Daily Mini: 10/30/2025",
+      "link": "https://crosshare.org/crosswords/Up2SbqUdpp2cToPXR91U",
+      "pubDate": "2025-10-30T15:23:46.413Z",
+      "isMini": true
+    },
+    {
+      "id": "gCOtqPlCW2hQenDl1ApG",
+      "title": "Daily Mini: 10/29/2025",
+      "link": "https://crosshare.org/crosswords/gCOtqPlCW2hQenDl1ApG",
+      "pubDate": "2025-10-29T12:56:39.607Z",
+      "isMini": true
+    },
+    {
+      "id": "fWccM2KpWt3qoXwKEhsH",
+      "title": "Daily Mini: 10/28/2025",
+      "link": "https://crosshare.org/crosswords/fWccM2KpWt3qoXwKEhsH",
+      "pubDate": "2025-10-28T05:48:12.376Z",
+      "isMini": true
+    },
+    {
+      "id": "1aqHMJk4tZHcWE3FWH9W",
+      "title": "Tricky treats",
+      "link": "https://crosshare.org/crosswords/1aqHMJk4tZHcWE3FWH9W",
+      "pubDate": "2025-10-28T05:40:54.194Z",
+      "isMini": false
+    },
+    {
+      "id": "i1qgkPl3eESEUXYjEWmc",
+      "title": "Daily Mini: 10/27/2025",
+      "link": "https://crosshare.org/crosswords/i1qgkPl3eESEUXYjEWmc",
+      "pubDate": "2025-10-27T04:04:36.043Z",
+      "isMini": true
+    },
+    {
+      "id": "FKVhOd3PBdO2ym9r5euM",
+      "title": "Daily Mini: 10/23/2025",
+      "link": "https://crosshare.org/crosswords/FKVhOd3PBdO2ym9r5euM",
+      "pubDate": "2025-10-23T13:33:48.320Z",
+      "isMini": false
+    },
+    {
+      "id": "ZrZdf0hsTqSHlOyk9RG8",
+      "title": "Did you do the readings?",
+      "link": "https://crosshare.org/crosswords/ZrZdf0hsTqSHlOyk9RG8",
+      "pubDate": "2025-10-22T22:25:57.674Z",
+      "isMini": false
+    },
+    {
+      "id": "hfKrfxDyFQoXvD2OjHLM",
+      "title": "Daily Mini: 10/22/2025",
+      "link": "https://crosshare.org/crosswords/hfKrfxDyFQoXvD2OjHLM",
+      "pubDate": "2025-10-20T23:49:19.472Z",
+      "isMini": true
+    },
+    {
+      "id": "DYIWSAZqeDJ1sQE504K2",
+      "title": "Daily Mini: 10/21/2025",
+      "link": "https://crosshare.org/crosswords/DYIWSAZqeDJ1sQE504K2",
+      "pubDate": "2025-10-20T23:44:07.075Z",
+      "isMini": true
+    },
+    {
+      "id": "NFLDylFyVBWIx6PA0BFX",
+      "title": "Daily Mini: 10/20/2025",
+      "link": "https://crosshare.org/crosswords/NFLDylFyVBWIx6PA0BFX",
+      "pubDate": "2025-10-20T23:05:22.229Z",
+      "isMini": true
+    },
+    {
+      "id": "2DoKBLQqWvFuIWV2IOeD",
+      "title": "Big game blues",
+      "link": "https://crosshare.org/crosswords/2DoKBLQqWvFuIWV2IOeD",
+      "pubDate": "2025-10-15T01:12:53.381Z",
+      "isMini": false
+    },
+    {
+      "id": "6UUtaBsdnMGpVxl3zTnS",
+      "title": "Daily Mini: 10/19/2025",
+      "link": "https://crosshare.org/crosswords/6UUtaBsdnMGpVxl3zTnS",
+      "pubDate": "2025-10-14T04:08:51.492Z",
+      "isMini": true
+    },
+    {
+      "id": "3c6tYKYPJ9NRvaAVmqkH",
+      "title": "Daily Mini: 10/18/2025",
+      "link": "https://crosshare.org/crosswords/3c6tYKYPJ9NRvaAVmqkH",
+      "pubDate": "2025-10-14T04:05:12.726Z",
+      "isMini": true
+    },
+    {
+      "id": "ciIN4HKwv8tcdOWUjOZi",
+      "title": "Daily Mini: 10/17/2025",
+      "link": "https://crosshare.org/crosswords/ciIN4HKwv8tcdOWUjOZi",
+      "pubDate": "2025-10-14T03:59:34.710Z",
+      "isMini": true
+    },
+    {
+      "id": "00px30apMNqDKEWQpeTw",
+      "title": "Daily Mini: 10/16/2025",
+      "link": "https://crosshare.org/crosswords/00px30apMNqDKEWQpeTw",
+      "pubDate": "2025-10-14T03:55:15.401Z",
+      "isMini": true
+    },
+    {
+      "id": "IUEizpvpsdZ62EBvreYb",
+      "title": "Daily Mini: 10/15/2025",
+      "link": "https://crosshare.org/crosswords/IUEizpvpsdZ62EBvreYb",
+      "pubDate": "2025-10-14T03:46:17.686Z",
+      "isMini": true
+    },
+    {
+      "id": "nhNT6wzuZQJztGk9Tb93",
+      "title": "Daily Mini: 10/14/2025",
+      "link": "https://crosshare.org/crosswords/nhNT6wzuZQJztGk9Tb93",
+      "pubDate": "2025-10-14T03:39:34.883Z",
+      "isMini": true
+    },
+    {
+      "id": "ANpyuUAaZapxiIuQGjtx",
+      "title": "Daily Mini: 10/13/2025",
+      "link": "https://crosshare.org/crosswords/ANpyuUAaZapxiIuQGjtx",
+      "pubDate": "2025-10-13T06:04:41.939Z",
+      "isMini": true
+    },
+    {
+      "id": "viTArcrjWBbsl22j1R5X",
+      "title": "Daily Mini: 10/12/2025",
+      "link": "https://crosshare.org/crosswords/viTArcrjWBbsl22j1R5X",
+      "pubDate": "2025-10-11T17:55:39.291Z",
+      "isMini": true
+    },
+    {
+      "id": "0TOPThzDzFB0B8Ikponk",
+      "title": "Daily Mini: 10/10/2025",
+      "link": "https://crosshare.org/crosswords/0TOPThzDzFB0B8Ikponk",
+      "pubDate": "2025-10-10T16:28:36.677Z",
+      "isMini": true
+    },
+    {
+      "id": "Taqeig205pJHmtxR4w6v",
+      "title": "Daily Mini: 10/09/2025",
+      "link": "https://crosshare.org/crosswords/Taqeig205pJHmtxR4w6v",
+      "pubDate": "2025-10-08T03:03:06.397Z",
+      "isMini": true
+    },
+    {
+      "id": "FXlbgeP3CiydgrPTlRZt",
+      "title": "Daily Mini: 10/08/2025",
+      "link": "https://crosshare.org/crosswords/FXlbgeP3CiydgrPTlRZt",
+      "pubDate": "2025-10-08T02:59:10.147Z",
+      "isMini": true
+    },
+    {
+      "id": "nPNPulI0KYTz8K4oHLJ4",
+      "title": "Around the world",
+      "link": "https://crosshare.org/crosswords/nPNPulI0KYTz8K4oHLJ4",
+      "pubDate": "2025-10-08T02:43:39.294Z",
+      "isMini": false
+    },
+    {
+      "id": "xfaNwlk5S9cyyyZB6FIC",
+      "title": "Daily Mini: 10/07/2025",
+      "link": "https://crosshare.org/crosswords/xfaNwlk5S9cyyyZB6FIC",
+      "pubDate": "2025-10-07T01:50:33.508Z",
+      "isMini": true
+    },
+    {
+      "id": "qGiIX2SJuITHtdF52fcd",
+      "title": "Daily Mini: 10/06/2025",
+      "link": "https://crosshare.org/crosswords/qGiIX2SJuITHtdF52fcd",
+      "pubDate": "2025-10-06T03:42:42.179Z",
+      "isMini": true
+    },
+    {
+      "id": "2X6emJXoilwfaa9VlA8r",
+      "title": "Star power",
+      "link": "https://crosshare.org/crosswords/2X6emJXoilwfaa9VlA8r",
+      "pubDate": "2025-10-06T03:27:13.501Z",
+      "isMini": false
+    },
+    {
+      "id": "D9404NPx8P6IlUnQ0o2L",
+      "title": "Daily Mini: 10/05/2025",
+      "link": "https://crosshare.org/crosswords/D9404NPx8P6IlUnQ0o2L",
+      "pubDate": "2025-10-04T22:47:10.616Z",
+      "isMini": true
+    },
+    {
+      "id": "c9wPtUlVc8SkAtYXyacO",
+      "title": "Daily Mini: 10/04/2025",
+      "link": "https://crosshare.org/crosswords/c9wPtUlVc8SkAtYXyacO",
+      "pubDate": "2025-10-04T22:40:44.180Z",
+      "isMini": true
+    },
+    {
+      "id": "tniglF1m0Moij0xd2M8S",
+      "title": "Daily Mini: 10/03/2025",
+      "link": "https://crosshare.org/crosswords/tniglF1m0Moij0xd2M8S",
+      "pubDate": "2025-10-02T06:50:54.200Z",
+      "isMini": true
+    },
+    {
+      "id": "2fDUaP8ebusuwQqbYn8B",
+      "title": "Daily Mini: 10/02/2025",
+      "link": "https://crosshare.org/crosswords/2fDUaP8ebusuwQqbYn8B",
+      "pubDate": "2025-10-02T06:46:14.514Z",
+      "isMini": true
+    },
+    {
+      "id": "jDvJVtBBZt03nK55BnvB",
+      "title": "Swedish stuffed menagerie",
+      "link": "https://crosshare.org/crosswords/jDvJVtBBZt03nK55BnvB",
+      "pubDate": "2025-09-29T03:15:42.431Z",
+      "isMini": false
+    },
+    {
+      "id": "fli7mMqgap0JEFic8gb6",
+      "title": "Daily Mini: 10/01/2025",
+      "link": "https://crosshare.org/crosswords/fli7mMqgap0JEFic8gb6",
+      "pubDate": "2025-09-29T01:53:08.986Z",
+      "isMini": true
+    },
+    {
+      "id": "u6E8iALzZYq0jk1bQsWn",
+      "title": "Daily Mini: 09/30/2025",
+      "link": "https://crosshare.org/crosswords/u6E8iALzZYq0jk1bQsWn",
+      "pubDate": "2025-09-29T01:48:12.043Z",
+      "isMini": true
+    },
+    {
+      "id": "HL3dobOilcOTdv0RqU23",
+      "title": "Daily Mini: 09/29/2025",
+      "link": "https://crosshare.org/crosswords/HL3dobOilcOTdv0RqU23",
+      "pubDate": "2025-09-29T01:17:27.608Z",
+      "isMini": true
+    },
+    {
+      "id": "mlJGcV0szHZ1FuVJvQvV",
+      "title": "Daily Mini: 09/28/2025",
+      "link": "https://crosshare.org/crosswords/mlJGcV0szHZ1FuVJvQvV",
+      "pubDate": "2025-09-27T01:12:22.624Z",
+      "isMini": true
+    },
+    {
+      "id": "FGWr5pWxggNg2B7tHj33",
+      "title": "Daily Mini: 09/27/2025",
+      "link": "https://crosshare.org/crosswords/FGWr5pWxggNg2B7tHj33",
+      "pubDate": "2025-09-27T01:06:35.461Z",
+      "isMini": true
+    },
+    {
+      "id": "qeSt4bQ0P9KCyqS5XzqB",
+      "title": "Daily Mini: 09/25/2025",
+      "link": "https://crosshare.org/crosswords/qeSt4bQ0P9KCyqS5XzqB",
+      "pubDate": "2025-09-23T00:23:23.222Z",
+      "isMini": true
+    },
+    {
+      "id": "PN1LbLuxftYpmzM4a0hM",
+      "title": "Niche Theme Friday: Stone Cold Journalism",
+      "link": "https://crosshare.org/crosswords/PN1LbLuxftYpmzM4a0hM",
+      "pubDate": "2025-09-22T23:50:39.903Z",
+      "isMini": true
+    },
+    {
+      "id": "5kINreK7oUqqd3SaTJBp",
+      "title": "Daily Mini: 09/24/2025",
+      "link": "https://crosshare.org/crosswords/5kINreK7oUqqd3SaTJBp",
+      "pubDate": "2025-09-22T23:40:56.247Z",
+      "isMini": true
+    },
+    {
+      "id": "yOrIC0MEetjML9Xa2P3N",
+      "title": "Daily Mini: 09/23/2025",
+      "link": "https://crosshare.org/crosswords/yOrIC0MEetjML9Xa2P3N",
+      "pubDate": "2025-09-22T23:32:52.052Z",
+      "isMini": true
+    },
+    {
+      "id": "X7WTz5EUwFULdp7fscgu",
+      "title": "Eye on the prize",
+      "link": "https://crosshare.org/crosswords/X7WTz5EUwFULdp7fscgu",
+      "pubDate": "2025-09-22T02:15:10.116Z",
+      "isMini": false
+    },
+    {
+      "id": "gfC00rttJ0lSWk78VToN",
+      "title": "Daily Mini: 09/22/2025",
+      "link": "https://crosshare.org/crosswords/gfC00rttJ0lSWk78VToN",
+      "pubDate": "2025-09-21T22:30:45.449Z",
+      "isMini": true
+    },
+    {
+      "id": "7e7kGcbemJ87SR9lGJFo",
+      "title": "Daily Mini: 09/21/2025",
+      "link": "https://crosshare.org/crosswords/7e7kGcbemJ87SR9lGJFo",
+      "pubDate": "2025-09-21T21:33:48.216Z",
+      "isMini": true
+    },
+    {
+      "id": "6DgExCbABCA9Z7yDZ81M",
+      "title": "Daily Mini: 09/20/2025",
+      "link": "https://crosshare.org/crosswords/6DgExCbABCA9Z7yDZ81M",
+      "pubDate": "2025-09-20T20:32:59.610Z",
+      "isMini": true
+    },
+    {
+      "id": "wZzwi5wieHm3SYy3Ckqz",
+      "title": "Daily Mini: 09/19/2025",
+      "link": "https://crosshare.org/crosswords/wZzwi5wieHm3SYy3Ckqz",
+      "pubDate": "2025-09-16T04:48:36.884Z",
+      "isMini": true
+    },
+    {
+      "id": "iZwFAHVaoxIAXJDWyNhU",
+      "title": "Daily Mini: 09/18/2025",
+      "link": "https://crosshare.org/crosswords/iZwFAHVaoxIAXJDWyNhU",
+      "pubDate": "2025-09-16T04:43:55.814Z",
+      "isMini": true
+    },
+    {
+      "id": "h7EgUDvs0eTVgeUnDeUY",
+      "title": "Daily Mini: 09/17/2025",
+      "link": "https://crosshare.org/crosswords/h7EgUDvs0eTVgeUnDeUY",
+      "pubDate": "2025-09-16T04:39:20.995Z",
+      "isMini": true
+    },
+    {
+      "id": "n5agjiU8iQSsBg7jjIQ9",
+      "title": "Daily Mini: 09/16/2025",
+      "link": "https://crosshare.org/crosswords/n5agjiU8iQSsBg7jjIQ9",
+      "pubDate": "2025-09-16T03:56:14.208Z",
+      "isMini": true
+    },
+    {
+      "id": "kPojldLDj93A8OWQX31N",
+      "title": "A summer’s day: A cryptic crossword",
+      "link": "https://crosshare.org/crosswords/kPojldLDj93A8OWQX31N",
+      "pubDate": "2025-09-16T03:45:17.576Z",
+      "isMini": false
+    },
+    {
+      "id": "SOpgYNv45PDMbKvzhTbF",
+      "title": "Daily Mini: 09/15/2025",
+      "link": "https://crosshare.org/crosswords/SOpgYNv45PDMbKvzhTbF",
+      "pubDate": "2025-09-11T14:44:49.312Z",
+      "isMini": true
+    },
+    {
+      "id": "NKMWOePEVzZSSirXctBG",
+      "title": "Daily Mini: 09/13/2025",
+      "link": "https://crosshare.org/crosswords/NKMWOePEVzZSSirXctBG",
+      "pubDate": "2025-09-11T14:40:53.336Z",
+      "isMini": true
+    },
+    {
+      "id": "TQ9ZCnU9z1yDpOkVL1KB",
+      "title": "Daily Mini: 09/12/2025",
+      "link": "https://crosshare.org/crosswords/TQ9ZCnU9z1yDpOkVL1KB",
+      "pubDate": "2025-09-11T14:34:13.268Z",
+      "isMini": true
+    },
+    {
+      "id": "EKTSES5dmFEu1jUVPbXX",
+      "title": "Creature features",
+      "link": "https://crosshare.org/crosswords/EKTSES5dmFEu1jUVPbXX",
+      "pubDate": "2025-09-09T04:21:50.368Z",
+      "isMini": false
+    },
+    {
+      "id": "08rLwF0AZBUpaa7Viekf",
+      "title": "Daily Mini: 09/11/2025",
+      "link": "https://crosshare.org/crosswords/08rLwF0AZBUpaa7Viekf",
+      "pubDate": "2025-09-07T20:48:08.092Z",
+      "isMini": true
+    },
+    {
+      "id": "KadJ66c1ruk0iZb8DoGs",
+      "title": "Daily Mini: 09/10/2025",
+      "link": "https://crosshare.org/crosswords/KadJ66c1ruk0iZb8DoGs",
+      "pubDate": "2025-09-07T20:42:56.900Z",
+      "isMini": true
+    },
+    {
+      "id": "Yr2LWeBhnXGHvcleaK9o",
+      "title": "Daily Mini: 09/09/2025",
+      "link": "https://crosshare.org/crosswords/Yr2LWeBhnXGHvcleaK9o",
+      "pubDate": "2025-09-07T20:38:22.290Z",
+      "isMini": true
+    },
+    {
+      "id": "KxAuML1DoVt0ff2UyGAP",
+      "title": "Daily Mini: 09/08/2025",
+      "link": "https://crosshare.org/crosswords/KxAuML1DoVt0ff2UyGAP",
+      "pubDate": "2025-09-07T20:33:09.106Z",
+      "isMini": true
+    },
+    {
+      "id": "jJbhVJdNREMP5chNIdir",
+      "title": "Niche Theme Friday: Pushkin",
+      "link": "https://crosshare.org/crosswords/jJbhVJdNREMP5chNIdir",
+      "pubDate": "2025-09-02T00:42:13.393Z",
+      "isMini": true
+    },
+    {
+      "id": "PCTnGw3WLIHCR8iNrXAk",
+      "title": "Daily Mini: 09/04/2025",
+      "link": "https://crosshare.org/crosswords/PCTnGw3WLIHCR8iNrXAk",
+      "pubDate": "2025-09-02T00:28:47.279Z",
+      "isMini": true
+    },
+    {
+      "id": "Hys8IU0ZtK1XaJAUHOIc",
+      "title": "Daily Mini: 09/03/2025",
+      "link": "https://crosshare.org/crosswords/Hys8IU0ZtK1XaJAUHOIc",
+      "pubDate": "2025-09-02T00:23:04.002Z",
+      "isMini": true
+    },
+    {
+      "id": "YzCo2Wir8NsU1Go7cS1w",
+      "title": "Daily Mini: 09/02/2025",
+      "link": "https://crosshare.org/crosswords/YzCo2Wir8NsU1Go7cS1w",
+      "pubDate": "2025-09-02T00:10:23.534Z",
+      "isMini": true
+    },
+    {
+      "id": "hjE5xwlrtpZasBsoNlVr",
+      "title": "Barnumbia 101",
+      "link": "https://crosshare.org/crosswords/hjE5xwlrtpZasBsoNlVr",
+      "pubDate": "2025-08-22T05:34:10.909Z",
+      "isMini": false
+    },
+    {
+      "id": "aXENISqoWcsi9QShlvJh",
+      "title": "Commencement 2025",
+      "link": "https://crosshare.org/crosswords/aXENISqoWcsi9QShlvJh",
+      "pubDate": "2025-05-08T03:31:19.652Z",
+      "isMini": false
+    },
+    {
+      "id": "j8iEOHWEmHp3B3njGgnm",
+      "title": "Daily Mini: 05/05/2025",
+      "link": "https://crosshare.org/crosswords/j8iEOHWEmHp3B3njGgnm",
+      "pubDate": "2025-05-05T03:41:56.554Z",
+      "isMini": true
+    },
+    {
+      "id": "uErSSNI5GMEFbXdO26Yq",
+      "title": "Daily Mini: 05/04/2025",
+      "link": "https://crosshare.org/crosswords/uErSSNI5GMEFbXdO26Yq",
+      "pubDate": "2025-05-03T02:43:08.220Z",
+      "isMini": true
+    },
+    {
+      "id": "Rty5K7EZ67xlLsGtC13x",
+      "title": "Daily Mini: 05/03/2025",
+      "link": "https://crosshare.org/crosswords/Rty5K7EZ67xlLsGtC13x",
+      "pubDate": "2025-05-03T02:37:12.415Z",
+      "isMini": true
+    },
+    {
+      "id": "R9p8dhyZ9bv5x4BxCAgB",
+      "title": "Daily Mini: 05/02/2025",
+      "link": "https://crosshare.org/crosswords/R9p8dhyZ9bv5x4BxCAgB",
+      "pubDate": "2025-05-03T02:25:19.417Z",
+      "isMini": true
+    },
+    {
+      "id": "ZE78BQnh57llTRNy4W2t",
+      "title": "Internet-free",
+      "link": "https://crosshare.org/crosswords/ZE78BQnh57llTRNy4W2t",
+      "pubDate": "2025-04-30T03:26:12.510Z",
+      "isMini": false
+    },
+    {
+      "id": "Xr5wGb6ZxSt2fBxsPO5v",
+      "title": "Daily Mini: 05/01/2025",
+      "link": "https://crosshare.org/crosswords/Xr5wGb6ZxSt2fBxsPO5v",
+      "pubDate": "2025-04-28T13:29:35.374Z",
+      "isMini": true
+    },
+    {
+      "id": "7pPPlYNcKHPxauSCEvyx",
+      "title": "Daily Mini: 04/30/2025",
+      "link": "https://crosshare.org/crosswords/7pPPlYNcKHPxauSCEvyx",
+      "pubDate": "2025-04-28T13:23:43.477Z",
+      "isMini": true
+    },
+    {
+      "id": "zCp7euMusfSwSSpdqAl5",
+      "title": "Daily Mini: 04/29/2025",
+      "link": "https://crosshare.org/crosswords/zCp7euMusfSwSSpdqAl5",
+      "pubDate": "2025-04-28T13:18:21.954Z",
+      "isMini": true
+    },
+    {
+      "id": "7twAGOY0IRZbN9rBd1Po",
+      "title": "Daily Mini: 04/28/2025",
+      "link": "https://crosshare.org/crosswords/7twAGOY0IRZbN9rBd1Po",
+      "pubDate": "2025-04-28T00:33:58.308Z",
+      "isMini": true
+    },
+    {
+      "id": "98c3sTg1B3Xb21hFweDU",
+      "title": "Daily Mini: 04/27/2025",
+      "link": "https://crosshare.org/crosswords/98c3sTg1B3Xb21hFweDU",
+      "pubDate": "2025-04-25T02:09:34.486Z",
+      "isMini": true
+    },
+    {
+      "id": "mK73IEBFQPRJfSOnWQwb",
+      "title": "Daily Mini: 04/26/2025",
+      "link": "https://crosshare.org/crosswords/mK73IEBFQPRJfSOnWQwb",
+      "pubDate": "2025-04-25T01:57:45.729Z",
+      "isMini": true
+    },
+    {
+      "id": "UZ2AWQwkfJFQw0Uu7qvm",
+      "title": "Going green",
+      "link": "https://crosshare.org/crosswords/UZ2AWQwkfJFQw0Uu7qvm",
+      "pubDate": "2025-04-23T03:37:45.268Z",
+      "isMini": false
+    },
+    {
+      "id": "PmiXh9aJUZ8ZgW8qId8o",
+      "title": "Daily Mini: 04/25/2025",
+      "link": "https://crosshare.org/crosswords/PmiXh9aJUZ8ZgW8qId8o",
+      "pubDate": "2025-04-22T19:50:12.463Z",
+      "isMini": true
+    },
+    {
+      "id": "hjtWk75RdfzxyTNUNppp",
+      "title": "Daily Mini: 04/24/2025",
+      "link": "https://crosshare.org/crosswords/hjtWk75RdfzxyTNUNppp",
+      "pubDate": "2025-04-22T19:44:49.061Z",
+      "isMini": false
+    },
+    {
+      "id": "75PgWhNOzo6FF5pCPIvU",
+      "title": "Daily Mini: 04/23/2025",
+      "link": "https://crosshare.org/crosswords/75PgWhNOzo6FF5pCPIvU",
+      "pubDate": "2025-04-22T19:38:54.444Z",
+      "isMini": true
+    },
+    {
+      "id": "tQGSy5UB8sPh2Y0UvrR5",
+      "title": "Daily Mini: 04/22/2025",
+      "link": "https://crosshare.org/crosswords/tQGSy5UB8sPh2Y0UvrR5",
+      "pubDate": "2025-04-22T06:31:20.599Z",
+      "isMini": true
+    },
+    {
+      "id": "w6d1XSQTcTdnvmxmmd5g",
+      "title": "Daily Mini: 04/21/2025",
+      "link": "https://crosshare.org/crosswords/w6d1XSQTcTdnvmxmmd5g",
+      "pubDate": "2025-04-21T02:57:26.024Z",
+      "isMini": true
+    },
+    {
+      "id": "IiNWpQ2cM0dcFCvsNf1l",
+      "title": "Daily Mini: 04/17/2025",
+      "link": "https://crosshare.org/crosswords/IiNWpQ2cM0dcFCvsNf1l",
+      "pubDate": "2025-04-17T18:46:20.624Z",
+      "isMini": true
+    },
+    {
+      "id": "edwBX2sbgC8zSvBPGZCR",
+      "title": "Daily Mini: 04/16/2025",
+      "link": "https://crosshare.org/crosswords/edwBX2sbgC8zSvBPGZCR",
+      "pubDate": "2025-04-16T01:33:01.608Z",
+      "isMini": true
+    },
+    {
+      "id": "a3dMxtkwCKg3a03Iwoqc",
+      "title": "Sprouting about",
+      "link": "https://crosshare.org/crosswords/a3dMxtkwCKg3a03Iwoqc",
+      "pubDate": "2025-04-16T01:23:53.193Z",
+      "isMini": false
+    },
+    {
+      "id": "8b83g81w8OiM49VutTBz",
+      "title": "Daily Mini: 04/15/2025",
+      "link": "https://crosshare.org/crosswords/8b83g81w8OiM49VutTBz",
+      "pubDate": "2025-04-14T18:48:44.476Z",
+      "isMini": true
+    },
+    {
+      "id": "yeXrv6fsF8Ogj3NVBJR4",
+      "title": "Daily Mini: 04/14/2025",
+      "link": "https://crosshare.org/crosswords/yeXrv6fsF8Ogj3NVBJR4",
+      "pubDate": "2025-04-14T06:06:41.902Z",
+      "isMini": true
+    },
+    {
+      "id": "zrG4uS9oYOVzMoPEF8IR",
+      "title": "Daily Mini: 04/13/2025",
+      "link": "https://crosshare.org/crosswords/zrG4uS9oYOVzMoPEF8IR",
+      "pubDate": "2025-04-13T06:56:10.645Z",
+      "isMini": true
+    },
+    {
+      "id": "Acs8tD0GOgmrTBGo2lPR",
+      "title": "Hitting all the right notes",
+      "link": "https://crosshare.org/crosswords/Acs8tD0GOgmrTBGo2lPR",
+      "pubDate": "2025-04-08T01:14:17.823Z",
+      "isMini": false
+    },
+    {
+      "id": "CM96Wl65Q1CU3ZyyEP49",
+      "title": "Daily Mini: 04/12/2025",
+      "link": "https://crosshare.org/crosswords/CM96Wl65Q1CU3ZyyEP49",
+      "pubDate": "2025-04-07T22:41:12.556Z",
+      "isMini": true
+    },
+    {
+      "id": "wKMx6Wak30cFazCMT72y",
+      "title": "Niche Theme Friday: All in the Numbers",
+      "link": "https://crosshare.org/crosswords/wKMx6Wak30cFazCMT72y",
+      "pubDate": "2025-04-07T22:35:15.986Z",
+      "isMini": true
+    },
+    {
+      "id": "aZFIPcMSEN4HLfcYgpW8",
+      "title": "Daily Mini: 04/10/2025",
+      "link": "https://crosshare.org/crosswords/aZFIPcMSEN4HLfcYgpW8",
+      "pubDate": "2025-04-07T22:29:25.964Z",
+      "isMini": true
+    },
+    {
+      "id": "9jdVrjn5TpKjCtqHOHz1",
+      "title": "Daily Mini: 04/09/2025",
+      "link": "https://crosshare.org/crosswords/9jdVrjn5TpKjCtqHOHz1",
+      "pubDate": "2025-04-07T22:25:18.928Z",
+      "isMini": true
+    },
+    {
+      "id": "oluyoXU5gANGK5Q3IVCa",
+      "title": "Daily Mini: 04/08/2025",
+      "link": "https://crosshare.org/crosswords/oluyoXU5gANGK5Q3IVCa",
+      "pubDate": "2025-04-07T22:18:28.915Z",
+      "isMini": true
+    },
+    {
+      "id": "lAohs1pJ4SGYOIxlhzVC",
+      "title": "Daily Mini: 04/07/2025",
+      "link": "https://crosshare.org/crosswords/lAohs1pJ4SGYOIxlhzVC",
+      "pubDate": "2025-04-07T01:16:46.266Z",
+      "isMini": true
+    },
+    {
+      "id": "OHZ5PfWaeGkq3YSwaStt",
+      "title": "Daily Mini: 04/06/2025",
+      "link": "https://crosshare.org/crosswords/OHZ5PfWaeGkq3YSwaStt",
+      "pubDate": "2025-04-04T05:41:22.916Z",
+      "isMini": false
+    },
+    {
+      "id": "FJz4MI7RIlHK6WdFtQYp",
+      "title": "Daily Mini: 04/05/2025",
+      "link": "https://crosshare.org/crosswords/FJz4MI7RIlHK6WdFtQYp",
+      "pubDate": "2025-04-04T05:35:14.914Z",
+      "isMini": true
+    },
+    {
+      "id": "eWEL9ruZ4YtoE4ephWKD",
+      "title": "Daily Mini: 04/04/2025",
+      "link": "https://crosshare.org/crosswords/eWEL9ruZ4YtoE4ephWKD",
+      "pubDate": "2025-04-04T05:31:01.402Z",
+      "isMini": true
+    },
+    {
+      "id": "VeMBys0BxwlBBiaSpF0C",
+      "title": "Daily Mini: 04/03/2025",
+      "link": "https://crosshare.org/crosswords/VeMBys0BxwlBBiaSpF0C",
+      "pubDate": "2025-04-03T01:19:31.616Z",
+      "isMini": true
+    },
+    {
+      "id": "WK0eeb0LTWBz2QzxcAQg",
+      "title": "Daily Mini: 04/02/2025",
+      "link": "https://crosshare.org/crosswords/WK0eeb0LTWBz2QzxcAQg",
+      "pubDate": "2025-04-02T03:07:15.742Z",
+      "isMini": true
+    },
+    {
+      "id": "kwL12IWAf46x2c7jZCVC",
+      "title": "Shaken, not stirred",
+      "link": "https://crosshare.org/crosswords/kwL12IWAf46x2c7jZCVC",
+      "pubDate": "2025-04-01T01:52:31.400Z",
+      "isMini": false
+    },
+    {
+      "id": "ZjxvpyrnVhenWqcIv30k",
+      "title": "Daily Mini: 04/01/2025",
+      "link": "https://crosshare.org/crosswords/ZjxvpyrnVhenWqcIv30k",
+      "pubDate": "2025-03-31T03:47:18.621Z",
+      "isMini": true
+    },
+    {
+      "id": "YZ0Lsc53bKWboc3fO4Zg",
+      "title": "Daily Mini: 03/31/2025",
+      "link": "https://crosshare.org/crosswords/YZ0Lsc53bKWboc3fO4Zg",
+      "pubDate": "2025-03-30T22:33:18.173Z",
+      "isMini": true
+    },
+    {
+      "id": "bFrnSp0sU2uuBStO43TU",
+      "title": "Daily Mini: 03/30/2025",
+      "link": "https://crosshare.org/crosswords/bFrnSp0sU2uuBStO43TU",
+      "pubDate": "2025-03-27T04:46:22.622Z",
+      "isMini": true
+    },
+    {
+      "id": "Wtkt3kQxYyAtNB7IJ36D",
+      "title": "Daily Mini: 03/29/2025",
+      "link": "https://crosshare.org/crosswords/Wtkt3kQxYyAtNB7IJ36D",
+      "pubDate": "2025-03-27T04:42:47.304Z",
+      "isMini": true
+    },
+    {
+      "id": "OSKoggLnIUpjRD9hZfNM",
+      "title": "Daily Mini: 03/27/2025",
+      "link": "https://crosshare.org/crosswords/OSKoggLnIUpjRD9hZfNM",
+      "pubDate": "2025-03-27T04:36:31.003Z",
+      "isMini": true
+    },
+    {
+      "id": "I8jdSNl1R1dxcWZoQ71e",
+      "title": "Niche Theme Friday: Late Night Biochemistry Cramming",
+      "link": "https://crosshare.org/crosswords/I8jdSNl1R1dxcWZoQ71e",
+      "pubDate": "2025-03-25T04:15:49.850Z",
+      "isMini": true
+    },
+    {
+      "id": "2LAfMo4yZPUgbhjMtXOJ",
+      "title": "Daily Mini: 03/26/2025",
+      "link": "https://crosshare.org/crosswords/2LAfMo4yZPUgbhjMtXOJ",
+      "pubDate": "2025-03-25T04:10:50.283Z",
+      "isMini": true
+    },
+    {
+      "id": "OrrhRtEB4fBP9V5ZHeU1",
+      "title": "Daily Mini: 03/25/2025",
+      "link": "https://crosshare.org/crosswords/OrrhRtEB4fBP9V5ZHeU1",
+      "pubDate": "2025-03-25T04:05:49.579Z",
+      "isMini": true
+    },
+    {
+      "id": "0LOwQ8lQGae8awY2emfV",
+      "title": "Daily Mini: 03/24/2025",
+      "link": "https://crosshare.org/crosswords/0LOwQ8lQGae8awY2emfV",
+      "pubDate": "2025-03-23T23:07:09.199Z",
+      "isMini": true
+    },
+    {
+      "id": "yARSAWBKNfNYRaofOMdT",
+      "title": "The Eye: Mar. 23, 2025",
+      "link": "https://crosshare.org/crosswords/yARSAWBKNfNYRaofOMdT",
+      "pubDate": "2025-03-23T22:51:45.774Z",
+      "isMini": false
+    },
+    {
+      "id": "3JcxmqwfqJQo9Gdt36PD",
+      "title": "Mar. 12, 2025",
+      "link": "https://crosshare.org/crosswords/3JcxmqwfqJQo9Gdt36PD",
+      "pubDate": "2025-03-12T18:23:07.743Z",
+      "isMini": false
+    },
+    {
+      "id": "USKo5cHLsbknuOHPFBOn",
+      "title": "Daily Mini: 03/15/2025",
+      "link": "https://crosshare.org/crosswords/USKo5cHLsbknuOHPFBOn",
+      "pubDate": "2025-03-10T23:21:08.952Z",
+      "isMini": true
+    },
+    {
+      "id": "pZFZW25HgmZUWS8GnFdD",
+      "title": "Daily Mini: 03/14/2025",
+      "link": "https://crosshare.org/crosswords/pZFZW25HgmZUWS8GnFdD",
+      "pubDate": "2025-03-10T23:13:56.450Z",
+      "isMini": true
+    },
+    {
+      "id": "d9Af8LVzHUsaoHYcgT4R",
+      "title": "Daily Mini: 03/13/2025",
+      "link": "https://crosshare.org/crosswords/d9Af8LVzHUsaoHYcgT4R",
+      "pubDate": "2025-03-10T23:07:59.559Z",
+      "isMini": true
+    },
+    {
+      "id": "ieTpOQ52Hr1SVAjBtr6c",
+      "title": "Daily Mini: 03/12/2025",
+      "link": "https://crosshare.org/crosswords/ieTpOQ52Hr1SVAjBtr6c",
+      "pubDate": "2025-03-10T23:02:22.238Z",
+      "isMini": true
+    },
+    {
+      "id": "1MqSVHlfr2JF8QqYK44M",
+      "title": "Daily Mini: 03/11/2025",
+      "link": "https://crosshare.org/crosswords/1MqSVHlfr2JF8QqYK44M",
+      "pubDate": "2025-03-10T22:53:53.838Z",
+      "isMini": true
+    },
+    {
+      "id": "ayTPfcEuTFIziicIMxPe",
+      "title": "Daily Mini: 03/10/2025",
+      "link": "https://crosshare.org/crosswords/ayTPfcEuTFIziicIMxPe",
+      "pubDate": "2025-03-10T01:59:51.541Z",
+      "isMini": true
+    },
+    {
+      "id": "SPQljKdQ0SxJgr3xaTuf",
+      "title": "Daily Mini: 03/09/2025",
+      "link": "https://crosshare.org/crosswords/SPQljKdQ0SxJgr3xaTuf",
+      "pubDate": "2025-03-04T04:36:29.913Z",
+      "isMini": true
+    },
+    {
+      "id": "9nhqrOaob170DGgffpRq",
+      "title": "Daily Mini: 03/08/2025",
+      "link": "https://crosshare.org/crosswords/9nhqrOaob170DGgffpRq",
+      "pubDate": "2025-03-04T04:33:01.038Z",
+      "isMini": true
+    },
+    {
+      "id": "kE0Uv1tqxA32VW3zigpQ",
+      "title": "Niche Theme Friday: Gabriel García-Márquez",
+      "link": "https://crosshare.org/crosswords/kE0Uv1tqxA32VW3zigpQ",
+      "pubDate": "2025-03-04T04:29:29.507Z",
+      "isMini": true
+    },
+    {
+      "id": "NSipp8EA9T67hGlWlEYJ",
+      "title": "Daily Mini: 03/06/2025",
+      "link": "https://crosshare.org/crosswords/NSipp8EA9T67hGlWlEYJ",
+      "pubDate": "2025-03-04T04:26:15.392Z",
+      "isMini": true
+    },
+    {
+      "id": "mz1ZyYZfnBn9gkyFw8NC",
+      "title": "Daily Mini: 03/05/2025",
+      "link": "https://crosshare.org/crosswords/mz1ZyYZfnBn9gkyFw8NC",
+      "pubDate": "2025-03-04T04:22:46.171Z",
+      "isMini": true
+    },
+    {
+      "id": "2NgAZqeXVNN9Ng68XqS4",
+      "title": "Daily Mini: 03/04/2025",
+      "link": "https://crosshare.org/crosswords/2NgAZqeXVNN9Ng68XqS4",
+      "pubDate": "2025-03-04T04:18:05.936Z",
+      "isMini": true
+    },
+    {
+      "id": "YR5gtXdcGG90xsBb7XGN",
+      "title": "March 3, 2025",
+      "link": "https://crosshare.org/crosswords/YR5gtXdcGG90xsBb7XGN",
+      "pubDate": "2025-03-04T01:17:15.143Z",
+      "isMini": false
+    },
+    {
+      "id": "iwrj9BdsYpjGciA5Khq6",
+      "title": "Daily Mini: 03/03/2025",
+      "link": "https://crosshare.org/crosswords/iwrj9BdsYpjGciA5Khq6",
+      "pubDate": "2025-03-02T23:41:54.239Z",
+      "isMini": true
+    },
+    {
+      "id": "XXj5MzasPUxZZWpqRD4a",
+      "title": "Daily Mini: 03/02/2025",
+      "link": "https://crosshare.org/crosswords/XXj5MzasPUxZZWpqRD4a",
+      "pubDate": "2025-02-27T07:03:46.572Z",
+      "isMini": true
+    },
+    {
+      "id": "T9H0qA4zi3rppiHWWhlA",
+      "title": "Daily Mini: 02/27/2025",
+      "link": "https://crosshare.org/crosswords/T9H0qA4zi3rppiHWWhlA",
+      "pubDate": "2025-02-27T06:59:16.878Z",
+      "isMini": true
+    },
+    {
+      "id": "hjP9IbiAl1sO0U5xt3rL",
+      "title": "Daily Mini: 03/01/2025",
+      "link": "https://crosshare.org/crosswords/hjP9IbiAl1sO0U5xt3rL",
+      "pubDate": "2025-02-25T18:40:02.905Z",
+      "isMini": true
+    },
+    {
+      "id": "2XuXydPkEUeVTemuee9c",
+      "title": "Niche Theme Friday: Java Edition",
+      "link": "https://crosshare.org/crosswords/2XuXydPkEUeVTemuee9c",
+      "pubDate": "2025-02-25T04:05:09.903Z",
+      "isMini": false
+    },
+    {
+      "id": "bv99TKhoJuzUVrGXdTtv",
+      "title": "Daily Mini: 02/26/2025",
+      "link": "https://crosshare.org/crosswords/bv99TKhoJuzUVrGXdTtv",
+      "pubDate": "2025-02-25T03:19:11.559Z",
+      "isMini": true
+    },
+    {
+      "id": "McVHLKDTbe0qJCKpLG7z",
+      "title": "Daily Mini: 02/25/2025",
+      "link": "https://crosshare.org/crosswords/McVHLKDTbe0qJCKpLG7z",
+      "pubDate": "2025-02-25T03:11:15.905Z",
+      "isMini": true
+    },
+    {
+      "id": "OyyiSw60R3Kt1xhFX664",
+      "title": "Feb. 24, 2025",
+      "link": "https://crosshare.org/crosswords/OyyiSw60R3Kt1xhFX664",
+      "pubDate": "2025-02-24T23:23:10.895Z",
+      "isMini": false
+    },
+    {
+      "id": "nEdAwF87KKLVTakfBJhD",
+      "title": "Daily Mini: 02/24/2025",
+      "link": "https://crosshare.org/crosswords/nEdAwF87KKLVTakfBJhD",
+      "pubDate": "2025-02-24T01:57:01.213Z",
+      "isMini": true
+    },
+    {
+      "id": "nENJj7PAtS2qxKt54BOh",
+      "title": "Daily Mini: 02/23/2025",
+      "link": "https://crosshare.org/crosswords/nENJj7PAtS2qxKt54BOh",
+      "pubDate": "2025-02-21T02:41:13.722Z",
+      "isMini": true
+    },
+    {
+      "id": "dWQGZaWtLX9BLj9CA2jz",
+      "title": "Daily Mini: 02/22/2025",
+      "link": "https://crosshare.org/crosswords/dWQGZaWtLX9BLj9CA2jz",
+      "pubDate": "2025-02-21T02:30:52.590Z",
+      "isMini": true
+    },
+    {
+      "id": "x8YzEZkiRu6VuTBjmHKM",
+      "title": "Daily Mini: 02/21/2025",
+      "link": "https://crosshare.org/crosswords/x8YzEZkiRu6VuTBjmHKM",
+      "pubDate": "2025-02-21T02:18:57.274Z",
+      "isMini": true
+    },
+    {
+      "id": "4sv2oFNUjSCvi911H0cX",
+      "title": "Daily Mini: 02/20/2025",
+      "link": "https://crosshare.org/crosswords/4sv2oFNUjSCvi911H0cX",
+      "pubDate": "2025-02-17T02:22:19.703Z",
+      "isMini": true
+    },
+    {
+      "id": "tA7eEyMVx3clGypxlfrf",
+      "title": "Daily Mini: 02/19/2025",
+      "link": "https://crosshare.org/crosswords/tA7eEyMVx3clGypxlfrf",
+      "pubDate": "2025-02-17T02:16:06.782Z",
+      "isMini": true
+    },
+    {
+      "id": "XB6SkbOU7CfY8aqp8wCa",
+      "title": "Daily Mini: 02/18/2025",
+      "link": "https://crosshare.org/crosswords/XB6SkbOU7CfY8aqp8wCa",
+      "pubDate": "2025-02-17T02:05:32.504Z",
+      "isMini": true
+    },
+    {
+      "id": "H92go76ojb9WtvY3TzzM",
+      "title": "Daily Mini: 02/17/2025",
+      "link": "https://crosshare.org/crosswords/H92go76ojb9WtvY3TzzM",
+      "pubDate": "2025-02-13T17:06:22.849Z",
+      "isMini": true
+    },
+    {
+      "id": "2VsfeACJi1ORuiju3iNf",
+      "title": "Daily Mini: 02/16/2025",
+      "link": "https://crosshare.org/crosswords/2VsfeACJi1ORuiju3iNf",
+      "pubDate": "2025-02-13T16:53:31.760Z",
+      "isMini": true
+    },
+    {
+      "id": "Zgui6qpB7lqjwdc8Iquk",
+      "title": "Daily Mini: 02/15/2025",
+      "link": "https://crosshare.org/crosswords/Zgui6qpB7lqjwdc8Iquk",
+      "pubDate": "2025-02-13T16:47:17.811Z",
+      "isMini": true
+    },
+    {
+      "id": "YGmGh93s2AAgllVsvx4e",
+      "title": "Daily Mini: 02/13/2025",
+      "link": "https://crosshare.org/crosswords/YGmGh93s2AAgllVsvx4e",
+      "pubDate": "2025-02-12T04:55:11.409Z",
+      "isMini": true
+    },
+    {
+      "id": "AGSdIKmIdIT6k9rHxF3M",
+      "title": "Daily Mini: 02/12/2025",
+      "link": "https://crosshare.org/crosswords/AGSdIKmIdIT6k9rHxF3M",
+      "pubDate": "2025-02-12T04:41:41.313Z",
+      "isMini": true
+    },
+    {
+      "id": "fmsGj1xzncZCI0CY8U7a",
+      "title": "Daily Mini: 02/11/2025",
+      "link": "https://crosshare.org/crosswords/fmsGj1xzncZCI0CY8U7a",
+      "pubDate": "2025-02-10T15:35:12.318Z",
+      "isMini": true
+    },
+    {
+      "id": "leH40srjS3d2wNyzct1X",
+      "title": "Niche Theme Friday: Valentine's Day",
+      "link": "https://crosshare.org/crosswords/leH40srjS3d2wNyzct1X",
+      "pubDate": "2025-02-10T15:28:38.306Z",
+      "isMini": false
+    },
+    {
+      "id": "StJxALl7LrLrv3ShAEu7",
+      "title": "Feb. 10, 2025",
+      "link": "https://crosshare.org/crosswords/StJxALl7LrLrv3ShAEu7",
+      "pubDate": "2025-02-10T03:41:08.552Z",
+      "isMini": false
+    },
+    {
+      "id": "sicym9farMsWkegJZaAg",
+      "title": "Daily Mini: 02/10/2025",
+      "link": "https://crosshare.org/crosswords/sicym9farMsWkegJZaAg",
+      "pubDate": "2025-02-10T02:59:14.500Z",
+      "isMini": true
+    },
+    {
+      "id": "ow40ECrIJXraTTMOBsaY",
+      "title": "Daily Mini: 02/09/2025",
+      "link": "https://crosshare.org/crosswords/ow40ECrIJXraTTMOBsaY",
+      "pubDate": "2025-02-08T22:06:07.488Z",
+      "isMini": true
+    },
+    {
+      "id": "gOvLthoTNIoxwr3NQlSG",
+      "title": "Daily Mini: 02/08/2025",
+      "link": "https://crosshare.org/crosswords/gOvLthoTNIoxwr3NQlSG",
+      "pubDate": "2025-02-08T21:57:34.865Z",
+      "isMini": true
+    },
+    {
+      "id": "Pt5yb8pGucKfToF6mvZl",
+      "title": "Daily Mini: 02/07/2025",
+      "link": "https://crosshare.org/crosswords/Pt5yb8pGucKfToF6mvZl",
+      "pubDate": "2025-02-03T04:19:10.713Z",
+      "isMini": true
+    },
+    {
+      "id": "5HUkKjoOq0bKPkymFgBB",
+      "title": "Daily Mini: 02/05/2025",
+      "link": "https://crosshare.org/crosswords/5HUkKjoOq0bKPkymFgBB",
+      "pubDate": "2025-02-03T04:13:11.596Z",
+      "isMini": true
+    },
+    {
+      "id": "WNDA48nFHbgk0RBmwXuD",
+      "title": "Daily Mini: 02/06/2025",
+      "link": "https://crosshare.org/crosswords/WNDA48nFHbgk0RBmwXuD",
+      "pubDate": "2025-02-03T04:07:00.388Z",
+      "isMini": true
+    },
+    {
+      "id": "Y6rx1pmWDiEO142of3Xc",
+      "title": "Daily Mini: 02/04/2025",
+      "link": "https://crosshare.org/crosswords/Y6rx1pmWDiEO142of3Xc",
+      "pubDate": "2025-02-03T04:00:39.825Z",
+      "isMini": true
+    },
+    {
+      "id": "HXAHAClJNsxzCuE3YULL",
+      "title": "Daily Mini: 02/03/2025",
+      "link": "https://crosshare.org/crosswords/HXAHAClJNsxzCuE3YULL",
+      "pubDate": "2025-02-03T03:52:50.825Z",
+      "isMini": true
+    },
+    {
+      "id": "hv1fTLFW5NVZouu2g6Bx",
+      "title": "Daily Mini: 02/01/2025",
+      "link": "https://crosshare.org/crosswords/hv1fTLFW5NVZouu2g6Bx",
+      "pubDate": "2025-01-29T04:39:45.438Z",
+      "isMini": true
+    },
+    {
+      "id": "C79JEPehHgaPUx59QWSt",
+      "title": "Daily Mini: 01/31/2025",
+      "link": "https://crosshare.org/crosswords/C79JEPehHgaPUx59QWSt",
+      "pubDate": "2025-01-29T04:31:33.543Z",
+      "isMini": true
+    },
+    {
+      "id": "l1eTNx2O0fdV3YfLqijX",
+      "title": "Daily Mini: 01/30/2025",
+      "link": "https://crosshare.org/crosswords/l1eTNx2O0fdV3YfLqijX",
+      "pubDate": "2025-01-29T04:20:32.990Z",
+      "isMini": true
+    },
+    {
+      "id": "Z8DubXXkgNcrOcrdJN8q",
+      "title": "Daily Mini: 01/29/2025",
+      "link": "https://crosshare.org/crosswords/Z8DubXXkgNcrOcrdJN8q",
+      "pubDate": "2025-01-29T04:04:57.668Z",
+      "isMini": true
+    },
+    {
+      "id": "yHDnx6AcICwkIjiuTthp",
+      "title": "Jan. 28, 2025",
+      "link": "https://crosshare.org/crosswords/yHDnx6AcICwkIjiuTthp",
+      "pubDate": "2025-01-27T23:19:37.652Z",
+      "isMini": false
+    },
+    {
+      "id": "RCIDHNazFnqDFFp2uBIa",
+      "title": "Daily Mini: 01/28/2025",
+      "link": "https://crosshare.org/crosswords/RCIDHNazFnqDFFp2uBIa",
+      "pubDate": "2025-01-27T21:37:00.888Z",
+      "isMini": true
+    },
+    {
+      "id": "cocR0O0S1kR0gw45ePBh",
+      "title": "Daily Mini: 01/27/2025",
+      "link": "https://crosshare.org/crosswords/cocR0O0S1kR0gw45ePBh",
+      "pubDate": "2025-01-27T00:58:28.684Z",
+      "isMini": true
+    },
+    {
+      "id": "yhmjjepPstnF5bklcSKg",
+      "title": "Daily Mini: 12/08/2024",
+      "link": "https://crosshare.org/crosswords/yhmjjepPstnF5bklcSKg",
+      "pubDate": "2024-12-03T23:28:24.071Z",
+      "isMini": true
+    },
+    {
+      "id": "RMLiTg8VjW9PC1YsQlIS",
+      "title": "Daily Mini: 12/07/2024",
+      "link": "https://crosshare.org/crosswords/RMLiTg8VjW9PC1YsQlIS",
+      "pubDate": "2024-12-03T23:19:24.057Z",
+      "isMini": true
+    },
+    {
+      "id": "vYNJyouc7Q7GBZlij1kJ",
+      "title": "Niche Theme Friday: New Order",
+      "link": "https://crosshare.org/crosswords/vYNJyouc7Q7GBZlij1kJ",
+      "pubDate": "2024-12-03T23:05:16.352Z",
+      "isMini": true
+    },
+    {
+      "id": "0rf5PnRjOdFArhltZ6lC",
+      "title": "Daily Mini: 12/05/2024",
+      "link": "https://crosshare.org/crosswords/0rf5PnRjOdFArhltZ6lC",
+      "pubDate": "2024-12-01T18:16:31.371Z",
+      "isMini": true
+    },
+    {
+      "id": "WLkUEUj6uHSfsvPi2r6O",
+      "title": "Daily Mini: 12/04/2024",
+      "link": "https://crosshare.org/crosswords/WLkUEUj6uHSfsvPi2r6O",
+      "pubDate": "2024-12-01T18:11:43.127Z",
+      "isMini": true
+    },
+    {
+      "id": "18zLbmw7XRQkClfep2ay",
+      "title": "Daily Mini: 12/03/2024",
+      "link": "https://crosshare.org/crosswords/18zLbmw7XRQkClfep2ay",
+      "pubDate": "2024-12-01T18:08:48.644Z",
+      "isMini": true
+    },
+    {
+      "id": "RGL8yiMMcK2wezAlnWlc",
+      "title": "Daily Mini: 12/02/2024",
+      "link": "https://crosshare.org/crosswords/RGL8yiMMcK2wezAlnWlc",
+      "pubDate": "2024-12-01T18:03:18.886Z",
+      "isMini": true
+    },
+    {
+      "id": "tqTNt5cedd7lFW0NZR7y",
+      "title": "Daily Mini: 12/01/2024",
+      "link": "https://crosshare.org/crosswords/tqTNt5cedd7lFW0NZR7y",
+      "pubDate": "2024-11-20T06:40:11.402Z",
+      "isMini": true
+    },
+    {
+      "id": "RmVeVwocx4fsSrw4nOYJ",
+      "title": "Daily Mini: 11/30/2024",
+      "link": "https://crosshare.org/crosswords/RmVeVwocx4fsSrw4nOYJ",
+      "pubDate": "2024-11-20T06:32:32.814Z",
+      "isMini": true
+    },
+    {
+      "id": "KTNilhKCO04J06KTYeYf",
+      "title": "Daily Mini: 11/27/2024",
+      "link": "https://crosshare.org/crosswords/KTNilhKCO04J06KTYeYf",
+      "pubDate": "2024-11-20T06:27:29.788Z",
+      "isMini": true
+    },
+    {
+      "id": "3agE98cR3lLs2hwaIRm4",
+      "title": "Daily Mini: 11/28/2024",
+      "link": "https://crosshare.org/crosswords/3agE98cR3lLs2hwaIRm4",
+      "pubDate": "2024-11-20T06:20:37.995Z",
+      "isMini": true
+    },
+    {
+      "id": "itIk1v3o0KY5wbgdzngr",
+      "title": "Daily Mini: 11/25/2024",
+      "link": "https://crosshare.org/crosswords/itIk1v3o0KY5wbgdzngr",
+      "pubDate": "2024-11-20T06:13:12.288Z",
+      "isMini": true
+    },
+    {
+      "id": "0b311ZpHNUOWX4jHeNwJ",
+      "title": "Daily Mini:11/26/2024",
+      "link": "https://crosshare.org/crosswords/0b311ZpHNUOWX4jHeNwJ",
+      "pubDate": "2024-11-19T17:51:39.110Z",
+      "isMini": true
+    },
+    {
+      "id": "SE3oZMKZRYkGlBDzNGat",
+      "title": "Daily Mini: 11/24/2024",
+      "link": "https://crosshare.org/crosswords/SE3oZMKZRYkGlBDzNGat",
+      "pubDate": "2024-11-19T17:47:14.534Z",
+      "isMini": true
+    },
+    {
+      "id": "hRPg6M4NKBiVhuG6umVd",
+      "title": "Niche Theme Friday: Singers!",
+      "link": "https://crosshare.org/crosswords/hRPg6M4NKBiVhuG6umVd",
+      "pubDate": "2024-11-19T16:19:07.702Z",
+      "isMini": true
+    },
+    {
+      "id": "uw2NnBJy1M6vtoprkNr8",
+      "title": "Daily Mini: 11/21/2024",
+      "link": "https://crosshare.org/crosswords/uw2NnBJy1M6vtoprkNr8",
+      "pubDate": "2024-11-19T16:10:18.292Z",
+      "isMini": true
+    },
+    {
+      "id": "DmsVObmE0Sy3ZsxuC1xL",
+      "title": "Daily Mini: 11/23/2024",
+      "link": "https://crosshare.org/crosswords/DmsVObmE0Sy3ZsxuC1xL",
+      "pubDate": "2024-11-19T03:34:08.633Z",
+      "isMini": true
+    },
+    {
+      "id": "WeepLrSQMFUvNbioIkDi",
+      "title": "Niche Theme Friday: Skipping Stones",
+      "link": "https://crosshare.org/crosswords/WeepLrSQMFUvNbioIkDi",
+      "pubDate": "2024-11-19T03:27:31.860Z",
+      "isMini": true
+    },
+    {
+      "id": "0WeNHgSK6v96K6ZPoMQN",
+      "title": "Daily Mini: 11/20/2024",
+      "link": "https://crosshare.org/crosswords/0WeNHgSK6v96K6ZPoMQN",
+      "pubDate": "2024-11-19T03:17:15.367Z",
+      "isMini": true
+    },
+    {
+      "id": "vhK60ZcJWau0jXAMBDrM",
+      "title": "Daily Mini: 11/19/2024",
+      "link": "https://crosshare.org/crosswords/vhK60ZcJWau0jXAMBDrM",
+      "pubDate": "2024-11-18T23:22:25.099Z",
+      "isMini": true
+    },
+    {
+      "id": "vgMKqvAmQATqCUdpb3oH",
+      "title": "Daily Mini: 11/18/2024",
+      "link": "https://crosshare.org/crosswords/vgMKqvAmQATqCUdpb3oH",
+      "pubDate": "2024-11-18T05:05:56.113Z",
+      "isMini": true
+    },
+    {
+      "id": "VEnLuM2ncnjuGvmhcx1P",
+      "title": "Daily Mini: 11/13/2024",
+      "link": "https://crosshare.org/crosswords/VEnLuM2ncnjuGvmhcx1P",
+      "pubDate": "2024-11-12T16:15:32.290Z",
+      "isMini": true
+    },
+    {
+      "id": "dOFJ8GMNf7DJpTd9iwnj",
+      "title": "Daily Mini: 11/12/2024",
+      "link": "https://crosshare.org/crosswords/dOFJ8GMNf7DJpTd9iwnj",
+      "pubDate": "2024-11-12T16:11:08.800Z",
+      "isMini": true
+    },
+    {
+      "id": "WRHvIXNdR3eikKa69nFp",
+      "title": "Daily Mini: 11/10/2024",
+      "link": "https://crosshare.org/crosswords/WRHvIXNdR3eikKa69nFp",
+      "pubDate": "2024-11-10T06:04:13.388Z",
+      "isMini": true
+    },
+    {
+      "id": "L8ZsXxTpNdst3ErQ4onU",
+      "title": "Daily Mini: 11/08/2024",
+      "link": "https://crosshare.org/crosswords/L8ZsXxTpNdst3ErQ4onU",
+      "pubDate": "2024-11-08T03:30:05.486Z",
+      "isMini": true
+    },
+    {
+      "id": "2HZal0UIPOrNH1KD6Gz7",
+      "title": "Daily Mini: 11/07/2024",
+      "link": "https://crosshare.org/crosswords/2HZal0UIPOrNH1KD6Gz7",
+      "pubDate": "2024-11-07T04:29:25.433Z",
+      "isMini": true
+    },
+    {
+      "id": "WebFUZ8x2C9EwzoYEiMr",
+      "title": "Daily Mini: 11/05/2024",
+      "link": "https://crosshare.org/crosswords/WebFUZ8x2C9EwzoYEiMr",
+      "pubDate": "2024-11-05T04:40:49.566Z",
+      "isMini": true
+    },
+    {
+      "id": "M0ZieGRBo7wsENu6MA4g",
+      "title": "Daily Mini: 11/03/2024",
+      "link": "https://crosshare.org/crosswords/M0ZieGRBo7wsENu6MA4g",
+      "pubDate": "2024-10-31T04:29:11.982Z",
+      "isMini": true
+    },
+    {
+      "id": "q0D23Y1TfMAzxtNHVmpu",
+      "title": "Daily mini: 11/02/2024",
+      "link": "https://crosshare.org/crosswords/q0D23Y1TfMAzxtNHVmpu",
+      "pubDate": "2024-10-31T04:20:24.081Z",
+      "isMini": true
+    },
+    {
+      "id": "xYosPgGx3KzY35UUcAQA",
+      "title": "Daily Mini: 10/31/2024",
+      "link": "https://crosshare.org/crosswords/xYosPgGx3KzY35UUcAQA",
+      "pubDate": "2024-10-31T03:03:23.004Z",
+      "isMini": true
+    },
+    {
+      "id": "m8vRaR79eLiP9yk1EVuF",
+      "title": "Niche Theme Friday: The Eyes Have It",
+      "link": "https://crosshare.org/crosswords/m8vRaR79eLiP9yk1EVuF",
+      "pubDate": "2024-10-29T13:26:55.578Z",
+      "isMini": true
+    },
+    {
+      "id": "8z8f4a25nJf2UPz4XSEe",
+      "title": "Daily Mini: 10/30/2024",
+      "link": "https://crosshare.org/crosswords/8z8f4a25nJf2UPz4XSEe",
+      "pubDate": "2024-10-29T13:22:09.631Z",
+      "isMini": true
+    },
+    {
+      "id": "JAhR1fCIIlJ7UJ8hPKKu",
+      "title": "Daily Mini: 10/29/2024",
+      "link": "https://crosshare.org/crosswords/JAhR1fCIIlJ7UJ8hPKKu",
+      "pubDate": "2024-10-29T13:19:33.800Z",
+      "isMini": true
+    },
+    {
+      "id": "H2TlGYR1Mm5ZuuntZrZk",
+      "title": "Daily Mini: 10/28/2024",
+      "link": "https://crosshare.org/crosswords/H2TlGYR1Mm5ZuuntZrZk",
+      "pubDate": "2024-10-28T05:15:49.607Z",
+      "isMini": true
+    },
+    {
+      "id": "LGPjHj8TvJPudzoBz4gz",
+      "title": "Daily Mini: 10/27/2024",
+      "link": "https://crosshare.org/crosswords/LGPjHj8TvJPudzoBz4gz",
+      "pubDate": "2024-10-27T16:32:45.470Z",
+      "isMini": true
+    },
+    {
+      "id": "TLiT8qJj46HoQwn7V6YZ",
+      "title": "Oct. 23, 2024",
+      "link": "https://crosshare.org/crosswords/TLiT8qJj46HoQwn7V6YZ",
+      "pubDate": "2024-10-23T20:32:09.053Z",
+      "isMini": false
+    },
+    {
+      "id": "wHeoDGqKp6E31bbTgBeQ",
+      "title": "Daily Mini: 10/24/2024",
+      "link": "https://crosshare.org/crosswords/wHeoDGqKp6E31bbTgBeQ",
+      "pubDate": "2024-10-22T15:00:12.373Z",
+      "isMini": true
+    },
+    {
+      "id": "FndGRjAd5gkfyhrfIOni",
+      "title": "Daily Mini: 10/23/2024",
+      "link": "https://crosshare.org/crosswords/FndGRjAd5gkfyhrfIOni",
+      "pubDate": "2024-10-22T14:55:52.777Z",
+      "isMini": true
+    },
+    {
+      "id": "ZKznDeZwI2FjbjXtt0t1",
+      "title": "Daily Mini: 10/22/2024",
+      "link": "https://crosshare.org/crosswords/ZKznDeZwI2FjbjXtt0t1",
+      "pubDate": "2024-10-22T05:53:50.460Z",
+      "isMini": true
+    },
+    {
+      "id": "CeEwszE7RZ0eSIVFKDnM",
+      "title": "Daily Mini: 10/21/2024",
+      "link": "https://crosshare.org/crosswords/CeEwszE7RZ0eSIVFKDnM",
+      "pubDate": "2024-10-21T05:24:36.675Z",
+      "isMini": true
+    },
+    {
+      "id": "SkeJ13TkL89AotCd1FcQ",
+      "title": "Daily Mini: 10/19/2024",
+      "link": "https://crosshare.org/crosswords/SkeJ13TkL89AotCd1FcQ",
+      "pubDate": "2024-10-16T04:26:59.206Z",
+      "isMini": true
+    },
+    {
+      "id": "Zz4u10nNM4iiO4FzWW72",
+      "title": "Niche Theme Friday: Tabletop Role-Play",
+      "link": "https://crosshare.org/crosswords/Zz4u10nNM4iiO4FzWW72",
+      "pubDate": "2024-10-15T17:01:34.680Z",
+      "isMini": true
+    },
+    {
+      "id": "09J9GQcBpadKVggIDuhL",
+      "title": "Daily Mini: 10/17/2024",
+      "link": "https://crosshare.org/crosswords/09J9GQcBpadKVggIDuhL",
+      "pubDate": "2024-10-15T15:23:44.915Z",
+      "isMini": true
+    },
+    {
+      "id": "eHhb9eoeI9z4Mj1R3N0v",
+      "title": "Daily Mini: 10/16/2024",
+      "link": "https://crosshare.org/crosswords/eHhb9eoeI9z4Mj1R3N0v",
+      "pubDate": "2024-10-15T15:07:55.134Z",
+      "isMini": true
+    },
+    {
+      "id": "GFcoE3mP46DH9aBV7nlu",
+      "title": "Daily Mini: 10/15/2024",
+      "link": "https://crosshare.org/crosswords/GFcoE3mP46DH9aBV7nlu",
+      "pubDate": "2024-10-15T14:53:57.022Z",
+      "isMini": true
+    },
+    {
+      "id": "wKbx05GZgtrilA0DxIBm",
+      "title": "Daily Mini: 10/12/2024",
+      "link": "https://crosshare.org/crosswords/wKbx05GZgtrilA0DxIBm",
+      "pubDate": "2024-10-11T01:38:47.196Z",
+      "isMini": true
+    },
+    {
+      "id": "ylA73XSEwqkHpdNnFfBj",
+      "title": "Daily Mini: 10/11/2024",
+      "link": "https://crosshare.org/crosswords/ylA73XSEwqkHpdNnFfBj",
+      "pubDate": "2024-10-11T01:37:37.602Z",
+      "isMini": true
+    },
+    {
+      "id": "qxnCxpC1uIbWsqVDihte",
+      "title": "Daily Mini: 10/10/2024",
+      "link": "https://crosshare.org/crosswords/qxnCxpC1uIbWsqVDihte",
+      "pubDate": "2024-10-08T18:21:59.141Z",
+      "isMini": true
+    },
+    {
+      "id": "WwuYQTsYxO4mONPmYrq6",
+      "title": "Daily Mini: 10/09/2024",
+      "link": "https://crosshare.org/crosswords/WwuYQTsYxO4mONPmYrq6",
+      "pubDate": "2024-10-08T18:15:36.822Z",
+      "isMini": true
+    },
+    {
+      "id": "hP09sYX7a70yUxavUzCf",
+      "title": "Daily Mini: 10/08/2024",
+      "link": "https://crosshare.org/crosswords/hP09sYX7a70yUxavUzCf",
+      "pubDate": "2024-10-08T18:11:06.769Z",
+      "isMini": true
+    },
+    {
+      "id": "NI8W5UITtL4S2oSjcmC8",
+      "title": "Daily Mini: 10/07/2024",
+      "link": "https://crosshare.org/crosswords/NI8W5UITtL4S2oSjcmC8",
+      "pubDate": "2024-10-02T02:20:11.711Z",
+      "isMini": true
+    },
+    {
+      "id": "3zpXglTfCRVPCzz3qaYp",
+      "title": "Daily Mini: 10/06/2024",
+      "link": "https://crosshare.org/crosswords/3zpXglTfCRVPCzz3qaYp",
+      "pubDate": "2024-10-02T02:14:10.980Z",
+      "isMini": true
+    },
+    {
+      "id": "7m5NDxB1OQxXE3FmP596",
+      "title": "Daily Mini: 10/05/2024",
+      "link": "https://crosshare.org/crosswords/7m5NDxB1OQxXE3FmP596",
+      "pubDate": "2024-10-02T02:02:57.171Z",
+      "isMini": true
+    },
+    {
+      "id": "enURSkSA5NoNukUy9f8l",
+      "title": "Niche Theme Friday: Orchard Talk",
+      "link": "https://crosshare.org/crosswords/enURSkSA5NoNukUy9f8l",
+      "pubDate": "2024-10-02T01:54:22.806Z",
+      "isMini": false
+    },
+    {
+      "id": "HU4dBWMe4arsaVjxNdTP",
+      "title": "Daily Mini: 10/03/24",
+      "link": "https://crosshare.org/crosswords/HU4dBWMe4arsaVjxNdTP",
+      "pubDate": "2024-10-01T03:28:13.950Z",
+      "isMini": true
+    },
+    {
+      "id": "FNkoHMxxMNgAkFzcg9iD",
+      "title": "Daily Mini: 10/02/24",
+      "link": "https://crosshare.org/crosswords/FNkoHMxxMNgAkFzcg9iD",
+      "pubDate": "2024-10-01T03:23:48.728Z",
+      "isMini": true
+    },
+    {
+      "id": "bYDFc0kS2xZ4NUeP54OG",
+      "title": "Daily Mini: 10/01/24",
+      "link": "https://crosshare.org/crosswords/bYDFc0kS2xZ4NUeP54OG",
+      "pubDate": "2024-10-01T03:16:31.981Z",
+      "isMini": true
+    },
+    {
+      "id": "TPwR7osgyVdaKFkez3Ex",
+      "title": "Daily Mini: 9/30/24",
+      "link": "https://crosshare.org/crosswords/TPwR7osgyVdaKFkez3Ex",
+      "pubDate": "2024-09-30T14:10:17.693Z",
+      "isMini": true
+    },
+    {
+      "id": "dHhlTIn6zWlN4JbDAzQr",
+      "title": "Daily Mini: 9/28/24",
+      "link": "https://crosshare.org/crosswords/dHhlTIn6zWlN4JbDAzQr",
+      "pubDate": "2024-09-28T21:14:34.065Z",
+      "isMini": true
+    },
+    {
+      "id": "oXfwuq6l9ArKtZwjPMUg",
+      "title": "Niche Theme Friday: Night at the Met",
+      "link": "https://crosshare.org/crosswords/oXfwuq6l9ArKtZwjPMUg",
+      "pubDate": "2024-09-27T06:14:24.077Z",
+      "isMini": true
+    },
+    {
+      "id": "XnrzqYsqq5kk48L911k5",
+      "title": "Daily Mini: 09/26/2024",
+      "link": "https://crosshare.org/crosswords/XnrzqYsqq5kk48L911k5",
+      "pubDate": "2024-09-26T05:53:10.914Z",
+      "isMini": true
+    },
+    {
+      "id": "S1irdmaqU0z39CPzOt24",
+      "title": "Sept. 26, 2024",
+      "link": "https://crosshare.org/crosswords/S1irdmaqU0z39CPzOt24",
+      "pubDate": "2024-09-26T01:51:17.935Z",
+      "isMini": false
+    },
+    {
+      "id": "2hOAOOFcyFmPTl1TMAKU",
+      "title": "Daily Mini: 09/25/2024",
+      "link": "https://crosshare.org/crosswords/2hOAOOFcyFmPTl1TMAKU",
+      "pubDate": "2024-09-25T03:59:56.130Z",
+      "isMini": true
+    },
+    {
+      "id": "qMIABAkKJuqrKjLyyGdX",
+      "title": "Daily Mini: 9/24/24",
+      "link": "https://crosshare.org/crosswords/qMIABAkKJuqrKjLyyGdX",
+      "pubDate": "2024-09-24T03:18:45.488Z",
+      "isMini": true
+    },
+    {
+      "id": "PaiyrIgVr8YfPX8o7z0H",
+      "title": "Daily Mini: 09/22/2024",
+      "link": "https://crosshare.org/crosswords/PaiyrIgVr8YfPX8o7z0H",
+      "pubDate": "2024-09-22T13:14:48.232Z",
+      "isMini": true
+    },
+    {
+      "id": "T94Ox4ksrLjgAlqtxSJ6",
+      "title": "Daily Mini: 09/21/2024",
+      "link": "https://crosshare.org/crosswords/T94Ox4ksrLjgAlqtxSJ6",
+      "pubDate": "2024-09-21T15:20:12.928Z",
+      "isMini": true
+    },
+    {
+      "id": "CqLwg1hhXcN83rOKncfe",
+      "title": "Niche Theme Friday: Let's a go!",
+      "link": "https://crosshare.org/crosswords/CqLwg1hhXcN83rOKncfe",
+      "pubDate": "2024-09-20T04:57:53.640Z",
+      "isMini": true
+    },
+    {
+      "id": "R3JRVkxbYxVd5Q1w0Inz",
+      "title": "Daily Mini: 09/19/2024",
+      "link": "https://crosshare.org/crosswords/R3JRVkxbYxVd5Q1w0Inz",
+      "pubDate": "2024-09-19T04:42:34.009Z",
+      "isMini": true
+    },
+    {
+      "id": "2xD0wQvVx5lp5MndNYeY",
+      "title": "Sept. 19, 2024",
+      "link": "https://crosshare.org/crosswords/2xD0wQvVx5lp5MndNYeY",
+      "pubDate": "2024-09-18T22:01:45.980Z",
+      "isMini": false
+    },
+    {
+      "id": "aASWk9nMurjDepbQ79Iw",
+      "title": "Daily Mini: 09/18/2024",
+      "link": "https://crosshare.org/crosswords/aASWk9nMurjDepbQ79Iw",
+      "pubDate": "2024-09-18T04:34:11.934Z",
+      "isMini": true
+    },
+    {
+      "id": "eSeAAV5RqigmM0iOAB9o",
+      "title": "Daily Mini: 09/17/2024",
+      "link": "https://crosshare.org/crosswords/eSeAAV5RqigmM0iOAB9o",
+      "pubDate": "2024-09-16T22:58:34.210Z",
+      "isMini": true
+    },
+    {
+      "id": "XumwKZvwXx1N508rQW4i",
+      "title": "Daily Mini: 09/16/2024",
+      "link": "https://crosshare.org/crosswords/XumwKZvwXx1N508rQW4i",
+      "pubDate": "2024-09-16T03:22:53.702Z",
+      "isMini": true
+    },
+    {
+      "id": "JRW72Fxhc5U0a6IGho0g",
+      "title": "Daily Mini: 09/15/2024",
+      "link": "https://crosshare.org/crosswords/JRW72Fxhc5U0a6IGho0g",
+      "pubDate": "2024-09-15T12:54:17.563Z",
+      "isMini": true
+    },
+    {
+      "id": "2zt3Ala4dTGDzCvnH7yF",
+      "title": "Daily Mini: 09/14/2024",
+      "link": "https://crosshare.org/crosswords/2zt3Ala4dTGDzCvnH7yF",
+      "pubDate": "2024-09-14T00:36:20.456Z",
+      "isMini": true
+    },
+    {
+      "id": "rJ6i87QD5tenTnUWXEep",
+      "title": "Daily Mini: 09/13/2024",
+      "link": "https://crosshare.org/crosswords/rJ6i87QD5tenTnUWXEep",
+      "pubDate": "2024-09-13T14:19:00.307Z",
+      "isMini": true
+    },
+    {
+      "id": "hCfxL824S6jhB8afzCx3",
+      "title": "Daily Mini: 09/12/2024",
+      "link": "https://crosshare.org/crosswords/hCfxL824S6jhB8afzCx3",
+      "pubDate": "2024-09-12T05:02:31.950Z",
+      "isMini": true
+    },
+    {
+      "id": "ja6luLwOpi0tvpKZBOxx",
+      "title": "Daily Mini: 09/10/2024",
+      "link": "https://crosshare.org/crosswords/ja6luLwOpi0tvpKZBOxx",
+      "pubDate": "2024-09-10T04:00:15.790Z",
+      "isMini": true
+    },
+    {
+      "id": "oncDeauBrMj7I8S4PS7Y",
+      "title": "Daily Mini: 09/09/2024",
+      "link": "https://crosshare.org/crosswords/oncDeauBrMj7I8S4PS7Y",
+      "pubDate": "2024-09-09T03:27:22.841Z",
+      "isMini": true
+    },
+    {
+      "id": "zDPl8m13SLfRLXFW81UM",
+      "title": "Commencement 2024",
+      "link": "https://crosshare.org/crosswords/zDPl8m13SLfRLXFW81UM",
+      "pubDate": "2024-05-11T21:52:47.174Z",
+      "isMini": false
+    },
+    {
+      "id": "KG55SaTyLcFsPY5lfLq8",
+      "title": "Daily Mini: 05/02/2024",
+      "link": "https://crosshare.org/crosswords/KG55SaTyLcFsPY5lfLq8",
+      "pubDate": "2024-05-02T04:07:15.460Z",
+      "isMini": true
+    },
+    {
+      "id": "BdMBwu9bJkvgqjRLdqDj",
+      "title": "Daily Mini: 05/01/2024",
+      "link": "https://crosshare.org/crosswords/BdMBwu9bJkvgqjRLdqDj",
+      "pubDate": "2024-05-01T04:18:18.311Z",
+      "isMini": true
+    },
+    {
+      "id": "82ylXbX0ExQXp5msNP9w",
+      "title": "Daily Mini: 04/29/2024",
+      "link": "https://crosshare.org/crosswords/82ylXbX0ExQXp5msNP9w",
+      "pubDate": "2024-04-29T04:08:29.971Z",
+      "isMini": true
+    },
+    {
+      "id": "DB2FriXKH8pRr9DUXhDW",
+      "title": "Daily Mini: 04/28/2024",
+      "link": "https://crosshare.org/crosswords/DB2FriXKH8pRr9DUXhDW",
+      "pubDate": "2024-04-28T04:50:24.294Z",
+      "isMini": true
+    },
+    {
+      "id": "DyqcTwn0Tk1v0Qxc3Dzm",
+      "title": "Daily Mini: 04/27/2024",
+      "link": "https://crosshare.org/crosswords/DyqcTwn0Tk1v0Qxc3Dzm",
+      "pubDate": "2024-04-27T03:33:03.941Z",
+      "isMini": true
+    },
+    {
+      "id": "cXVAUGk0Sn7xIp9MENVy",
+      "title": "Daily Mini: 04/26/2024",
+      "link": "https://crosshare.org/crosswords/cXVAUGk0Sn7xIp9MENVy",
+      "pubDate": "2024-04-26T04:40:04.609Z",
+      "isMini": true
+    },
+    {
+      "id": "QyvhAkRutQloKihDZTCn",
+      "title": "Daily Mini: 04/25/2024",
+      "link": "https://crosshare.org/crosswords/QyvhAkRutQloKihDZTCn",
+      "pubDate": "2024-04-25T19:43:38.247Z",
+      "isMini": true
+    },
+    {
+      "id": "JlT6Q53jayBlkT9KJcog",
+      "title": "Daily Mini: 04/24/2024",
+      "link": "https://crosshare.org/crosswords/JlT6Q53jayBlkT9KJcog",
+      "pubDate": "2024-04-24T05:30:16.487Z",
+      "isMini": true
+    },
+    {
+      "id": "LLE7StfPAvxYANrB1ECn",
+      "title": "Daily Mini: 04/23/2024",
+      "link": "https://crosshare.org/crosswords/LLE7StfPAvxYANrB1ECn",
+      "pubDate": "2024-04-23T05:21:53.162Z",
+      "isMini": true
+    },
+    {
+      "id": "b2geChVSX9PUgbZ6v7Kt",
+      "title": "Daily Mini: 04/22/2024",
+      "link": "https://crosshare.org/crosswords/b2geChVSX9PUgbZ6v7Kt",
+      "pubDate": "2024-04-22T04:46:26.334Z",
+      "isMini": true
+    },
+    {
+      "id": "lhY8zi7hl5KUEi8PEeKU",
+      "title": "Daily Mini: 04/21/2024",
+      "link": "https://crosshare.org/crosswords/lhY8zi7hl5KUEi8PEeKU",
+      "pubDate": "2024-04-21T15:37:03.215Z",
+      "isMini": true
+    },
+    {
+      "id": "3zM5Tdsec6iZCiG7ClWz",
+      "title": "Daily Mini: 04/20/2024",
+      "link": "https://crosshare.org/crosswords/3zM5Tdsec6iZCiG7ClWz",
+      "pubDate": "2024-04-19T18:57:51.121Z",
+      "isMini": true
+    },
+    {
+      "id": "4QJHs8qXZr4BQPwCFph0",
+      "title": "Daily Mini: 04/19/2024",
+      "link": "https://crosshare.org/crosswords/4QJHs8qXZr4BQPwCFph0",
+      "pubDate": "2024-04-19T18:52:40.041Z",
+      "isMini": true
+    },
+    {
+      "id": "Ie3meOwvQnq9tWvtbGKd",
+      "title": "Daily Mini: 04/18/2024",
+      "link": "https://crosshare.org/crosswords/Ie3meOwvQnq9tWvtbGKd",
+      "pubDate": "2024-04-18T08:41:34.298Z",
+      "isMini": true
+    },
+    {
+      "id": "CIohvFOOMFwiQ2FcVvca",
+      "title": "Daily Mini: 04/17/2024",
+      "link": "https://crosshare.org/crosswords/CIohvFOOMFwiQ2FcVvca",
+      "pubDate": "2024-04-17T07:45:02.377Z",
+      "isMini": true
+    },
+    {
+      "id": "TX3m4brCxe1GeZyQeeEr",
+      "title": "Daily Mini: 04/16/2024",
+      "link": "https://crosshare.org/crosswords/TX3m4brCxe1GeZyQeeEr",
+      "pubDate": "2024-04-16T08:12:35.532Z",
+      "isMini": true
+    },
+    {
+      "id": "Sm1ujyN6AyfWruBDpgzx",
+      "title": "Daily Mini: 04/15/2024",
+      "link": "https://crosshare.org/crosswords/Sm1ujyN6AyfWruBDpgzx",
+      "pubDate": "2024-04-15T07:51:09.680Z",
+      "isMini": true
+    },
+    {
+      "id": "JujIBdOi1d5XsoQxHNk7",
+      "title": "Full-Sized Puzzle: 04/14/2024",
+      "link": "https://crosshare.org/crosswords/JujIBdOi1d5XsoQxHNk7",
+      "pubDate": "2024-04-14T06:19:55.749Z",
+      "isMini": false
+    },
+    {
+      "id": "LGERBhJupw0DgmM6hJmN",
+      "title": "Daily Mini: 04/14/2024",
+      "link": "https://crosshare.org/crosswords/LGERBhJupw0DgmM6hJmN",
+      "pubDate": "2024-04-14T06:05:21.805Z",
+      "isMini": true
+    },
+    {
+      "id": "bfpYLhNNJjX4YI4Lsw5J",
+      "title": "Daily Mini: 04/13/2024",
+      "link": "https://crosshare.org/crosswords/bfpYLhNNJjX4YI4Lsw5J",
+      "pubDate": "2024-04-13T17:58:51.796Z",
+      "isMini": true
+    },
+    {
+      "id": "nHbxRqFakxDVNJ1V5EPZ",
+      "title": "Daily Mini: 04/10/2024",
+      "link": "https://crosshare.org/crosswords/nHbxRqFakxDVNJ1V5EPZ",
+      "pubDate": "2024-04-10T06:01:12.545Z",
+      "isMini": true
+    },
+    {
+      "id": "0HPJSYGeF413gMyfgKWu",
+      "title": "Daily Mini: 04/09/2024",
+      "link": "https://crosshare.org/crosswords/0HPJSYGeF413gMyfgKWu",
+      "pubDate": "2024-04-09T04:03:45.390Z",
+      "isMini": true
+    },
+    {
+      "id": "8MD6IymVNOh7RuGMq6AL",
+      "title": "Daily Mini: 04/08/2024",
+      "link": "https://crosshare.org/crosswords/8MD6IymVNOh7RuGMq6AL",
+      "pubDate": "2024-04-07T03:36:12.468Z",
+      "isMini": true
+    },
+    {
+      "id": "FbEQrajCOeaRd9k1R3eO",
+      "title": "Daily Mini: 04/11/2024",
+      "link": "https://crosshare.org/crosswords/FbEQrajCOeaRd9k1R3eO",
+      "pubDate": "2024-04-07T03:33:40.085Z",
+      "isMini": true
+    },
+    {
+      "id": "4aOUlTfFlDqZ2ej8Mnaj",
+      "title": "Daily Mini: 04/07/2024",
+      "link": "https://crosshare.org/crosswords/4aOUlTfFlDqZ2ej8Mnaj",
+      "pubDate": "2024-04-07T03:27:51.477Z",
+      "isMini": true
+    },
+    {
+      "id": "SJAMHJGA48DHNq7y3p7Y",
+      "title": "Daily Mini: 04/06/2024",
+      "link": "https://crosshare.org/crosswords/SJAMHJGA48DHNq7y3p7Y",
+      "pubDate": "2024-04-06T04:52:13.482Z",
+      "isMini": true
+    },
+    {
+      "id": "c0kl5Bkh9OIv0ufzhago",
+      "title": "Niche Theme Friday: The Kardashians",
+      "link": "https://crosshare.org/crosswords/c0kl5Bkh9OIv0ufzhago",
+      "pubDate": "2024-04-05T05:58:13.800Z",
+      "isMini": true
+    },
+    {
+      "id": "xGkmsnd5vNS71653tbj2",
+      "title": "The Eye April Ed. 2024",
+      "link": "https://crosshare.org/crosswords/xGkmsnd5vNS71653tbj2",
+      "pubDate": "2024-04-04T03:32:24.230Z",
+      "isMini": false
+    },
+    {
+      "id": "uMGOGnnuDdDqoTj5Bwgj",
+      "title": "Daily Mini: 04/01/2024",
+      "link": "https://crosshare.org/crosswords/uMGOGnnuDdDqoTj5Bwgj",
+      "pubDate": "2024-04-01T05:15:37.333Z",
+      "isMini": true
+    },
+    {
+      "id": "n3vy8SaCowPbsmmH6lq5",
+      "title": "Daily Mini: 04/04/2024",
+      "link": "https://crosshare.org/crosswords/n3vy8SaCowPbsmmH6lq5",
+      "pubDate": "2024-03-30T13:46:02.177Z",
+      "isMini": true
+    },
+    {
+      "id": "D7h6PtbbwGc0YyABO3MA",
+      "title": "Daily Mini: 04/02/2024",
+      "link": "https://crosshare.org/crosswords/D7h6PtbbwGc0YyABO3MA",
+      "pubDate": "2024-03-30T13:42:08.995Z",
+      "isMini": true
+    },
+    {
+      "id": "7n6gsX26x9Phx800k2K3",
+      "title": "Daily Mini: 04/03/2024",
+      "link": "https://crosshare.org/crosswords/7n6gsX26x9Phx800k2K3",
+      "pubDate": "2024-03-30T13:33:18.221Z",
+      "isMini": true
+    },
+    {
+      "id": "UKU9umxPAGe06eDHQox0",
+      "title": "Daily Mini: 03/31/2024",
+      "link": "https://crosshare.org/crosswords/UKU9umxPAGe06eDHQox0",
+      "pubDate": "2024-03-30T13:27:42.030Z",
+      "isMini": true
+    },
+    {
+      "id": "dRQQ4JnVsAi0x8xLl1oR",
+      "title": "Daily Mini: 03/30/2024",
+      "link": "https://crosshare.org/crosswords/dRQQ4JnVsAi0x8xLl1oR",
+      "pubDate": "2024-03-30T13:22:44.191Z",
+      "isMini": true
+    },
+    {
+      "id": "Hk225XVuzvkSngKEqWvn",
+      "title": "Daily Mini: 03/28/2024",
+      "link": "https://crosshare.org/crosswords/Hk225XVuzvkSngKEqWvn",
+      "pubDate": "2024-03-29T19:26:11.412Z",
+      "isMini": true
+    },
+    {
+      "id": "FzbCgeSOAnAkFgjZQVds",
+      "title": "Niche Theme Friday: What Kind of Cat Are You?",
+      "link": "https://crosshare.org/crosswords/FzbCgeSOAnAkFgjZQVds",
+      "pubDate": "2024-03-29T06:18:50.787Z",
+      "isMini": false
+    },
+    {
+      "id": "cl4knHDRAiA5HorhSfRj",
+      "title": "Daily Mini: 03/27/2024",
+      "link": "https://crosshare.org/crosswords/cl4knHDRAiA5HorhSfRj",
+      "pubDate": "2024-03-27T15:03:44.078Z",
+      "isMini": true
+    },
+    {
+      "id": "2GUGdXGUtI0229Eh6zA4",
+      "title": "Daily Mini: 03/25/2024",
+      "link": "https://crosshare.org/crosswords/2GUGdXGUtI0229Eh6zA4",
+      "pubDate": "2024-03-25T14:09:19.977Z",
+      "isMini": true
+    },
+    {
+      "id": "2FIX0YRJbAV0kOyKZ2il",
+      "title": "Daily Mini: 03/24/2024",
+      "link": "https://crosshare.org/crosswords/2FIX0YRJbAV0kOyKZ2il",
+      "pubDate": "2024-03-24T14:18:38.960Z",
+      "isMini": true
+    },
+    {
+      "id": "diuRxGeRv4jtX2C774ge",
+      "title": "Daily Mini: 03/23/2024",
+      "link": "https://crosshare.org/crosswords/diuRxGeRv4jtX2C774ge",
+      "pubDate": "2024-03-23T04:53:18.380Z",
+      "isMini": true
+    },
+    {
+      "id": "I4QY0LBH8J20xU3Qp1Kl",
+      "title": "Niche Theme Friday: From Colorless to Pink",
+      "link": "https://crosshare.org/crosswords/I4QY0LBH8J20xU3Qp1Kl",
+      "pubDate": "2024-03-22T13:50:47.280Z",
+      "isMini": false
+    },
+    {
+      "id": "2ZmPT5YznHZvMDvbDDcc",
+      "title": "Full-Sized Puzzle: 03/21/2024",
+      "link": "https://crosshare.org/crosswords/2ZmPT5YznHZvMDvbDDcc",
+      "pubDate": "2024-03-21T06:17:20.325Z",
+      "isMini": false
+    },
+    {
+      "id": "AJvfQtjcUCnGD6VJcMKB",
+      "title": "Daily Mini: 03/21/2024",
+      "link": "https://crosshare.org/crosswords/AJvfQtjcUCnGD6VJcMKB",
+      "pubDate": "2024-03-21T05:17:18.128Z",
+      "isMini": true
+    },
+    {
+      "id": "QIEKgoSuiQp2YPGiXoEW",
+      "title": "Daily Mini: 03/20/2024",
+      "link": "https://crosshare.org/crosswords/QIEKgoSuiQp2YPGiXoEW",
+      "pubDate": "2024-03-20T05:11:20.872Z",
+      "isMini": true
+    },
+    {
+      "id": "LD9vYwmP1eyj0dHYHpUP",
+      "title": "Daily Mini: 03/19/2024",
+      "link": "https://crosshare.org/crosswords/LD9vYwmP1eyj0dHYHpUP",
+      "pubDate": "2024-03-19T07:47:57.928Z",
+      "isMini": true
+    },
+    {
+      "id": "jzKI3siScC81l1Ksqsyc",
+      "title": "Daily Mini: 03/18/2024",
+      "link": "https://crosshare.org/crosswords/jzKI3siScC81l1Ksqsyc",
+      "pubDate": "2024-03-18T13:15:29.249Z",
+      "isMini": true
+    },
+    {
+      "id": "RbJozoS0b6kr9CSyzaH5",
+      "title": "Daily Mini: 03/17/2024",
+      "link": "https://crosshare.org/crosswords/RbJozoS0b6kr9CSyzaH5",
+      "pubDate": "2024-03-17T03:13:17.471Z",
+      "isMini": true
+    },
+    {
+      "id": "YvEioFohFzgawv22fsOH",
+      "title": "Daily Mini: 03/16/2024",
+      "link": "https://crosshare.org/crosswords/YvEioFohFzgawv22fsOH",
+      "pubDate": "2024-03-16T03:37:23.577Z",
+      "isMini": true
+    },
+    {
+      "id": "HhGZHwHdmRjPgWVyy837",
+      "title": "Niche Theme Friday: Hold Me Tight!",
+      "link": "https://crosshare.org/crosswords/HhGZHwHdmRjPgWVyy837",
+      "pubDate": "2024-03-15T05:41:17.109Z",
+      "isMini": true
+    },
+    {
+      "id": "kSJJxjlSOUkRWSZvTYiX",
+      "title": "Daily Mini: 03/14/2024",
+      "link": "https://crosshare.org/crosswords/kSJJxjlSOUkRWSZvTYiX",
+      "pubDate": "2024-03-14T03:09:14.814Z",
+      "isMini": true
+    },
+    {
+      "id": "gFPsnvZI9Bmho3AwNkmP",
+      "title": "Daily Mini: 03/13/2024",
+      "link": "https://crosshare.org/crosswords/gFPsnvZI9Bmho3AwNkmP",
+      "pubDate": "2024-03-13T12:39:33.077Z",
+      "isMini": true
+    },
+    {
+      "id": "N4G4aEEfzOH7k5RZYGpw",
+      "title": "Daily Mini: 03/12/2024",
+      "link": "https://crosshare.org/crosswords/N4G4aEEfzOH7k5RZYGpw",
+      "pubDate": "2024-03-12T02:41:45.590Z",
+      "isMini": true
+    },
+    {
+      "id": "Hvdw4xZNQicN3HdUTzd8",
+      "title": "Daily Mini: 03/11/2024",
+      "link": "https://crosshare.org/crosswords/Hvdw4xZNQicN3HdUTzd8",
+      "pubDate": "2024-03-11T03:40:13.664Z",
+      "isMini": true
+    },
+    {
+      "id": "W8XYbFBKHtloZJx5pn1d",
+      "title": "Daily Mini: 03/10/2024",
+      "link": "https://crosshare.org/crosswords/W8XYbFBKHtloZJx5pn1d",
+      "pubDate": "2024-03-10T05:41:49.703Z",
+      "isMini": true
+    },
+    {
+      "id": "BLPcga6m92N2ORjbd6ba",
+      "title": "Daily Mini: 03/09/2024",
+      "link": "https://crosshare.org/crosswords/BLPcga6m92N2ORjbd6ba",
+      "pubDate": "2024-03-09T05:01:45.660Z",
+      "isMini": true
+    },
+    {
+      "id": "jG9jHKofeWv7Q5t3ozYE",
+      "title": "Niche Theme Friday: NYC Urban Planning",
+      "link": "https://crosshare.org/crosswords/jG9jHKofeWv7Q5t3ozYE",
+      "pubDate": "2024-03-08T15:49:54.787Z",
+      "isMini": true
+    },
+    {
+      "id": "KhCKzDjvI1UGfwJ2mfNZ",
+      "title": "City Print March Ed.",
+      "link": "https://crosshare.org/crosswords/KhCKzDjvI1UGfwJ2mfNZ",
+      "pubDate": "2024-03-07T01:44:44.594Z",
+      "isMini": false
+    },
+    {
+      "id": "rjXH5cZY55qGVVm8jroP",
+      "title": "Daily Mini: 03/06/2024",
+      "link": "https://crosshare.org/crosswords/rjXH5cZY55qGVVm8jroP",
+      "pubDate": "2024-03-06T08:01:43.043Z",
+      "isMini": true
+    },
+    {
+      "id": "PyTGXKqsFzpKF5E8z050",
+      "title": "Daily Mini: 03/05/2024",
+      "link": "https://crosshare.org/crosswords/PyTGXKqsFzpKF5E8z050",
+      "pubDate": "2024-03-05T08:13:35.433Z",
+      "isMini": true
+    },
+    {
+      "id": "oA4sGfitUFeOIoI8Pwfz",
+      "title": "Daily Mini: 03/04/2024",
+      "link": "https://crosshare.org/crosswords/oA4sGfitUFeOIoI8Pwfz",
+      "pubDate": "2024-03-04T05:39:58.784Z",
+      "isMini": true
+    },
+    {
+      "id": "h03g6AAB25MY2AVez5AN",
+      "title": "Daily Mini: 03/03/2024",
+      "link": "https://crosshare.org/crosswords/h03g6AAB25MY2AVez5AN",
+      "pubDate": "2024-03-03T18:12:35.149Z",
+      "isMini": true
+    },
+    {
+      "id": "C1bdeDpkelP5XcX6YN5A",
+      "title": "Daily Mini: 03/02/2024",
+      "link": "https://crosshare.org/crosswords/C1bdeDpkelP5XcX6YN5A",
+      "pubDate": "2024-03-02T21:10:52.648Z",
+      "isMini": true
+    },
+    {
+      "id": "QJeyGQBMMzsJlDJmpUqh",
+      "title": "Daily Mini: 02/29/2024",
+      "link": "https://crosshare.org/crosswords/QJeyGQBMMzsJlDJmpUqh",
+      "pubDate": "2024-02-29T04:20:21.766Z",
+      "isMini": true
+    },
+    {
+      "id": "7FsxL5DwQsD5x9Ekc0gz",
+      "title": "The Eye 2024 March Ed.",
+      "link": "https://crosshare.org/crosswords/7FsxL5DwQsD5x9Ekc0gz",
+      "pubDate": "2024-02-29T02:39:22.184Z",
+      "isMini": false
+    },
+    {
+      "id": "0goIAkXkWJ9Idd5rpsMP",
+      "title": "Daily Mini: 02/28/2024",
+      "link": "https://crosshare.org/crosswords/0goIAkXkWJ9Idd5rpsMP",
+      "pubDate": "2024-02-28T14:53:11.455Z",
+      "isMini": false
+    },
+    {
+      "id": "x82ZipJXGAvzweBDGMYH",
+      "title": "Daily Mini: 02/27/2024",
+      "link": "https://crosshare.org/crosswords/x82ZipJXGAvzweBDGMYH",
+      "pubDate": "2024-02-27T06:08:05.250Z",
+      "isMini": true
+    },
+    {
+      "id": "s88Fi75VPPWxfdzLkJ5g",
+      "title": "Daily Mini: 02/26/2024",
+      "link": "https://crosshare.org/crosswords/s88Fi75VPPWxfdzLkJ5g",
+      "pubDate": "2024-02-26T04:10:09.220Z",
+      "isMini": true
+    },
+    {
+      "id": "36Gv9zZoMiScyXGbyUTy",
+      "title": "Daily Mini: 02/25/2024",
+      "link": "https://crosshare.org/crosswords/36Gv9zZoMiScyXGbyUTy",
+      "pubDate": "2024-02-24T14:36:37.156Z",
+      "isMini": true
+    },
+    {
+      "id": "jUt8cfca8ZsEDzsVxfqe",
+      "title": "Daily Mini: 02/24/2022",
+      "link": "https://crosshare.org/crosswords/jUt8cfca8ZsEDzsVxfqe",
+      "pubDate": "2024-02-24T14:34:34.502Z",
+      "isMini": true
+    },
+    {
+      "id": "ql8VaNjcGMqH8QM6JkBO",
+      "title": "Daily Mini: 02/23/2024",
+      "link": "https://crosshare.org/crosswords/ql8VaNjcGMqH8QM6JkBO",
+      "pubDate": "2024-02-23T04:31:13.055Z",
+      "isMini": true
+    },
+    {
+      "id": "kSqDKdAVTZVG4lebedNv",
+      "title": "Daily Mini: 02/22/2024",
+      "link": "https://crosshare.org/crosswords/kSqDKdAVTZVG4lebedNv",
+      "pubDate": "2024-02-22T05:14:42.152Z",
+      "isMini": true
+    },
+    {
+      "id": "MP3DyQhWVi35j9sCrTsb",
+      "title": "Daily Mini: 02/21/2024",
+      "link": "https://crosshare.org/crosswords/MP3DyQhWVi35j9sCrTsb",
+      "pubDate": "2024-02-21T05:35:30.518Z",
+      "isMini": true
+    },
+    {
+      "id": "5qPmhBw1jGBh6QSKuWc6",
+      "title": "Daily Mini: 02/20/2024",
+      "link": "https://crosshare.org/crosswords/5qPmhBw1jGBh6QSKuWc6",
+      "pubDate": "2024-02-20T05:17:47.134Z",
+      "isMini": true
+    },
+    {
+      "id": "0z5UfxQ8IqhS1wfM38B5",
+      "title": "Daily Mini: 02/19/2024",
+      "link": "https://crosshare.org/crosswords/0z5UfxQ8IqhS1wfM38B5",
+      "pubDate": "2024-02-19T14:57:24.934Z",
+      "isMini": false
+    },
+    {
+      "id": "mZqSwHeuFvEf876M2qU9",
+      "title": "Valentine’s Day 2024 Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/mZqSwHeuFvEf876M2qU9",
+      "pubDate": "2024-02-14T00:40:56.361Z",
+      "isMini": false
+    },
+    {
+      "id": "hrebpye9w2OpWRIPifc3",
+      "title": "Daily Mini: 02/12/2024",
+      "link": "https://crosshare.org/crosswords/hrebpye9w2OpWRIPifc3",
+      "pubDate": "2024-02-12T04:19:47.927Z",
+      "isMini": true
+    },
+    {
+      "id": "EvS1fR0blLJeKzhim3tv",
+      "title": "Daily Mini: 02/11/2024",
+      "link": "https://crosshare.org/crosswords/EvS1fR0blLJeKzhim3tv",
+      "pubDate": "2024-02-11T04:27:38.783Z",
+      "isMini": true
+    },
+    {
+      "id": "WMpd1sRr0gwk5hS8aLik",
+      "title": "Daily Mini: 02/10/2024",
+      "link": "https://crosshare.org/crosswords/WMpd1sRr0gwk5hS8aLik",
+      "pubDate": "2024-02-10T04:20:35.430Z",
+      "isMini": true
+    },
+    {
+      "id": "sMYhdTP8WHDG1zwnr78S",
+      "title": "Daily Mini: 02/09/2024",
+      "link": "https://crosshare.org/crosswords/sMYhdTP8WHDG1zwnr78S",
+      "pubDate": "2024-02-09T17:41:54.776Z",
+      "isMini": true
+    },
+    {
+      "id": "SxHnUEJS1zu9tR8s3cY8",
+      "title": "Daily Mini: 02/08/2024",
+      "link": "https://crosshare.org/crosswords/SxHnUEJS1zu9tR8s3cY8",
+      "pubDate": "2024-02-08T03:46:06.174Z",
+      "isMini": true
+    },
+    {
+      "id": "VbslDa1y564FfWNDV5Tm",
+      "title": "Daily Mini: 02/07/2024",
+      "link": "https://crosshare.org/crosswords/VbslDa1y564FfWNDV5Tm",
+      "pubDate": "2024-02-07T04:14:17.297Z",
+      "isMini": true
+    },
+    {
+      "id": "n9qQ3u3tAZTo7VMcdTTh",
+      "title": "Daily Mini: 02/06/2024",
+      "link": "https://crosshare.org/crosswords/n9qQ3u3tAZTo7VMcdTTh",
+      "pubDate": "2024-02-06T04:49:58.826Z",
+      "isMini": true
+    },
+    {
+      "id": "GlyLFYgV1HJefsvCEZpe",
+      "title": "Daily Mini: 02/05/2024",
+      "link": "https://crosshare.org/crosswords/GlyLFYgV1HJefsvCEZpe",
+      "pubDate": "2024-02-05T04:44:38.389Z",
+      "isMini": true
+    },
+    {
+      "id": "zyznt8rrLYH6FgdTe2Z3",
+      "title": "Daily Mini: 02/04/2024",
+      "link": "https://crosshare.org/crosswords/zyznt8rrLYH6FgdTe2Z3",
+      "pubDate": "2024-02-04T16:45:15.889Z",
+      "isMini": true
+    },
+    {
+      "id": "Fp4lko5RFOn5zMRH0wzB",
+      "title": "Daily Mini: 02/03/2024",
+      "link": "https://crosshare.org/crosswords/Fp4lko5RFOn5zMRH0wzB",
+      "pubDate": "2024-02-03T05:51:37.369Z",
+      "isMini": true
+    },
+    {
+      "id": "VVIygUCwFa2WdS7BLVnY",
+      "title": "Daily Mini: 02/02/2024",
+      "link": "https://crosshare.org/crosswords/VVIygUCwFa2WdS7BLVnY",
+      "pubDate": "2024-02-02T01:12:52.554Z",
+      "isMini": true
+    },
+    {
+      "id": "w3TXXMjJqZ9PZ9mxi9GD",
+      "title": "Daily Mini: 02/01/2024",
+      "link": "https://crosshare.org/crosswords/w3TXXMjJqZ9PZ9mxi9GD",
+      "pubDate": "2024-02-01T03:06:53.368Z",
+      "isMini": true
+    },
+    {
+      "id": "kyaCjPE8nx5WiT4M3EFq",
+      "title": "Daily Mini: 01/31/2024",
+      "link": "https://crosshare.org/crosswords/kyaCjPE8nx5WiT4M3EFq",
+      "pubDate": "2024-01-31T04:40:50.366Z",
+      "isMini": true
+    },
+    {
+      "id": "CE21RUwvViHGjjuWi9ws",
+      "title": "Daily Mini: 01/30/2024",
+      "link": "https://crosshare.org/crosswords/CE21RUwvViHGjjuWi9ws",
+      "pubDate": "2024-01-30T04:33:04.536Z",
+      "isMini": true
+    },
+    {
+      "id": "FMyX8DNRlWPonwp8InDZ",
+      "title": "Daily Mini: 01/29/2024",
+      "link": "https://crosshare.org/crosswords/FMyX8DNRlWPonwp8InDZ",
+      "pubDate": "2024-01-28T01:51:32.375Z",
+      "isMini": true
+    },
+    {
+      "id": "Flx8BRAlL8ZKSDfckqDy",
+      "title": "Daily Mini: 01/28/2024",
+      "link": "https://crosshare.org/crosswords/Flx8BRAlL8ZKSDfckqDy",
+      "pubDate": "2024-01-28T01:40:42.995Z",
+      "isMini": true
+    },
+    {
+      "id": "IyCWmgkuwD7tF7ebbNxr",
+      "title": "Daily Mini: 01/27/2024",
+      "link": "https://crosshare.org/crosswords/IyCWmgkuwD7tF7ebbNxr",
+      "pubDate": "2024-01-25T23:21:23.986Z",
+      "isMini": true
+    },
+    {
+      "id": "tN3THC2WeW0cZW737bY9",
+      "title": "Daily Mini: 01/26/24",
+      "link": "https://crosshare.org/crosswords/tN3THC2WeW0cZW737bY9",
+      "pubDate": "2024-01-25T23:07:29.687Z",
+      "isMini": true
+    },
+    {
+      "id": "FZwQKKQPdYJP7U9cHbfR",
+      "title": "Daily Mini: 01/25/24",
+      "link": "https://crosshare.org/crosswords/FZwQKKQPdYJP7U9cHbfR",
+      "pubDate": "2024-01-25T23:02:35.249Z",
+      "isMini": true
+    },
+    {
+      "id": "StTQMRier0VMy6C8VcH3",
+      "title": "Daily Mini: 01/24/2024",
+      "link": "https://crosshare.org/crosswords/StTQMRier0VMy6C8VcH3",
+      "pubDate": "2024-01-24T04:46:38.017Z",
+      "isMini": true
+    },
+    {
+      "id": "nNUPQNyrvAbMqqTVZFHC",
+      "title": "Daily Mini: 01/23/24",
+      "link": "https://crosshare.org/crosswords/nNUPQNyrvAbMqqTVZFHC",
+      "pubDate": "2024-01-23T04:44:14.422Z",
+      "isMini": true
+    },
+    {
+      "id": "3O74E779f5PaNweha40w",
+      "title": "Daily Mini: 01/22/24",
+      "link": "https://crosshare.org/crosswords/3O74E779f5PaNweha40w",
+      "pubDate": "2024-01-22T04:08:01.294Z",
+      "isMini": true
+    },
+    {
+      "id": "WfSH4b756te4s6DS2Mvj",
+      "title": "Daily Mini: 01/21/2024",
+      "link": "https://crosshare.org/crosswords/WfSH4b756te4s6DS2Mvj",
+      "pubDate": "2024-01-21T04:46:34.822Z",
+      "isMini": true
+    },
+    {
+      "id": "394Ns5WOCiUk176vxBAo",
+      "title": "Daily Mini: 01/20/2024",
+      "link": "https://crosshare.org/crosswords/394Ns5WOCiUk176vxBAo",
+      "pubDate": "2024-01-20T06:50:37.267Z",
+      "isMini": true
+    },
+    {
+      "id": "U91Gk8GCTZ26KoAVks3O",
+      "title": "Daily Mini: 01/19/2024",
+      "link": "https://crosshare.org/crosswords/U91Gk8GCTZ26KoAVks3O",
+      "pubDate": "2024-01-19T04:53:54.506Z",
+      "isMini": true
+    },
+    {
+      "id": "egccghj0073b1lwB5ue8",
+      "title": "Daily Mini: 01/18/2024",
+      "link": "https://crosshare.org/crosswords/egccghj0073b1lwB5ue8",
+      "pubDate": "2024-01-18T04:49:56.406Z",
+      "isMini": true
+    },
+    {
+      "id": "SMiHZhAgotAAM44dlwxu",
+      "title": "Daily Mini: 12/15/2023",
+      "link": "https://crosshare.org/crosswords/SMiHZhAgotAAM44dlwxu",
+      "pubDate": "2023-12-14T18:14:10.701Z",
+      "isMini": true
+    },
+    {
+      "id": "DCZK9AJhnSUladJ5hRlV",
+      "title": "Daily Mini: 12/14/2023",
+      "link": "https://crosshare.org/crosswords/DCZK9AJhnSUladJ5hRlV",
+      "pubDate": "2023-12-14T18:12:20.838Z",
+      "isMini": true
+    },
+    {
+      "id": "8SE7NAQFoyIZEyh0TlY2",
+      "title": "Daily Mini: 12/13/2023",
+      "link": "https://crosshare.org/crosswords/8SE7NAQFoyIZEyh0TlY2",
+      "pubDate": "2023-12-13T04:57:40.970Z",
+      "isMini": true
+    },
+    {
+      "id": "RrczLG8Rm9U2cZKe90mK",
+      "title": "Daily Mini: 12/12/2023",
+      "link": "https://crosshare.org/crosswords/RrczLG8Rm9U2cZKe90mK",
+      "pubDate": "2023-12-12T21:33:12.168Z",
+      "isMini": true
+    },
+    {
+      "id": "vyknRlLGczKj8R5i81d7",
+      "title": "Daily Mini: 12/11/2023",
+      "link": "https://crosshare.org/crosswords/vyknRlLGczKj8R5i81d7",
+      "pubDate": "2023-12-11T17:46:28.409Z",
+      "isMini": true
+    },
+    {
+      "id": "FBAb4MBgaxwhia167OP9",
+      "title": "Daily Mini: 12/10/2023",
+      "link": "https://crosshare.org/crosswords/FBAb4MBgaxwhia167OP9",
+      "pubDate": "2023-12-05T05:01:26.779Z",
+      "isMini": true
+    },
+    {
+      "id": "XZVMylW3cKasYyumhiO3",
+      "title": "Daily Mini: 12/09/2023",
+      "link": "https://crosshare.org/crosswords/XZVMylW3cKasYyumhiO3",
+      "pubDate": "2023-12-05T05:00:11.729Z",
+      "isMini": true
+    },
+    {
+      "id": "1f11OG8qguqsiPtnGfX3",
+      "title": "Daily Mini: 12/08/2023",
+      "link": "https://crosshare.org/crosswords/1f11OG8qguqsiPtnGfX3",
+      "pubDate": "2023-12-05T04:58:34.431Z",
+      "isMini": true
+    },
+    {
+      "id": "nrlAfjDl8dzqdCjFlWXi",
+      "title": "Daily Mini: 12/07/2023",
+      "link": "https://crosshare.org/crosswords/nrlAfjDl8dzqdCjFlWXi",
+      "pubDate": "2023-12-05T04:55:29.227Z",
+      "isMini": true
+    },
+    {
+      "id": "KfkXTVndWXxLKyOT3CbM",
+      "title": "Daily Mini: 12/06/2023",
+      "link": "https://crosshare.org/crosswords/KfkXTVndWXxLKyOT3CbM",
+      "pubDate": "2023-12-05T04:53:45.113Z",
+      "isMini": true
+    },
+    {
+      "id": "xkFDUwe7O18Rntx8fr6U",
+      "title": "Daily Mini: 12/05/2023",
+      "link": "https://crosshare.org/crosswords/xkFDUwe7O18Rntx8fr6U",
+      "pubDate": "2023-12-05T04:50:49.776Z",
+      "isMini": true
+    },
+    {
+      "id": "HzU9p9br7okZc1uihvzh",
+      "title": "The Eye December Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/HzU9p9br7okZc1uihvzh",
+      "pubDate": "2023-12-04T18:01:52.606Z",
+      "isMini": false
+    },
+    {
+      "id": "qwMrTDOL9WjCNNfbh1H9",
+      "title": "Daily Mini: 12/04/2023",
+      "link": "https://crosshare.org/crosswords/qwMrTDOL9WjCNNfbh1H9",
+      "pubDate": "2023-12-04T05:09:28.431Z",
+      "isMini": true
+    },
+    {
+      "id": "iYKd8NfLceyvn8Ld6U3s",
+      "title": "Daily Mini: 12/03/2023",
+      "link": "https://crosshare.org/crosswords/iYKd8NfLceyvn8Ld6U3s",
+      "pubDate": "2023-11-30T19:56:30.472Z",
+      "isMini": true
+    },
+    {
+      "id": "6s5rpjo0In107zPftoSx",
+      "title": "Daily Mini: 12/02/2023",
+      "link": "https://crosshare.org/crosswords/6s5rpjo0In107zPftoSx",
+      "pubDate": "2023-11-30T19:53:59.868Z",
+      "isMini": true
+    },
+    {
+      "id": "SnBrkUGEuwt1I93BpdqX",
+      "title": "Daily Mini: 12/01/2023",
+      "link": "https://crosshare.org/crosswords/SnBrkUGEuwt1I93BpdqX",
+      "pubDate": "2023-11-30T19:52:35.821Z",
+      "isMini": true
+    },
+    {
+      "id": "QkHLEeYW1qse4jAbZMHz",
+      "title": "Daily Mini: 11/30/2023",
+      "link": "https://crosshare.org/crosswords/QkHLEeYW1qse4jAbZMHz",
+      "pubDate": "2023-11-30T04:50:14.420Z",
+      "isMini": true
+    },
+    {
+      "id": "1OLYlqAhAiqeJRw2QKbN",
+      "title": "Daily Mini: 11/29/2023",
+      "link": "https://crosshare.org/crosswords/1OLYlqAhAiqeJRw2QKbN",
+      "pubDate": "2023-11-29T17:48:27.075Z",
+      "isMini": true
+    },
+    {
+      "id": "5rMRsAFYoKqCeJQudxB1",
+      "title": "Daily Mini: 11/28/2023",
+      "link": "https://crosshare.org/crosswords/5rMRsAFYoKqCeJQudxB1",
+      "pubDate": "2023-11-29T17:47:17.139Z",
+      "isMini": true
+    },
+    {
+      "id": "OOm2XcnXuqtkSJHCERw4",
+      "title": "Daily Mini: 11/27/2023",
+      "link": "https://crosshare.org/crosswords/OOm2XcnXuqtkSJHCERw4",
+      "pubDate": "2023-11-26T22:36:57.504Z",
+      "isMini": true
+    },
+    {
+      "id": "pGyOhS3lH7zYCIplao0k",
+      "title": "Daily Mini: 11/26/2023",
+      "link": "https://crosshare.org/crosswords/pGyOhS3lH7zYCIplao0k",
+      "pubDate": "2023-11-20T21:25:23.888Z",
+      "isMini": true
+    },
+    {
+      "id": "k6UOZBJeh4rPKIzNtMO5",
+      "title": "Daily Mini: 11/25/2023",
+      "link": "https://crosshare.org/crosswords/k6UOZBJeh4rPKIzNtMO5",
+      "pubDate": "2023-11-20T21:24:10.191Z",
+      "isMini": true
+    },
+    {
+      "id": "cXXtv2ctXaqDGNby7xj5",
+      "title": "Daily Mini: 11/24/2023",
+      "link": "https://crosshare.org/crosswords/cXXtv2ctXaqDGNby7xj5",
+      "pubDate": "2023-11-20T21:22:35.204Z",
+      "isMini": true
+    },
+    {
+      "id": "rwJWIBGGCmFgBq5farp2",
+      "title": "Daily Mini: 11/23/2023",
+      "link": "https://crosshare.org/crosswords/rwJWIBGGCmFgBq5farp2",
+      "pubDate": "2023-11-20T21:20:47.093Z",
+      "isMini": true
+    },
+    {
+      "id": "V73SgXaUSTlV9zoRXu6E",
+      "title": "Daily Mini: 11/22/2023",
+      "link": "https://crosshare.org/crosswords/V73SgXaUSTlV9zoRXu6E",
+      "pubDate": "2023-11-20T21:19:26.638Z",
+      "isMini": true
+    },
+    {
+      "id": "Qa7GIAIREa8BA9QZdv2m",
+      "title": "Daily Mini: 11/21/23",
+      "link": "https://crosshare.org/crosswords/Qa7GIAIREa8BA9QZdv2m",
+      "pubDate": "2023-11-20T21:18:14.543Z",
+      "isMini": true
+    },
+    {
+      "id": "GlK8uN5oGH3FiiEPuPzE",
+      "title": "Daily Mini: 11/20/2023",
+      "link": "https://crosshare.org/crosswords/GlK8uN5oGH3FiiEPuPzE",
+      "pubDate": "2023-11-20T21:16:36.352Z",
+      "isMini": true
+    },
+    {
+      "id": "vGaRn6x72pEq1X1DUYRm",
+      "title": "Daily Mini: 11/19/2023",
+      "link": "https://crosshare.org/crosswords/vGaRn6x72pEq1X1DUYRm",
+      "pubDate": "2023-11-20T21:15:04.238Z",
+      "isMini": true
+    },
+    {
+      "id": "UEYP7TxZfJMvRsHpKpBX",
+      "title": "Daily Mini: 11/18/2023",
+      "link": "https://crosshare.org/crosswords/UEYP7TxZfJMvRsHpKpBX",
+      "pubDate": "2023-11-20T21:14:15.521Z",
+      "isMini": true
+    },
+    {
+      "id": "GzHEzxgUfVodHjxKsfYL",
+      "title": "Daily Mini: 11/17/2023",
+      "link": "https://crosshare.org/crosswords/GzHEzxgUfVodHjxKsfYL",
+      "pubDate": "2023-11-20T21:13:00.090Z",
+      "isMini": true
+    },
+    {
+      "id": "OOtlRZfwayvpa5LzWd6w",
+      "title": "Daily Mini: 11/16/2023",
+      "link": "https://crosshare.org/crosswords/OOtlRZfwayvpa5LzWd6w",
+      "pubDate": "2023-11-16T02:53:01.339Z",
+      "isMini": true
+    },
+    {
+      "id": "0936kGn7x858JgKGUufB",
+      "title": "Daily Mini: 11/15/2023",
+      "link": "https://crosshare.org/crosswords/0936kGn7x858JgKGUufB",
+      "pubDate": "2023-11-15T03:16:20.806Z",
+      "isMini": true
+    },
+    {
+      "id": "eNjiqUfE4OuPWLhXRH9a",
+      "title": "Daily Mini: 11/14/2023",
+      "link": "https://crosshare.org/crosswords/eNjiqUfE4OuPWLhXRH9a",
+      "pubDate": "2023-11-14T04:45:56.800Z",
+      "isMini": true
+    },
+    {
+      "id": "3iqQJmVbHGWnuZ462utL",
+      "title": "Daily Mini: 11/13/2023",
+      "link": "https://crosshare.org/crosswords/3iqQJmVbHGWnuZ462utL",
+      "pubDate": "2023-11-13T04:36:44.917Z",
+      "isMini": true
+    },
+    {
+      "id": "KyvA7QDOjkUTeMzNWtTh",
+      "title": "Daily Mini: 11/09/2023",
+      "link": "https://crosshare.org/crosswords/KyvA7QDOjkUTeMzNWtTh",
+      "pubDate": "2023-11-09T21:18:08.803Z",
+      "isMini": true
+    },
+    {
+      "id": "UuP6GhLjQ9dqNXDcW7UN",
+      "title": "CDS November Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/UuP6GhLjQ9dqNXDcW7UN",
+      "pubDate": "2023-11-08T16:08:45.993Z",
+      "isMini": false
+    },
+    {
+      "id": "Kxy3GjS8Rg8GMfGftkzD",
+      "title": "The Eye November Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/Kxy3GjS8Rg8GMfGftkzD",
+      "pubDate": "2023-11-01T04:38:12.818Z",
+      "isMini": false
+    },
+    {
+      "id": "Hf24n0MZeX5X8QxDf9sX",
+      "title": "Daily Mini: 11/05/2023",
+      "link": "https://crosshare.org/crosswords/Hf24n0MZeX5X8QxDf9sX",
+      "pubDate": "2023-10-30T01:28:51.503Z",
+      "isMini": true
+    },
+    {
+      "id": "dsDMNTXAot0L1dAlw2Jc",
+      "title": "Daily Mini: 11/04/2023",
+      "link": "https://crosshare.org/crosswords/dsDMNTXAot0L1dAlw2Jc",
+      "pubDate": "2023-10-30T01:27:37.871Z",
+      "isMini": true
+    },
+    {
+      "id": "9QUzrPAq64EQPOzntiNl",
+      "title": "Daily Mini: 11/03/2023",
+      "link": "https://crosshare.org/crosswords/9QUzrPAq64EQPOzntiNl",
+      "pubDate": "2023-10-30T01:26:13.518Z",
+      "isMini": true
+    },
+    {
+      "id": "Hs9KHSgyCx6CMQ9eNzDs",
+      "title": "Daily Mini: 11/02/2023",
+      "link": "https://crosshare.org/crosswords/Hs9KHSgyCx6CMQ9eNzDs",
+      "pubDate": "2023-10-30T01:24:57.899Z",
+      "isMini": true
+    },
+    {
+      "id": "sMAu0HCMcF4IbnUznKGs",
+      "title": "Daily Mini: 11/01/2023",
+      "link": "https://crosshare.org/crosswords/sMAu0HCMcF4IbnUznKGs",
+      "pubDate": "2023-10-30T01:23:38.280Z",
+      "isMini": true
+    },
+    {
+      "id": "yUPPU2VV7XRnRaT6wRTf",
+      "title": "Daily Mini: 10/31/2023",
+      "link": "https://crosshare.org/crosswords/yUPPU2VV7XRnRaT6wRTf",
+      "pubDate": "2023-10-30T01:19:45.823Z",
+      "isMini": true
+    },
+    {
+      "id": "3ATgfC4BTqxaN2B9ysN7",
+      "title": "Daily Mini: 10/30/2023",
+      "link": "https://crosshare.org/crosswords/3ATgfC4BTqxaN2B9ysN7",
+      "pubDate": "2023-10-30T01:18:34.262Z",
+      "isMini": true
+    },
+    {
+      "id": "CBlRhTm6mNPJtqV9Ivyv",
+      "title": "Daily Mini: 10/29/2023",
+      "link": "https://crosshare.org/crosswords/CBlRhTm6mNPJtqV9Ivyv",
+      "pubDate": "2023-10-26T18:17:16.809Z",
+      "isMini": true
+    },
+    {
+      "id": "t7NeoJYE5LxCJeRSOaXS",
+      "title": "Daily Mini: 10/28/2023",
+      "link": "https://crosshare.org/crosswords/t7NeoJYE5LxCJeRSOaXS",
+      "pubDate": "2023-10-26T18:15:30.008Z",
+      "isMini": true
+    },
+    {
+      "id": "0YivHMTLzLEn7B4OAF31",
+      "title": "Daily Mini: 10/27/2023",
+      "link": "https://crosshare.org/crosswords/0YivHMTLzLEn7B4OAF31",
+      "pubDate": "2023-10-26T18:14:19.277Z",
+      "isMini": true
+    },
+    {
+      "id": "Y38Z6hheKEpKHTHhClwK",
+      "title": "Daily Mini: 10/26/2023",
+      "link": "https://crosshare.org/crosswords/Y38Z6hheKEpKHTHhClwK",
+      "pubDate": "2023-10-26T18:12:55.627Z",
+      "isMini": true
+    },
+    {
+      "id": "ecOFWuIimTboQZJXWrCk",
+      "title": "Daily Mini: 10/25/2023",
+      "link": "https://crosshare.org/crosswords/ecOFWuIimTboQZJXWrCk",
+      "pubDate": "2023-10-26T18:11:47.659Z",
+      "isMini": true
+    },
+    {
+      "id": "UAhi1wVGTTJiziqQXMny",
+      "title": "Daily Mini: 10/24/2023",
+      "link": "https://crosshare.org/crosswords/UAhi1wVGTTJiziqQXMny",
+      "pubDate": "2023-10-24T03:49:10.804Z",
+      "isMini": true
+    },
+    {
+      "id": "cNTY8IMWbJEx317492Lq",
+      "title": "Daily Mini: 10/23/2023",
+      "link": "https://crosshare.org/crosswords/cNTY8IMWbJEx317492Lq",
+      "pubDate": "2023-10-23T02:18:03.821Z",
+      "isMini": true
+    },
+    {
+      "id": "RsbztagJqjPwpQjG6T1j",
+      "title": "Daily Mini: 10/22/2023",
+      "link": "https://crosshare.org/crosswords/RsbztagJqjPwpQjG6T1j",
+      "pubDate": "2023-10-16T02:11:59.715Z",
+      "isMini": true
+    },
+    {
+      "id": "5YUIAZYB2HTpTy4FKBRv",
+      "title": "Daily Mini: 10/21/2023",
+      "link": "https://crosshare.org/crosswords/5YUIAZYB2HTpTy4FKBRv",
+      "pubDate": "2023-10-16T02:10:57.738Z",
+      "isMini": true
+    },
+    {
+      "id": "kwNUyUugI6025X0QqCQx",
+      "title": "Daily Mini: 10/20/2023",
+      "link": "https://crosshare.org/crosswords/kwNUyUugI6025X0QqCQx",
+      "pubDate": "2023-10-16T02:09:13.598Z",
+      "isMini": true
+    },
+    {
+      "id": "dvXvqXiJ0N5WcLjEZGFm",
+      "title": "Daily Mini: 10/19/2023",
+      "link": "https://crosshare.org/crosswords/dvXvqXiJ0N5WcLjEZGFm",
+      "pubDate": "2023-10-16T02:07:35.879Z",
+      "isMini": true
+    },
+    {
+      "id": "EygWSwJqKqxGFwdRpwaT",
+      "title": "Daily Mini: 10/18/2023",
+      "link": "https://crosshare.org/crosswords/EygWSwJqKqxGFwdRpwaT",
+      "pubDate": "2023-10-16T02:06:23.898Z",
+      "isMini": true
+    },
+    {
+      "id": "zOShGVwlZemY3xznhSQ5",
+      "title": "Daily Mini: 10/17/2023",
+      "link": "https://crosshare.org/crosswords/zOShGVwlZemY3xznhSQ5",
+      "pubDate": "2023-10-16T02:05:20.781Z",
+      "isMini": true
+    },
+    {
+      "id": "af2QR3QJ66nQGaWYmNgg",
+      "title": "Daily Mini: 10/16/2023",
+      "link": "https://crosshare.org/crosswords/af2QR3QJ66nQGaWYmNgg",
+      "pubDate": "2023-10-16T02:04:24.915Z",
+      "isMini": true
+    },
+    {
+      "id": "JJ1AXEmDFhSPUkfmmfr1",
+      "title": "Daily Mini: 10/15/23",
+      "link": "https://crosshare.org/crosswords/JJ1AXEmDFhSPUkfmmfr1",
+      "pubDate": "2023-10-11T22:35:34.009Z",
+      "isMini": true
+    },
+    {
+      "id": "c7ShDSBUf6QW3zEtT0YW",
+      "title": "Daily Mini: 10/14/23",
+      "link": "https://crosshare.org/crosswords/c7ShDSBUf6QW3zEtT0YW",
+      "pubDate": "2023-10-11T22:34:17.478Z",
+      "isMini": true
+    },
+    {
+      "id": "DYAbKoGVGvn7Lsb7biAB",
+      "title": "Daily Mini: 10/13/23",
+      "link": "https://crosshare.org/crosswords/DYAbKoGVGvn7Lsb7biAB",
+      "pubDate": "2023-10-11T22:33:09.282Z",
+      "isMini": true
+    },
+    {
+      "id": "DQT6EsPNU5QahGDxDG25",
+      "title": "Daily Mini: 10/12/23",
+      "link": "https://crosshare.org/crosswords/DQT6EsPNU5QahGDxDG25",
+      "pubDate": "2023-10-11T22:31:55.802Z",
+      "isMini": true
+    },
+    {
+      "id": "NGqpI8Mk9ws8tzZS8DQa",
+      "title": "Homcoming Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/NGqpI8Mk9ws8tzZS8DQa",
+      "pubDate": "2023-10-11T14:28:02.672Z",
+      "isMini": false
+    },
+    {
+      "id": "zpo5Ah8AMfToumsNMgGF",
+      "title": "Daily Mini: 10/11/23",
+      "link": "https://crosshare.org/crosswords/zpo5Ah8AMfToumsNMgGF",
+      "pubDate": "2023-10-11T04:03:10.038Z",
+      "isMini": true
+    },
+    {
+      "id": "tJBFsbVCO2m1YeexIaGg",
+      "title": "Daily Mini: 10/10/23",
+      "link": "https://crosshare.org/crosswords/tJBFsbVCO2m1YeexIaGg",
+      "pubDate": "2023-10-10T03:17:05.074Z",
+      "isMini": true
+    },
+    {
+      "id": "ZtfoD0aEtHo4Sduh24yA",
+      "title": "The Eye Environment Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/ZtfoD0aEtHo4Sduh24yA",
+      "pubDate": "2023-10-05T02:11:11.185Z",
+      "isMini": false
+    },
+    {
+      "id": "Y6RhT43T1EpElF7rrVeJ",
+      "title": "Daily Mini: 10/08/2023",
+      "link": "https://crosshare.org/crosswords/Y6RhT43T1EpElF7rrVeJ",
+      "pubDate": "2023-10-03T00:00:27.420Z",
+      "isMini": true
+    },
+    {
+      "id": "CFxGodRhZOlPgXrNwDJ0",
+      "title": "Daily Mini: 10/07/2023",
+      "link": "https://crosshare.org/crosswords/CFxGodRhZOlPgXrNwDJ0",
+      "pubDate": "2023-10-02T23:59:11.742Z",
+      "isMini": true
+    },
+    {
+      "id": "eLNqhT0XAZpdewRkPKG8",
+      "title": "Daily Mini: 10/05/2023",
+      "link": "https://crosshare.org/crosswords/eLNqhT0XAZpdewRkPKG8",
+      "pubDate": "2023-10-02T23:58:07.552Z",
+      "isMini": true
+    },
+    {
+      "id": "C9EviTTg7LqLHxHpcb6b",
+      "title": "Daily Mini: 10/06/2023",
+      "link": "https://crosshare.org/crosswords/C9EviTTg7LqLHxHpcb6b",
+      "pubDate": "2023-10-02T23:55:53.935Z",
+      "isMini": true
+    },
+    {
+      "id": "zwhAcKOUdh28OByaXqOj",
+      "title": "Daily Mini: 10/04/2023",
+      "link": "https://crosshare.org/crosswords/zwhAcKOUdh28OByaXqOj",
+      "pubDate": "2023-10-02T23:54:43.421Z",
+      "isMini": true
+    },
+    {
+      "id": "cwd7zoxwBikZ1ndgW4Cz",
+      "title": "Daily Mini: 10/03/2023",
+      "link": "https://crosshare.org/crosswords/cwd7zoxwBikZ1ndgW4Cz",
+      "pubDate": "2023-10-02T23:53:36.722Z",
+      "isMini": true
+    },
+    {
+      "id": "IGSvPxeVJZUwMwpcpfz2",
+      "title": "Daily Mini: 10/02/2023",
+      "link": "https://crosshare.org/crosswords/IGSvPxeVJZUwMwpcpfz2",
+      "pubDate": "2023-10-02T23:51:31.920Z",
+      "isMini": true
+    },
+    {
+      "id": "ZjaOwu7vF5yum9LREJmA",
+      "title": "LGBTQ History Month Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/ZjaOwu7vF5yum9LREJmA",
+      "pubDate": "2023-09-27T23:38:31.797Z",
+      "isMini": false
+    },
+    {
+      "id": "aSiG96i21tDpLk4LgkyN",
+      "title": "Daily Mini: 10/1/23",
+      "link": "https://crosshare.org/crosswords/aSiG96i21tDpLk4LgkyN",
+      "pubDate": "2023-09-25T23:49:47.443Z",
+      "isMini": true
+    },
+    {
+      "id": "P8D6NAtIAs5VGBzm7u2z",
+      "title": "Daily Mini: 9/30/23",
+      "link": "https://crosshare.org/crosswords/P8D6NAtIAs5VGBzm7u2z",
+      "pubDate": "2023-09-25T23:48:23.590Z",
+      "isMini": true
+    },
+    {
+      "id": "NL4ZhHPbzhwVwuRwjHIZ",
+      "title": "Daily Mini: 9/29/23",
+      "link": "https://crosshare.org/crosswords/NL4ZhHPbzhwVwuRwjHIZ",
+      "pubDate": "2023-09-25T23:47:11.963Z",
+      "isMini": true
+    },
+    {
+      "id": "SYx2tc7rM3PBZgGeF0y9",
+      "title": "Daily Mini: 9/28/23",
+      "link": "https://crosshare.org/crosswords/SYx2tc7rM3PBZgGeF0y9",
+      "pubDate": "2023-09-25T23:46:19.048Z",
+      "isMini": true
+    },
+    {
+      "id": "zsbWMjUZfF9yIJ5XZoir",
+      "title": "Daily Mini: 9/27/23",
+      "link": "https://crosshare.org/crosswords/zsbWMjUZfF9yIJ5XZoir",
+      "pubDate": "2023-09-25T23:44:13.717Z",
+      "isMini": true
+    },
+    {
+      "id": "ZeYMlqcrXvU4U8b3M16v",
+      "title": "Daily Mini: 9/26/23",
+      "link": "https://crosshare.org/crosswords/ZeYMlqcrXvU4U8b3M16v",
+      "pubDate": "2023-09-25T23:43:43.468Z",
+      "isMini": true
+    },
+    {
+      "id": "Kle81pU0NUJBbl3G3Ipi",
+      "title": "Daily Mini: 9/25/23",
+      "link": "https://crosshare.org/crosswords/Kle81pU0NUJBbl3G3Ipi",
+      "pubDate": "2023-09-25T04:31:19.236Z",
+      "isMini": true
+    },
+    {
+      "id": "96xVHeHhicQon7nQAxKP",
+      "title": "Daily Mini: 9/24/23",
+      "link": "https://crosshare.org/crosswords/96xVHeHhicQon7nQAxKP",
+      "pubDate": "2023-09-18T02:33:53.101Z",
+      "isMini": true
+    },
+    {
+      "id": "DVFQhyuwlpJdcq5gUzJw",
+      "title": "Daily Mini: 9/23/23",
+      "link": "https://crosshare.org/crosswords/DVFQhyuwlpJdcq5gUzJw",
+      "pubDate": "2023-09-18T02:32:49.679Z",
+      "isMini": true
+    },
+    {
+      "id": "S7gVCNFQbKLurCVEPXLA",
+      "title": "Daily Mini: 9/22/23",
+      "link": "https://crosshare.org/crosswords/S7gVCNFQbKLurCVEPXLA",
+      "pubDate": "2023-09-18T02:31:43.618Z",
+      "isMini": true
+    },
+    {
+      "id": "7rfUGPdEFJtxSBkeoa4k",
+      "title": "Daily Mini: 9/21/23",
+      "link": "https://crosshare.org/crosswords/7rfUGPdEFJtxSBkeoa4k",
+      "pubDate": "2023-09-18T02:30:34.587Z",
+      "isMini": true
+    },
+    {
+      "id": "YPmNo4slxPe9PBsBeWmT",
+      "title": "Daily Mini: 9/20/23",
+      "link": "https://crosshare.org/crosswords/YPmNo4slxPe9PBsBeWmT",
+      "pubDate": "2023-09-18T02:29:22.991Z",
+      "isMini": true
+    },
+    {
+      "id": "URQLqCrqDSvGVlnJFzxk",
+      "title": "Daily Mini: 9/19/23",
+      "link": "https://crosshare.org/crosswords/URQLqCrqDSvGVlnJFzxk",
+      "pubDate": "2023-09-18T02:28:05.368Z",
+      "isMini": true
+    },
+    {
+      "id": "z5fsjtO2o7BofC4cEXIf",
+      "title": "Daily Mini: 9/18/23",
+      "link": "https://crosshare.org/crosswords/z5fsjtO2o7BofC4cEXIf",
+      "pubDate": "2023-09-18T02:26:23.388Z",
+      "isMini": true
+    },
+    {
+      "id": "RieOTanzStvzBklkOKzN",
+      "title": "Daily Mini: 9/17/23",
+      "link": "https://crosshare.org/crosswords/RieOTanzStvzBklkOKzN",
+      "pubDate": "2023-09-11T02:56:42.770Z",
+      "isMini": true
+    },
+    {
+      "id": "ug5ub9rOtTDtfNhlqdTy",
+      "title": "Daily Mini: 9/16/23",
+      "link": "https://crosshare.org/crosswords/ug5ub9rOtTDtfNhlqdTy",
+      "pubDate": "2023-09-11T02:55:02.150Z",
+      "isMini": true
+    },
+    {
+      "id": "c37Bk8D1fLbG9BW5QAVE",
+      "title": "Daily Mini: 9/15/23",
+      "link": "https://crosshare.org/crosswords/c37Bk8D1fLbG9BW5QAVE",
+      "pubDate": "2023-09-11T02:51:54.516Z",
+      "isMini": true
+    },
+    {
+      "id": "JODJ2U2lJ3K9IOUQc4qM",
+      "title": "Daily Mini: 9/14/23",
+      "link": "https://crosshare.org/crosswords/JODJ2U2lJ3K9IOUQc4qM",
+      "pubDate": "2023-09-11T02:47:54.024Z",
+      "isMini": true
+    },
+    {
+      "id": "9qem4vJ9RsJ9VQIjsuAk",
+      "title": "Daily Mini: 9/13/23",
+      "link": "https://crosshare.org/crosswords/9qem4vJ9RsJ9VQIjsuAk",
+      "pubDate": "2023-09-11T02:44:45.838Z",
+      "isMini": true
+    },
+    {
+      "id": "WteXsJEBjp8lS2nG4AGt",
+      "title": "Daily Mini: 9/12/23",
+      "link": "https://crosshare.org/crosswords/WteXsJEBjp8lS2nG4AGt",
+      "pubDate": "2023-09-11T02:41:54.976Z",
+      "isMini": true
+    },
+    {
+      "id": "Y4YjIBQK6ZVg4A90nbR0",
+      "title": "Daily Mini: 9/11/23",
+      "link": "https://crosshare.org/crosswords/Y4YjIBQK6ZVg4A90nbR0",
+      "pubDate": "2023-09-11T02:38:04.376Z",
+      "isMini": true
+    },
+    {
+      "id": "QYHjf0TvAGhH48oMLo5J",
+      "title": "Commencement Full-Sized Crossword",
+      "link": "https://crosshare.org/crosswords/QYHjf0TvAGhH48oMLo5J",
+      "pubDate": "2023-05-14T21:15:36.329Z",
+      "isMini": false
+    },
+    {
+      "id": "XWHfcUMd1Y8ahrF1NYba",
+      "title": "Daily Mini: 5/10/23",
+      "link": "https://crosshare.org/crosswords/XWHfcUMd1Y8ahrF1NYba",
+      "pubDate": "2023-04-27T01:42:20.650Z",
+      "isMini": true
+    },
+    {
+      "id": "8NxjM7BnX2ocKqsfrVZL",
+      "title": "Daily Mini: 5/9/23",
+      "link": "https://crosshare.org/crosswords/8NxjM7BnX2ocKqsfrVZL",
+      "pubDate": "2023-04-27T01:41:13.755Z",
+      "isMini": true
+    },
+    {
+      "id": "w6F72a3EsXpe90vhtbyt",
+      "title": "Daily Mini: 5/8/23",
+      "link": "https://crosshare.org/crosswords/w6F72a3EsXpe90vhtbyt",
+      "pubDate": "2023-04-27T01:39:53.257Z",
+      "isMini": true
+    },
+    {
+      "id": "X9XGN6ExkRn6xLvOu8Lu",
+      "title": "Daily Mini: 5/7/23",
+      "link": "https://crosshare.org/crosswords/X9XGN6ExkRn6xLvOu8Lu",
+      "pubDate": "2023-04-27T01:38:33.036Z",
+      "isMini": false
+    },
+    {
+      "id": "TmkRZIlY0IfyGyGqMUG4",
+      "title": "Daily Mini: 5/6/23",
+      "link": "https://crosshare.org/crosswords/TmkRZIlY0IfyGyGqMUG4",
+      "pubDate": "2023-04-27T01:37:24.554Z",
+      "isMini": true
+    },
+    {
+      "id": "yNcn5w7P8TtQcQZYIMQP",
+      "title": "Daily Mini: 5/5/23",
+      "link": "https://crosshare.org/crosswords/yNcn5w7P8TtQcQZYIMQP",
+      "pubDate": "2023-04-27T01:35:34.323Z",
+      "isMini": true
+    },
+    {
+      "id": "1SMi9QY9TeMFnOwBkOaM",
+      "title": "Dailt Mini: 5/4/23",
+      "link": "https://crosshare.org/crosswords/1SMi9QY9TeMFnOwBkOaM",
+      "pubDate": "2023-04-27T01:33:51.113Z",
+      "isMini": true
+    },
+    {
+      "id": "TR7v9DmGffVslPuCpGEd",
+      "title": "Daily Mini: 5/3/23",
+      "link": "https://crosshare.org/crosswords/TR7v9DmGffVslPuCpGEd",
+      "pubDate": "2023-04-27T01:32:45.461Z",
+      "isMini": true
+    },
+    {
+      "id": "Wko67P1r4zOIrkWxTXmP",
+      "title": "Daily Mini: 5/2/23",
+      "link": "https://crosshare.org/crosswords/Wko67P1r4zOIrkWxTXmP",
+      "pubDate": "2023-04-27T01:28:03.997Z",
+      "isMini": false
+    },
+    {
+      "id": "OIE0dcXZXa8mf5IOHmFs",
+      "title": "Daily Mini: 5/1/23",
+      "link": "https://crosshare.org/crosswords/OIE0dcXZXa8mf5IOHmFs",
+      "pubDate": "2023-04-25T02:33:39.984Z",
+      "isMini": true
+    },
+    {
+      "id": "FFJlVUlbURfOqBq5Mr5M",
+      "title": "Daily Mini: 4/30/23",
+      "link": "https://crosshare.org/crosswords/FFJlVUlbURfOqBq5Mr5M",
+      "pubDate": "2023-04-25T02:32:25.261Z",
+      "isMini": true
+    },
+    {
+      "id": "lcSefEXypeZvGZw12trT",
+      "title": "Daily Mini: 4/29/23",
+      "link": "https://crosshare.org/crosswords/lcSefEXypeZvGZw12trT",
+      "pubDate": "2023-04-25T02:31:14.762Z",
+      "isMini": true
+    },
+    {
+      "id": "OrjVJxIwFkDmr2cMmPGH",
+      "title": "Daily Mini: 4/28/23",
+      "link": "https://crosshare.org/crosswords/OrjVJxIwFkDmr2cMmPGH",
+      "pubDate": "2023-04-25T02:30:01.515Z",
+      "isMini": true
+    },
+    {
+      "id": "tCI2dqUzR93h3lI3Hgl7",
+      "title": "Daily Mini: 4/27/23",
+      "link": "https://crosshare.org/crosswords/tCI2dqUzR93h3lI3Hgl7",
+      "pubDate": "2023-04-25T02:28:51.139Z",
+      "isMini": true
+    },
+    {
+      "id": "NNlEMkG4s0tRYDwlxII4",
+      "title": "Daily Mini: 4/26/23",
+      "link": "https://crosshare.org/crosswords/NNlEMkG4s0tRYDwlxII4",
+      "pubDate": "2023-04-25T02:27:35.760Z",
+      "isMini": true
+    },
+    {
+      "id": "L959wrGjef0UWvg5wYjf",
+      "title": "Daily Mini: 4/25/23",
+      "link": "https://crosshare.org/crosswords/L959wrGjef0UWvg5wYjf",
+      "pubDate": "2023-04-25T02:26:08.809Z",
+      "isMini": true
+    },
+    {
+      "id": "URi4FeViC9Amn4ssvIG7",
+      "title": "The Eye May Ed. Full-Sized Grid",
+      "link": "https://crosshare.org/crosswords/URi4FeViC9Amn4ssvIG7",
+      "pubDate": "2023-04-25T01:58:45.719Z",
+      "isMini": false
+    },
+    {
+      "id": "AFsbTEbroRgrK6Lj2AFZ",
+      "title": "Daily Mini: 4/24/23",
+      "link": "https://crosshare.org/crosswords/AFsbTEbroRgrK6Lj2AFZ",
+      "pubDate": "2023-04-24T03:48:41.018Z",
+      "isMini": true
+    },
+    {
+      "id": "iyywvV2QVuy0inYY3ooY",
+      "title": "Daily Mini: 4/17/23",
+      "link": "https://crosshare.org/crosswords/iyywvV2QVuy0inYY3ooY",
+      "pubDate": "2023-04-05T15:14:10.101Z",
+      "isMini": true
+    },
+    {
+      "id": "KAPBFIUBaLLDvaaLlsvu",
+      "title": "Daily Mini: 4/16/23",
+      "link": "https://crosshare.org/crosswords/KAPBFIUBaLLDvaaLlsvu",
+      "pubDate": "2023-04-05T15:12:45.833Z",
+      "isMini": true
+    },
+    {
+      "id": "OxqiWT1bVwRmJ8C5ayh0",
+      "title": "Daily Mini: 4/15/23",
+      "link": "https://crosshare.org/crosswords/OxqiWT1bVwRmJ8C5ayh0",
+      "pubDate": "2023-04-05T15:11:17.120Z",
+      "isMini": true
+    },
+    {
+      "id": "v3KdnYQ8uIrOs44Tie4u",
+      "title": "Daily Mini: 4/14/23",
+      "link": "https://crosshare.org/crosswords/v3KdnYQ8uIrOs44Tie4u",
+      "pubDate": "2023-04-05T15:09:35.910Z",
+      "isMini": true
+    },
+    {
+      "id": "iT4WFNBnR6MWVvv0i9lY",
+      "title": "Daily Mini: 4/13/23",
+      "link": "https://crosshare.org/crosswords/iT4WFNBnR6MWVvv0i9lY",
+      "pubDate": "2023-04-05T14:57:35.188Z",
+      "isMini": true
+    },
+    {
+      "id": "pA79Ewbfj50RKLlrst1l",
+      "title": "Daily Mini: 4/12/23",
+      "link": "https://crosshare.org/crosswords/pA79Ewbfj50RKLlrst1l",
+      "pubDate": "2023-04-05T14:55:57.069Z",
+      "isMini": true
+    },
+    {
+      "id": "LfIMUzeasZyCrIaD1qYO",
+      "title": "Daily Mini: 4/11/23",
+      "link": "https://crosshare.org/crosswords/LfIMUzeasZyCrIaD1qYO",
+      "pubDate": "2023-04-05T14:53:39.900Z",
+      "isMini": true
+    },
+    {
+      "id": "aRxHj7Bt92SZEEpMXOmp",
+      "title": "Daily Mini: 4/10/23",
+      "link": "https://crosshare.org/crosswords/aRxHj7Bt92SZEEpMXOmp",
+      "pubDate": "2023-04-03T01:01:05.900Z",
+      "isMini": true
+    },
+    {
+      "id": "onETMEFu1GDnLCXvLJIB",
+      "title": "Daily Mini: 4/9/23",
+      "link": "https://crosshare.org/crosswords/onETMEFu1GDnLCXvLJIB",
+      "pubDate": "2023-04-03T00:59:20.784Z",
+      "isMini": true
+    },
+    {
+      "id": "UHVp7ifpkiGUcD8n91Xv",
+      "title": "Daily Mini: 4/8/23",
+      "link": "https://crosshare.org/crosswords/UHVp7ifpkiGUcD8n91Xv",
+      "pubDate": "2023-04-03T00:57:47.762Z",
+      "isMini": true
+    },
+    {
+      "id": "6wrDjwCDfaItnVKUNMQS",
+      "title": "Daily Mini: 4/7/23",
+      "link": "https://crosshare.org/crosswords/6wrDjwCDfaItnVKUNMQS",
+      "pubDate": "2023-04-03T00:56:29.886Z",
+      "isMini": true
+    },
+    {
+      "id": "JX9Uz4J54uaREatNPH8H",
+      "title": "Daily Mini: 4/6/23",
+      "link": "https://crosshare.org/crosswords/JX9Uz4J54uaREatNPH8H",
+      "pubDate": "2023-04-03T00:54:48.925Z",
+      "isMini": true
+    },
+    {
+      "id": "Vv949OwRwzR5TPCu6uO1",
+      "title": "Daily Mini: 4/5/23",
+      "link": "https://crosshare.org/crosswords/Vv949OwRwzR5TPCu6uO1",
+      "pubDate": "2023-04-03T00:52:59.140Z",
+      "isMini": true
+    },
+    {
+      "id": "gUB6aTr41XwJKkNDcRgu",
+      "title": "Daily Mini: 4/4/23",
+      "link": "https://crosshare.org/crosswords/gUB6aTr41XwJKkNDcRgu",
+      "pubDate": "2023-04-03T00:51:10.080Z",
+      "isMini": true
+    },
+    {
+      "id": "ZltyksqXvCvTVRcszgXe",
+      "title": "Daily Mini: 4/3/23",
+      "link": "https://crosshare.org/crosswords/ZltyksqXvCvTVRcszgXe",
+      "pubDate": "2023-04-03T00:48:39.645Z",
+      "isMini": true
+    },
+    {
+      "id": "odnORnRYgIxO6rCBYCiq",
+      "title": "Blooming",
+      "link": "https://crosshare.org/crosswords/odnORnRYgIxO6rCBYCiq",
+      "pubDate": "2023-03-30T05:19:41.588Z",
+      "isMini": false
+    },
+    {
+      "id": "WE6Goq6sbqSMF4XKCvlQ",
+      "title": "Daily Mini: 3/20/23",
+      "link": "https://crosshare.org/crosswords/WE6Goq6sbqSMF4XKCvlQ",
+      "pubDate": "2023-03-08T03:15:43.156Z",
+      "isMini": true
+    },
+    {
+      "id": "5YH9pRUbw0JVTAs1M5Az",
+      "title": "Daily Mini: 3/19/23",
+      "link": "https://crosshare.org/crosswords/5YH9pRUbw0JVTAs1M5Az",
+      "pubDate": "2023-03-08T03:14:26.410Z",
+      "isMini": true
+    },
+    {
+      "id": "7SIXPX92pjcyQv7aELgb",
+      "title": "Daily Mini: 3/12/23",
+      "link": "https://crosshare.org/crosswords/7SIXPX92pjcyQv7aELgb",
+      "pubDate": "2023-03-08T03:12:49.575Z",
+      "isMini": true
+    },
+    {
+      "id": "8MQsEf0MuET7SR3yC94A",
+      "title": "Daily Mini: 3/11/23",
+      "link": "https://crosshare.org/crosswords/8MQsEf0MuET7SR3yC94A",
+      "pubDate": "2023-03-08T03:11:31.181Z",
+      "isMini": true
+    },
+    {
+      "id": "UEUYM0Ajc2Bngh0gPZ0z",
+      "title": "Daily Mini: 3/10/23",
+      "link": "https://crosshare.org/crosswords/UEUYM0Ajc2Bngh0gPZ0z",
+      "pubDate": "2023-03-08T03:09:24.291Z",
+      "isMini": true
+    },
+    {
+      "id": "26Mhz2Wf5qgYdwnhoGMy",
+      "title": "Daily Mini: 3/9/23",
+      "link": "https://crosshare.org/crosswords/26Mhz2Wf5qgYdwnhoGMy",
+      "pubDate": "2023-03-08T03:08:15.459Z",
+      "isMini": true
+    },
+    {
+      "id": "FBsxBTyfw7nNvbAty3ul",
+      "title": "Daily Mini: 3/8/23",
+      "link": "https://crosshare.org/crosswords/FBsxBTyfw7nNvbAty3ul",
+      "pubDate": "2023-03-08T03:06:29.695Z",
+      "isMini": true
+    },
+    {
+      "id": "dWnHnkqYqQbP5h12zzVL",
+      "title": "Daily Mini: 3/7/23",
+      "link": "https://crosshare.org/crosswords/dWnHnkqYqQbP5h12zzVL",
+      "pubDate": "2023-03-01T22:13:47.811Z",
+      "isMini": true
+    },
+    {
+      "id": "WjXwKUUYpAczcsEEpMSP",
+      "title": "Daily Mini: 3/6/23",
+      "link": "https://crosshare.org/crosswords/WjXwKUUYpAczcsEEpMSP",
+      "pubDate": "2023-03-01T22:12:46.669Z",
+      "isMini": true
+    },
+    {
+      "id": "0cqGY3S391WEH9halt07",
+      "title": "Daily Mini: 3/5/23",
+      "link": "https://crosshare.org/crosswords/0cqGY3S391WEH9halt07",
+      "pubDate": "2023-03-01T22:11:38.471Z",
+      "isMini": true
+    },
+    {
+      "id": "dSmf2Y5WlcsKsG09PqnU",
+      "title": "Daily Mini: 3/4/23",
+      "link": "https://crosshare.org/crosswords/dSmf2Y5WlcsKsG09PqnU",
+      "pubDate": "2023-03-01T22:09:28.187Z",
+      "isMini": true
+    },
+    {
+      "id": "aNrC01lor0Ez4pShI9m3",
+      "title": "Daily Mini: 3/3/23",
+      "link": "https://crosshare.org/crosswords/aNrC01lor0Ez4pShI9m3",
+      "pubDate": "2023-03-01T22:08:19.489Z",
+      "isMini": true
+    },
+    {
+      "id": "NzU8215reJwNvtHuaR5t",
+      "title": "Daily Mini: 3/2/23",
+      "link": "https://crosshare.org/crosswords/NzU8215reJwNvtHuaR5t",
+      "pubDate": "2023-03-01T22:05:21.666Z",
+      "isMini": true
+    },
+    {
+      "id": "Cv1VmiUTWnUf8fYUaWxf",
+      "title": "Daily Mini: 3/1/23",
+      "link": "https://crosshare.org/crosswords/Cv1VmiUTWnUf8fYUaWxf",
+      "pubDate": "2023-02-28T04:21:06.792Z",
+      "isMini": true
+    },
+    {
+      "id": "MOXTzt1SYiiJwyFdksmB",
+      "title": "The Eye March Ed. Full-Sized Crossword",
+      "link": "https://crosshare.org/crosswords/MOXTzt1SYiiJwyFdksmB",
+      "pubDate": "2023-02-23T12:35:06.275Z",
+      "isMini": false
+    },
+    {
+      "id": "Zn9okjW29ZTpL9U6rxs5",
+      "title": "Daily Mini: 2/28/23",
+      "link": "https://crosshare.org/crosswords/Zn9okjW29ZTpL9U6rxs5",
+      "pubDate": "2023-02-22T23:52:18.356Z",
+      "isMini": true
+    },
+    {
+      "id": "v2GqVhaGLwyEfYYZbACO",
+      "title": "Daily Mini: 2/27/23",
+      "link": "https://crosshare.org/crosswords/v2GqVhaGLwyEfYYZbACO",
+      "pubDate": "2023-02-22T23:50:53.909Z",
+      "isMini": true
+    },
+    {
+      "id": "ZUI9YThH8WjMQMuaD36z",
+      "title": "Daily Mini: 2/26/23",
+      "link": "https://crosshare.org/crosswords/ZUI9YThH8WjMQMuaD36z",
+      "pubDate": "2023-02-22T23:49:28.517Z",
+      "isMini": true
+    },
+    {
+      "id": "6vnyxigs8aOIFi5n1Y4h",
+      "title": "Daily Mini: 2/25/23",
+      "link": "https://crosshare.org/crosswords/6vnyxigs8aOIFi5n1Y4h",
+      "pubDate": "2023-02-22T23:47:42.752Z",
+      "isMini": true
+    },
+    {
+      "id": "2EN9Qg4gDHzja1XQale5",
+      "title": "Daily Mini: 2/24/23",
+      "link": "https://crosshare.org/crosswords/2EN9Qg4gDHzja1XQale5",
+      "pubDate": "2023-02-22T23:46:09.379Z",
+      "isMini": true
+    },
+    {
+      "id": "NJHe6f8SpRhX3C0RHr4O",
+      "title": "Daily Mini: 2/23/22",
+      "link": "https://crosshare.org/crosswords/NJHe6f8SpRhX3C0RHr4O",
+      "pubDate": "2023-02-22T23:43:43.731Z",
+      "isMini": true
+    },
+    {
+      "id": "9yTqDpbD15PulXz886Cf",
+      "title": "Daily Mini: 2/22/23",
+      "link": "https://crosshare.org/crosswords/9yTqDpbD15PulXz886Cf",
+      "pubDate": "2023-02-22T14:44:29.560Z",
+      "isMini": true
+    },
+    {
+      "id": "vrapp6kOzHxZ6B9j3H53",
+      "title": "Chips",
+      "link": "https://crosshare.org/crosswords/vrapp6kOzHxZ6B9j3H53",
+      "pubDate": "2023-02-18T18:19:55.644Z",
+      "isMini": true
+    },
+    {
+      "id": "QScLSpkXzQEHlnJiqJXR",
+      "title": "Vday",
+      "link": "https://crosshare.org/crosswords/QScLSpkXzQEHlnJiqJXR",
+      "pubDate": "2023-02-18T18:18:16.166Z",
+      "isMini": true
+    },
+    {
+      "id": "7FCTCCIdO7miXaELZAAo",
+      "title": "February <3",
+      "link": "https://crosshare.org/crosswords/7FCTCCIdO7miXaELZAAo",
+      "pubDate": "2023-02-16T15:12:51.999Z",
+      "isMini": true
+    },
+    {
+      "id": "xNU28LMN1fZFcI6qXlHJ",
+      "title": "Cold Weather!",
+      "link": "https://crosshare.org/crosswords/xNU28LMN1fZFcI6qXlHJ",
+      "pubDate": "2023-02-15T04:25:03.466Z",
+      "isMini": true
+    },
+    {
+      "id": "LR2vwdgp8RSc1MVv70vR",
+      "title": "Valentines <3",
+      "link": "https://crosshare.org/crosswords/LR2vwdgp8RSc1MVv70vR",
+      "pubDate": "2023-02-14T01:48:57.161Z",
+      "isMini": true
+    },
+    {
+      "id": "Nmvd99ccDQ5m3MeMl1oE",
+      "title": "Daily Mini: 12/01/2022",
+      "link": "https://crosshare.org/crosswords/Nmvd99ccDQ5m3MeMl1oE",
+      "pubDate": "2022-11-29T04:42:24.880Z",
+      "isMini": true
+    },
+    {
+      "id": "2YlQBi3yLrZ58tdNbXqw",
+      "title": "Daily Mini: 11/30/2022",
+      "link": "https://crosshare.org/crosswords/2YlQBi3yLrZ58tdNbXqw",
+      "pubDate": "2022-11-29T04:37:52.637Z",
+      "isMini": true
+    },
+    {
+      "id": "Wo2p62BLWo8sw4bKbPib",
+      "title": "Daily Mini: 11/29/2022",
+      "link": "https://crosshare.org/crosswords/Wo2p62BLWo8sw4bKbPib",
+      "pubDate": "2022-11-29T04:35:44.065Z",
+      "isMini": true
+    },
+    {
+      "id": "v868R299MnTogBl9U32Z",
+      "title": "Daily Mini: 11/28/2022",
+      "link": "https://crosshare.org/crosswords/v868R299MnTogBl9U32Z",
+      "pubDate": "2022-11-28T03:37:45.205Z",
+      "isMini": true
+    },
+    {
+      "id": "TY1mgZdCFCXnzVwL5WO3",
+      "title": "Daily Mini: 11/09/2022",
+      "link": "https://crosshare.org/crosswords/TY1mgZdCFCXnzVwL5WO3",
+      "pubDate": "2022-11-09T16:59:46.976Z",
+      "isMini": true
+    },
+    {
+      "id": "ttHQRxT4ZwEwFUPie8sq",
+      "title": "Daily Mini: 11/03/2022",
+      "link": "https://crosshare.org/crosswords/ttHQRxT4ZwEwFUPie8sq",
+      "pubDate": "2022-11-02T22:11:56.052Z",
+      "isMini": true
+    },
+    {
+      "id": "ieF9U3VWX5iaw7j6hmZN",
+      "title": "Daily Mini: 11/02/2022",
+      "link": "https://crosshare.org/crosswords/ieF9U3VWX5iaw7j6hmZN",
+      "pubDate": "2022-11-02T22:09:41.385Z",
+      "isMini": true
+    },
+    {
+      "id": "GjSJzZkj6KkJnUhfcfkF",
+      "title": "Daily Mini: 11/01/2022",
+      "link": "https://crosshare.org/crosswords/GjSJzZkj6KkJnUhfcfkF",
+      "pubDate": "2022-11-01T02:52:28.031Z",
+      "isMini": true
+    },
+    {
+      "id": "0IoF9wwlPXSAh2lEWIUx",
+      "title": "Daily Mini: 10/31/2022",
+      "link": "https://crosshare.org/crosswords/0IoF9wwlPXSAh2lEWIUx",
+      "pubDate": "2022-10-31T03:56:31.454Z",
+      "isMini": true
+    },
+    {
+      "id": "Q8ws3m1teNGu8MvI4sfZ",
+      "title": "Daily Mini: 10/30/2022",
+      "link": "https://crosshare.org/crosswords/Q8ws3m1teNGu8MvI4sfZ",
+      "pubDate": "2022-10-28T22:08:02.567Z",
+      "isMini": true
+    },
+    {
+      "id": "Vmylrjm0H01Cb5v3thcw",
+      "title": "Daily Mini: 10/29/2022",
+      "link": "https://crosshare.org/crosswords/Vmylrjm0H01Cb5v3thcw",
+      "pubDate": "2022-10-28T22:07:34.425Z",
+      "isMini": true
+    },
+    {
+      "id": "BQMiuURYvVkVWeNQNIvq",
+      "title": "Daily Mini: 10/28/2022",
+      "link": "https://crosshare.org/crosswords/BQMiuURYvVkVWeNQNIvq",
+      "pubDate": "2022-10-28T22:06:58.831Z",
+      "isMini": true
+    },
+    {
+      "id": "Qsx90iYlk62gW1luZAz8",
+      "title": "Daily Mini: 10/27/2022",
+      "link": "https://crosshare.org/crosswords/Qsx90iYlk62gW1luZAz8",
+      "pubDate": "2022-10-28T22:06:30.773Z",
+      "isMini": true
+    },
+    {
+      "id": "Kbx6mG5Tg3h9zrPFcdQs",
+      "title": "Daily Mini: 10/26/2022",
+      "link": "https://crosshare.org/crosswords/Kbx6mG5Tg3h9zrPFcdQs",
+      "pubDate": "2022-10-28T22:05:59.214Z",
+      "isMini": true
+    },
+    {
+      "id": "OdYE9ad3FVS8SV5LeDsV",
+      "title": "Daily Mini: 10/25/2022",
+      "link": "https://crosshare.org/crosswords/OdYE9ad3FVS8SV5LeDsV",
+      "pubDate": "2022-10-25T22:17:16.772Z",
+      "isMini": true
+    },
+    {
+      "id": "23Yl5aG58MTJGwYalovR",
+      "title": "Daily Mini: 10/24/2022",
+      "link": "https://crosshare.org/crosswords/23Yl5aG58MTJGwYalovR",
+      "pubDate": "2022-10-24T03:13:22.382Z",
+      "isMini": true
+    },
+    {
+      "id": "FJNUDXKuvYE2XlkDUfn6",
+      "title": "Daily Mini: 10/23/2022",
+      "link": "https://crosshare.org/crosswords/FJNUDXKuvYE2XlkDUfn6",
+      "pubDate": "2022-10-23T03:55:18.535Z",
+      "isMini": true
+    },
+    {
+      "id": "01Gw0Tohuo6tnBegW2zi",
+      "title": "Daily Mini: 10/22/2022",
+      "link": "https://crosshare.org/crosswords/01Gw0Tohuo6tnBegW2zi",
+      "pubDate": "2022-10-23T00:30:50.480Z",
+      "isMini": true
+    },
+    {
+      "id": "TxvDZUijiHl3b5YI8l56",
+      "title": "Daily Mini: 10/21/2022",
+      "link": "https://crosshare.org/crosswords/TxvDZUijiHl3b5YI8l56",
+      "pubDate": "2022-10-21T04:24:27.250Z",
+      "isMini": true
+    },
+    {
+      "id": "Q7q9TAPKsLEC8EnTKiGI",
+      "title": "Daily Mini: 10/20/2022",
+      "link": "https://crosshare.org/crosswords/Q7q9TAPKsLEC8EnTKiGI",
+      "pubDate": "2022-10-21T04:23:45.907Z",
+      "isMini": true
+    },
+    {
+      "id": "HCi0gSY5RwaK1Awe7ER8",
+      "title": "Daily Mini: 10/19/2022",
+      "link": "https://crosshare.org/crosswords/HCi0gSY5RwaK1Awe7ER8",
+      "pubDate": "2022-10-19T03:21:24.461Z",
+      "isMini": true
+    },
+    {
+      "id": "EGWgHbEwV7jrK3bs5kjn",
+      "title": "Daily Mini: 10/18/2022",
+      "link": "https://crosshare.org/crosswords/EGWgHbEwV7jrK3bs5kjn",
+      "pubDate": "2022-10-16T13:03:18.226Z",
+      "isMini": true
+    },
+    {
+      "id": "rqMncdmpUOliCdCv8y4w",
+      "title": "Daily Mini: 10/17/2022",
+      "link": "https://crosshare.org/crosswords/rqMncdmpUOliCdCv8y4w",
+      "pubDate": "2022-10-16T12:59:36.540Z",
+      "isMini": true
+    },
+    {
+      "id": "Zj05VwZfpWjGCJwVmzLd",
+      "title": "Daily Mini: 10/16/2022",
+      "link": "https://crosshare.org/crosswords/Zj05VwZfpWjGCJwVmzLd",
+      "pubDate": "2022-10-16T02:13:51.212Z",
+      "isMini": true
+    },
+    {
+      "id": "HPsl2e9ZLKzr19qKAZb6",
+      "title": "Daily Mini: 10/15/2022",
+      "link": "https://crosshare.org/crosswords/HPsl2e9ZLKzr19qKAZb6",
+      "pubDate": "2022-10-15T00:59:50.716Z",
+      "isMini": true
+    },
+    {
+      "id": "5qGpetjG4JnhBKvCGKFd",
+      "title": "Daily Mini: 10/14/2022",
+      "link": "https://crosshare.org/crosswords/5qGpetjG4JnhBKvCGKFd",
+      "pubDate": "2022-10-15T00:57:56.103Z",
+      "isMini": true
+    },
+    {
+      "id": "QHfiEVV3iWrUuRILp59s",
+      "title": "Daily Mini: 10/13/2022",
+      "link": "https://crosshare.org/crosswords/QHfiEVV3iWrUuRILp59s",
+      "pubDate": "2022-10-13T00:55:00.926Z",
+      "isMini": true
+    },
+    {
+      "id": "a7orW19tURoH60vCVEV8",
+      "title": "Daily Mini: 10/12/2022",
+      "link": "https://crosshare.org/crosswords/a7orW19tURoH60vCVEV8",
+      "pubDate": "2022-10-12T16:16:30.569Z",
+      "isMini": true
+    },
+    {
+      "id": "VaPIrgKbTqTHHVg8DgxS",
+      "title": "Daily Mini: 10/11/2022",
+      "link": "https://crosshare.org/crosswords/VaPIrgKbTqTHHVg8DgxS",
+      "pubDate": "2022-10-11T03:41:37.805Z",
+      "isMini": true
+    },
+    {
+      "id": "djVClsN6dUz0xOv5Aw7m",
+      "title": "Daily Mini: 10/10/2022",
+      "link": "https://crosshare.org/crosswords/djVClsN6dUz0xOv5Aw7m",
+      "pubDate": "2022-10-09T23:22:49.989Z",
+      "isMini": true
+    },
+    {
+      "id": "4JezLi5cFClXB0tCGYsJ",
+      "title": "Daily Mini: 10/09/2022",
+      "link": "https://crosshare.org/crosswords/4JezLi5cFClXB0tCGYsJ",
+      "pubDate": "2022-10-09T16:30:37.354Z",
+      "isMini": true
+    },
+    {
+      "id": "l3QKplC9PSvgTIloIr67",
+      "title": "Daily Mini: 10/08/2022",
+      "link": "https://crosshare.org/crosswords/l3QKplC9PSvgTIloIr67",
+      "pubDate": "2022-10-08T14:58:09.431Z",
+      "isMini": true
+    },
+    {
+      "id": "6x7PfAKt4UFpoTmEsMEE",
+      "title": "Daily Mini: 10/07/2022",
+      "link": "https://crosshare.org/crosswords/6x7PfAKt4UFpoTmEsMEE",
+      "pubDate": "2022-10-07T00:23:53.471Z",
+      "isMini": true
+    },
+    {
+      "id": "StJIqO2ceVjtwhCYxqqy",
+      "title": "Daily Mini: 10/06/2022",
+      "link": "https://crosshare.org/crosswords/StJIqO2ceVjtwhCYxqqy",
+      "pubDate": "2022-10-06T03:05:48.773Z",
+      "isMini": true
+    },
+    {
+      "id": "oUgF3VGwpVcLmESbayYl",
+      "title": "Daily Mini: 10/05/2022",
+      "link": "https://crosshare.org/crosswords/oUgF3VGwpVcLmESbayYl",
+      "pubDate": "2022-10-04T21:09:37.004Z",
+      "isMini": true
+    },
+    {
+      "id": "8PgiKE0O2TG8mJjrfp0W",
+      "title": "Daily Mini: 10/04/2022",
+      "link": "https://crosshare.org/crosswords/8PgiKE0O2TG8mJjrfp0W",
+      "pubDate": "2022-10-04T03:43:32.384Z",
+      "isMini": true
+    },
+    {
+      "id": "lFe0DyBRvBiUAhazNflR",
+      "title": "Daily Mini: 10/03/2022",
+      "link": "https://crosshare.org/crosswords/lFe0DyBRvBiUAhazNflR",
+      "pubDate": "2022-10-03T03:42:05.808Z",
+      "isMini": true
+    },
+    {
+      "id": "ZZIT8cIjBlW1qc71mDbX",
+      "title": "Daily Mini: 05/02/2022",
+      "link": "https://crosshare.org/crosswords/ZZIT8cIjBlW1qc71mDbX",
+      "pubDate": "2022-04-30T22:03:02.748Z",
+      "isMini": true
+    },
+    {
+      "id": "HkfIIKRwofSCloXGJMwa",
+      "title": "Daily Mini: 05/01/2022",
+      "link": "https://crosshare.org/crosswords/HkfIIKRwofSCloXGJMwa",
+      "pubDate": "2022-04-30T22:01:44.016Z",
+      "isMini": true
+    },
+    {
+      "id": "W6ihaZHlshijKMPQu72G",
+      "title": "Daily Mini: 03/30/2022",
+      "link": "https://crosshare.org/crosswords/W6ihaZHlshijKMPQu72G",
+      "pubDate": "2022-04-30T02:53:24.822Z",
+      "isMini": true
+    },
+    {
+      "id": "Hf2n8HKLcVtB1lcHBBSN",
+      "title": "Daily Mini: 04/29/2022",
+      "link": "https://crosshare.org/crosswords/Hf2n8HKLcVtB1lcHBBSN",
+      "pubDate": "2022-04-27T17:00:05.554Z",
+      "isMini": true
+    },
+    {
+      "id": "rZMJ237N2uIal2WN1gFz",
+      "title": "Daily Mini: 04/28/2022",
+      "link": "https://crosshare.org/crosswords/rZMJ237N2uIal2WN1gFz",
+      "pubDate": "2022-04-27T16:58:18.438Z",
+      "isMini": true
+    },
+    {
+      "id": "OjOU19GFzIUWfnwgM2Mn",
+      "title": "Daily Mini: 04/27/2022",
+      "link": "https://crosshare.org/crosswords/OjOU19GFzIUWfnwgM2Mn",
+      "pubDate": "2022-04-27T02:38:48.056Z",
+      "isMini": true
+    },
+    {
+      "id": "lpRhNdctu41wAPwWQ88S",
+      "title": "Daily Mini: 04/26/2022",
+      "link": "https://crosshare.org/crosswords/lpRhNdctu41wAPwWQ88S",
+      "pubDate": "2022-04-20T21:02:26.008Z",
+      "isMini": true
+    },
+    {
+      "id": "spEDE9k24zvNT8YAyrCa",
+      "title": "Daily Mini: 04/25/2022",
+      "link": "https://crosshare.org/crosswords/spEDE9k24zvNT8YAyrCa",
+      "pubDate": "2022-04-20T21:00:42.975Z",
+      "isMini": true
+    },
+    {
+      "id": "SMZXaaehWFzhVdldRdXp",
+      "title": "Daily Mini: 04/24/2022",
+      "link": "https://crosshare.org/crosswords/SMZXaaehWFzhVdldRdXp",
+      "pubDate": "2022-04-20T20:58:48.212Z",
+      "isMini": true
+    },
+    {
+      "id": "VROG0EMIxmx1Nrb8OcQi",
+      "title": "Daily Mini: 04/23/2022",
+      "link": "https://crosshare.org/crosswords/VROG0EMIxmx1Nrb8OcQi",
+      "pubDate": "2022-04-20T20:55:36.062Z",
+      "isMini": true
+    },
+    {
+      "id": "atGMoPMVjRg7YWh5Kxks",
+      "title": "Daily Mini: 04/22/2022",
+      "link": "https://crosshare.org/crosswords/atGMoPMVjRg7YWh5Kxks",
+      "pubDate": "2022-04-20T20:54:09.226Z",
+      "isMini": true
+    },
+    {
+      "id": "0CnH766JsYA8UXkFquie",
+      "title": "Daily Mini: 04/21/2022",
+      "link": "https://crosshare.org/crosswords/0CnH766JsYA8UXkFquie",
+      "pubDate": "2022-04-20T20:52:12.482Z",
+      "isMini": true
+    },
+    {
+      "id": "eCSbazv9bYaWcfZLKa3d",
+      "title": "Daily Mini: 04/20/2022",
+      "link": "https://crosshare.org/crosswords/eCSbazv9bYaWcfZLKa3d",
+      "pubDate": "2022-04-20T00:43:22.426Z",
+      "isMini": true
+    },
+    {
+      "id": "jzC7X3wOiifrKueHhx0F",
+      "title": "Daily Mini: 04/19/2022",
+      "link": "https://crosshare.org/crosswords/jzC7X3wOiifrKueHhx0F",
+      "pubDate": "2022-04-19T01:08:05.890Z",
+      "isMini": true
+    },
+    {
+      "id": "9BWrgAsGg8DzSC5vFiEA",
+      "title": "Daily Mini: 04/18/2022",
+      "link": "https://crosshare.org/crosswords/9BWrgAsGg8DzSC5vFiEA",
+      "pubDate": "2022-04-18T01:29:36.449Z",
+      "isMini": true
+    },
+    {
+      "id": "mcLFmXlBK7YRPZrP0FEL",
+      "title": "Daily Mini: 04/17/2022",
+      "link": "https://crosshare.org/crosswords/mcLFmXlBK7YRPZrP0FEL",
+      "pubDate": "2022-04-17T02:08:37.583Z",
+      "isMini": true
+    },
+    {
+      "id": "HccV2pFxLrnFKGG9TgQ7",
+      "title": "Daily Mini: 04/16/2022",
+      "link": "https://crosshare.org/crosswords/HccV2pFxLrnFKGG9TgQ7",
+      "pubDate": "2022-04-16T03:08:32.326Z",
+      "isMini": true
+    },
+    {
+      "id": "Kl6FiUsnZQ1Mf5o1r9XL",
+      "title": "Daily Mini: 04/15/2022",
+      "link": "https://crosshare.org/crosswords/Kl6FiUsnZQ1Mf5o1r9XL",
+      "pubDate": "2022-04-15T02:14:04.757Z",
+      "isMini": true
+    },
+    {
+      "id": "xU0oDsPROA0LuIgm8Rxv",
+      "title": "Daily Mini: 04/14/2022",
+      "link": "https://crosshare.org/crosswords/xU0oDsPROA0LuIgm8Rxv",
+      "pubDate": "2022-04-14T02:16:02.622Z",
+      "isMini": true
+    },
+    {
+      "id": "WddWgih4JEuh26hpX9ud",
+      "title": "Daily Mini: 04/13/2022",
+      "link": "https://crosshare.org/crosswords/WddWgih4JEuh26hpX9ud",
+      "pubDate": "2022-04-13T01:10:43.364Z",
+      "isMini": true
+    },
+    {
+      "id": "1vexueTmzzxRiG3o8ESG",
+      "title": "Daily Mini: 04/12/2022",
+      "link": "https://crosshare.org/crosswords/1vexueTmzzxRiG3o8ESG",
+      "pubDate": "2022-04-12T02:23:21.161Z",
+      "isMini": true
+    },
+    {
+      "id": "TKcPuoroyMvo8bv2a5MS",
+      "title": "Daily Mini: 04/09/2022",
+      "link": "https://crosshare.org/crosswords/TKcPuoroyMvo8bv2a5MS",
+      "pubDate": "2022-04-08T23:01:13.601Z",
+      "isMini": true
+    },
+    {
+      "id": "Fy5jKZqRJ4hew4GksP9Z",
+      "title": "Daily Mini: 04/08/2022",
+      "link": "https://crosshare.org/crosswords/Fy5jKZqRJ4hew4GksP9Z",
+      "pubDate": "2022-04-08T02:34:48.262Z",
+      "isMini": true
+    },
+    {
+      "id": "qRtlCSF77QYYotnanR8a",
+      "title": "Daily Mini: 04/07/2022",
+      "link": "https://crosshare.org/crosswords/qRtlCSF77QYYotnanR8a",
+      "pubDate": "2022-04-07T01:12:53.643Z",
+      "isMini": true
+    },
+    {
+      "id": "PaA7Z7XAJ3QIF45mcfuN",
+      "title": "Daily Mini: 04/11/2022",
+      "link": "https://crosshare.org/crosswords/PaA7Z7XAJ3QIF45mcfuN",
+      "pubDate": "2022-04-04T14:04:23.309Z",
+      "isMini": true
+    },
+    {
+      "id": "SZM0iJ3MO7Dr4Gk7f2ux",
+      "title": "Daily Mini: 04/10/2022",
+      "link": "https://crosshare.org/crosswords/SZM0iJ3MO7Dr4Gk7f2ux",
+      "pubDate": "2022-04-04T14:03:40.493Z",
+      "isMini": true
+    },
+    {
+      "id": "6oy9Ayapg5WeMU5Dj7EH",
+      "title": "Daily Mini: 04/06/2022",
+      "link": "https://crosshare.org/crosswords/6oy9Ayapg5WeMU5Dj7EH",
+      "pubDate": "2022-04-04T13:12:56.148Z",
+      "isMini": true
+    },
+    {
+      "id": "z2pi5aqZUlHA4h0okKQP",
+      "title": "Daily Mini: 04/05/2022",
+      "link": "https://crosshare.org/crosswords/z2pi5aqZUlHA4h0okKQP",
+      "pubDate": "2022-04-04T13:11:12.362Z",
+      "isMini": true
+    },
+    {
+      "id": "AOsgZ5PMqmx8YttVHPER",
+      "title": "Daily Mini: 04/04/2022",
+      "link": "https://crosshare.org/crosswords/AOsgZ5PMqmx8YttVHPER",
+      "pubDate": "2022-04-03T23:44:18.033Z",
+      "isMini": true
+    },
+    {
+      "id": "1eXbGBBqIaL3f7ttIrMa",
+      "title": "Daily Mini: 04/03/2022",
+      "link": "https://crosshare.org/crosswords/1eXbGBBqIaL3f7ttIrMa",
+      "pubDate": "2022-03-30T02:36:55.011Z",
+      "isMini": true
+    },
+    {
+      "id": "JHTX56xvTGo2JrcxDgBx",
+      "title": "Daily Mini: 04/02/2022",
+      "link": "https://crosshare.org/crosswords/JHTX56xvTGo2JrcxDgBx",
+      "pubDate": "2022-03-30T02:34:56.186Z",
+      "isMini": true
+    },
+    {
+      "id": "9qrs7S4GvpuvHqOlveyE",
+      "title": "Daily Mini: 04/01/2022",
+      "link": "https://crosshare.org/crosswords/9qrs7S4GvpuvHqOlveyE",
+      "pubDate": "2022-03-30T02:33:27.938Z",
+      "isMini": true
+    },
+    {
+      "id": "eI7kzGUaYDQ58KGcfLMY",
+      "title": "Daily Mini: 03/31/2022",
+      "link": "https://crosshare.org/crosswords/eI7kzGUaYDQ58KGcfLMY",
+      "pubDate": "2022-03-30T02:31:48.648Z",
+      "isMini": true
+    },
+    {
+      "id": "0Ml6gZ15tktu2J3taWbH",
+      "title": "Daily Mini: 03/30/2022",
+      "link": "https://crosshare.org/crosswords/0Ml6gZ15tktu2J3taWbH",
+      "pubDate": "2022-03-30T02:28:47.037Z",
+      "isMini": true
+    },
+    {
+      "id": "JUVSE0hD6zEIbSupGLod",
+      "title": "Daily Mini: 03/29/2022",
+      "link": "https://crosshare.org/crosswords/JUVSE0hD6zEIbSupGLod",
+      "pubDate": "2022-03-28T23:45:38.745Z",
+      "isMini": true
+    },
+    {
+      "id": "W7xxldEUbZtkBYByeoGt",
+      "title": "Daily Mini: 03/28/2022",
+      "link": "https://crosshare.org/crosswords/W7xxldEUbZtkBYByeoGt",
+      "pubDate": "2022-03-28T03:27:59.285Z",
+      "isMini": true
+    },
+    {
+      "id": "Mn43AA9s86eJ5anm5WVV",
+      "title": "Holidays",
+      "link": "https://crosshare.org/crosswords/Mn43AA9s86eJ5anm5WVV",
+      "pubDate": "2021-12-06T05:02:44.981Z",
+      "isMini": false
+    },
+    {
+      "id": "pJ9LMWKY3Nsdur1qy7u1",
+      "title": "Red (Taylor's Version)",
+      "link": "https://crosshare.org/crosswords/pJ9LMWKY3Nsdur1qy7u1",
+      "pubDate": "2021-11-29T01:10:42.740Z",
+      "isMini": false
+    },
+    {
+      "id": "swWIsw6NMxAGHtDVj3hd",
+      "title": "Not a Piece of Cake",
+      "link": "https://crosshare.org/crosswords/swWIsw6NMxAGHtDVj3hd",
+      "pubDate": "2021-11-22T03:45:16.620Z",
+      "isMini": false
+    },
+    {
+      "id": "pODkX11k9E66sYwOuWQw",
+      "title": "Broadway Musicals",
+      "link": "https://crosshare.org/crosswords/pODkX11k9E66sYwOuWQw",
+      "pubDate": "2021-11-15T04:41:09.580Z",
+      "isMini": false
+    },
+    {
+      "id": "JRlvocY2zF8hccENVSho",
+      "title": "Lion Clubs",
+      "link": "https://crosshare.org/crosswords/JRlvocY2zF8hccENVSho",
+      "pubDate": "2021-11-08T01:49:57.382Z",
+      "isMini": true
+    }
+  ]
+}
