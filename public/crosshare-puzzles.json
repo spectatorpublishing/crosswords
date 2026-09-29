@@ -1,8 +1,15 @@
 {
-  "generatedAt": "2026-09-27T20:14:08.121Z",
+  "generatedAt": "2026-09-29T01:17:51.217Z",
   "slug": "CUDailySpectator",
-  "totalPuzzles": 657,
+  "totalPuzzles": 658,
   "puzzles": [
+    {
+      "id": "FC8DIsNRKCJFMwJZMMSK",
+      "title": "Daily Mini: 09/28/2026",
+      "link": "https://crosshare.org/crosswords/FC8DIsNRKCJFMwJZMMSK",
+      "pubDate": "2026-09-28T03:28:42.762Z",
+      "isMini": true
+    },
     {
       "id": "wI4haa8s25STJYGbMfdb",
       "title": "Daily Mini: 09/27/2026",
@@ -610,7 +617,7 @@
       "title": "Daily Mini: 10/23/2025",
       "link": "https://crosshare.org/crosswords/FKVhOd3PBdO2ym9r5euM",
       "pubDate": "2025-10-23T13:33:48.320Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "ZrZdf0hsTqSHlOyk9RG8",
@@ -1107,7 +1114,7 @@
       "title": "Daily Mini: 04/24/2025",
       "link": "https://crosshare.org/crosswords/hjtWk75RdfzxyTNUNppp",
       "pubDate": "2025-04-22T19:44:49.061Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "75PgWhNOzo6FF5pCPIvU",
@@ -1226,7 +1233,7 @@
       "title": "Daily Mini: 04/06/2025",
       "link": "https://crosshare.org/crosswords/OHZ5PfWaeGkq3YSwaStt",
       "pubDate": "2025-04-04T05:41:22.916Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "FJz4MI7RIlHK6WdFtQYp",
@@ -1464,7 +1471,7 @@
       "title": "Niche Theme Friday: Java Edition",
       "link": "https://crosshare.org/crosswords/2XuXydPkEUeVTemuee9c",
       "pubDate": "2025-02-25T04:05:09.903Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "bv99TKhoJuzUVrGXdTtv",
@@ -1583,7 +1590,7 @@
       "title": "Niche Theme Friday: Valentine's Day",
       "link": "https://crosshare.org/crosswords/leH40srjS3d2wNyzct1X",
       "pubDate": "2025-02-10T15:28:38.306Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "StJxALl7LrLrv3ShAEu7",
@@ -2073,7 +2080,7 @@
       "title": "Niche Theme Friday: Orchard Talk",
       "link": "https://crosshare.org/crosswords/enURSkSA5NoNukUy9f8l",
       "pubDate": "2024-10-02T01:54:22.806Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "HU4dBWMe4arsaVjxNdTP",
@@ -2500,7 +2507,7 @@
       "title": "Niche Theme Friday: What Kind of Cat Are You?",
       "link": "https://crosshare.org/crosswords/FzbCgeSOAnAkFgjZQVds",
       "pubDate": "2024-03-29T06:18:50.787Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "cl4knHDRAiA5HorhSfRj",
@@ -2535,7 +2542,7 @@
       "title": "Niche Theme Friday: From Colorless to Pink",
       "link": "https://crosshare.org/crosswords/I4QY0LBH8J20xU3Qp1Kl",
       "pubDate": "2024-03-22T13:50:47.280Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "2ZmPT5YznHZvMDvbDDcc",
@@ -2703,7 +2710,7 @@
       "title": "Daily Mini: 02/28/2024",
       "link": "https://crosshare.org/crosswords/0goIAkXkWJ9Idd5rpsMP",
       "pubDate": "2024-02-28T14:53:11.455Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "x82ZipJXGAvzweBDGMYH",
@@ -2766,7 +2773,7 @@
       "title": "Daily Mini: 02/19/2024",
       "link": "https://crosshare.org/crosswords/0z5UfxQ8IqhS1wfM38B5",
       "pubDate": "2024-02-19T14:57:24.934Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "mZqSwHeuFvEf876M2qU9",
@@ -3655,7 +3662,7 @@
       "title": "Daily Mini: 5/7/23",
       "link": "https://crosshare.org/crosswords/X9XGN6ExkRn6xLvOu8Lu",
       "pubDate": "2023-04-27T01:38:33.036Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "TmkRZIlY0IfyGyGqMUG4",
@@ -3690,7 +3697,7 @@
       "title": "Daily Mini: 5/2/23",
       "link": "https://crosshare.org/crosswords/Wko67P1r4zOIrkWxTXmP",
       "pubDate": "2023-04-27T01:28:03.997Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "OIE0dcXZXa8mf5IOHmFs",
@@ -4572,28 +4579,28 @@
       "title": "Holidays",
       "link": "https://crosshare.org/crosswords/Mn43AA9s86eJ5anm5WVV",
       "pubDate": "2021-12-06T05:02:44.981Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "pJ9LMWKY3Nsdur1qy7u1",
       "title": "Red (Taylor's Version)",
       "link": "https://crosshare.org/crosswords/pJ9LMWKY3Nsdur1qy7u1",
       "pubDate": "2021-11-29T01:10:42.740Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "swWIsw6NMxAGHtDVj3hd",
       "title": "Not a Piece of Cake",
       "link": "https://crosshare.org/crosswords/swWIsw6NMxAGHtDVj3hd",
       "pubDate": "2021-11-22T03:45:16.620Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "pODkX11k9E66sYwOuWQw",
       "title": "Broadway Musicals",
       "link": "https://crosshare.org/crosswords/pODkX11k9E66sYwOuWQw",
       "pubDate": "2021-11-15T04:41:09.580Z",
-      "isMini": false
+      "isMini": true
     },
     {
       "id": "JRlvocY2zF8hccENVSho",

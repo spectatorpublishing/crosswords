@@ -39,7 +39,8 @@ function normalizePuzzles(puzzles) {
     title: p.title,
     link: `https://crosshare.org/crosswords/${p.id}`,
     pubDate: new Date(p.publishTime).toISOString(),
-    isMini: (p.autoTags || []).includes("mini"),
+    // crosshare auto-tags 8x8/9x9 grids as "midi"; treat them as minis too
+    isMini: (p.autoTags || []).some((t) => t === "mini" || t === "midi"),
   }));
 }
 

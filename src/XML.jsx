@@ -4,7 +4,7 @@ import CrosswordBox from "./CrosswordBox";
 import Header from "./components/Header";
 import Spotlight from "./components/Spotlight";
 
-const PAGE_SIZE = 20; // to show 20 items per page, change this to change the amt of puzzles per page
+const PAGE_SIZE = 24; // to show 20 items per page, change this to change the amt of puzzles per page
 
 const Page = styled.div`
   background-color: #b9d9eb;
