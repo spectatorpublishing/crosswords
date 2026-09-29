@@ -17,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "fetch-puzzles": "node scripts/fetch-crosshare-data.mjs",
+    "prebuild": "npm run fetch-puzzles",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
