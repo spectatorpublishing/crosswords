@@ -1,178 +1,131 @@
 import styled from "styled-components";
 import { useEffect, useMemo, useRef, useState } from "react";
-import CrosswordBox from "./CrosswordBox";
+import { Link } from "react-router-dom";
+import PuzzleTile from "./components/PuzzleTile";
 import Header from "./components/Header";
-import Spotlight from "./components/Spotlight";
+import Tabs from "./components/Tabs";
+import { Leaderboard } from "./components/AdSlot";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import {
+  getBuildId,
+  fetchRootPagePuzzles,
+  fetchArchivePagePuzzles,
+  normalizePuzzles,
+  mergeUniqueById,
+  filterByMode,
+} from "./api/crosshare";
 
-const SLUG = "CUDailySpectator";
-const PAGE_SIZE = 20; // to show 20 items per page, change this to change the amt of puzzles per page
+const PAGE_SIZE = 12; // 3 columns x 4 rows, matching the redesign
 
 const Page = styled.div`
-  background-color: #b9d9eb;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
   width: 100%;
   min-height: 100vh;
 `;
 
-const CrosswordGridWrap = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  align-items: center;
-  padding: 0 16px 32px;
+const Shell = styled.div`
+  /* Page is a flex column, so a flex item with auto margins and no
+     explicit width shrink-wraps to its content instead of filling. */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px 48px;
   box-sizing: border-box;
+`;
+
+const Columns = styled.div`
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 40px;
+  align-items: start;
+  margin-top: 28px;
+
+  /* Below this the rail can't sit beside a 3-up grid without crushing it, so
+     it drops underneath. */
+  @media (max-width: 900px) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+`;
+
+// The grid and the pagination rule share this column so their edges line up.
+const Main = styled.main`
+  min-width: 0;
 `;
 
 const CrosswordGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 220px));
-  justify-content: center;
-  justify-items: center;
-  gap: 30px;
-  width: 100%;
-  align-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
 
-  @media (max-width: 640px) {
-    grid-template-columns: minmax(0, 320px);
+  @media (max-width: 620px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: minmax(0, 1fr);
   }
 `;
 
-const PageNavigator = styled.div`
+const PageNavigator = styled.nav`
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 16px;
-  margin-top: 30px;
-  padding-bottom: 40px;
+  justify-content: space-between;
+
+  margin-top: 28px;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
 `;
 
-const BackButton = styled.button`
-  font-size: 15px;
-  padding: 4px 10px;
-  cursor: ${(props) => (props.canGoPrev ? "pointer" : "default")};
-  opacity: ${(props) => (props.canGoPrev ? 1 : 0.4)};
+// Holds HOME and PREV together on the left, so NEXT keeps the right edge.
+const NavGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 18px;
 `;
 
-const PageNumber = styled.span`
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Bitter", serif;
-  color: #1d4ed8;
-  letter-spacing: 0.5px;
+const PageLink = styled.button`
+  background: none;
+  border: none;
+  padding: 4px 2px;
+
+  font-family:
+    "Open Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  text-decoration: none;
+
+  cursor: ${(props) => (props.disabled ? "default" : "pointer")};
+
+  /* Hiding is separate from disabling: NEXT stays visible while it's fetching
+     so it can show LOADING, it just can't be clicked. */
+  visibility: ${(props) => (props.$hidden ? "hidden" : "visible")};
+
+  &:hover {
+    text-decoration: ${(props) => (props.disabled ? "none" : "underline")};
+  }
 `;
 
-const ForwardButton = styled.button`
-  font-size: 15px;
-  padding: 4px 10px;
-  cursor: ${(props) =>
-    props.canGoNext && !props.loadingMore ? "pointer" : "default"};
-  opacity: ${(props) => (props.canGoNext && !props.loadingMore ? 1 : 0.4)};
+const Status = styled.p`
+  font-family:
+    "Open Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 14px;
+  color: #555555;
+  text-align: center;
+  padding: 32px 0;
 `;
-
-async function fetchJsonThroughCorsProxy(url) {
-  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
-  const res = await fetch(proxiedUrl, {
-    headers: { Accept: "application/json" },
-    cache: "no-store",
-  });
-
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}`);
-  }
-
-  const text = await res.text();
-  return JSON.parse(text);
-}
-
-// same idea as above, but for raw HTML/text
-async function fetchTextThroughCorsProxy(url) {
-  const proxiedUrl = `https://spec-crosswords-api.liondinecu.workers.dev/?${encodeURIComponent(url)}`;
-  const res = await fetch(proxiedUrl, { cache: "no-store" });
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}`);
-  }
-
-  return res.text();
-}
-
-async function getBuildId() {
-  const html = await fetchTextThroughCorsProxy(`https://crosshare.org/${SLUG}`);
-  const match = html.match(/"buildId":"(.*?)"/);
-
-  if (!match) {
-    throw new Error("Could not find buildId");
-  }
-
-  return match[1];
-}
-
-// root page = most recent puzzles
-async function fetchRootPagePuzzles(buildId) {
-  const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}.json`;
-  const data = await fetchJsonThroughCorsProxy(url);
-
-  return {
-    puzzles: data?.pageProps?.puzzles ?? [],
-    nextPage: data?.pageProps?.nextPage ?? null,
-  };
-}
-
-async function fetchArchivePagePuzzles(buildId, page) {
-  const url = `https://crosshare.org/_next/data/${buildId}/en/${SLUG}/page/${page}.json`;
-  const data = await fetchJsonThroughCorsProxy(url);
-
-  return {
-    puzzles: data?.pageProps?.puzzles ?? [],
-    nextPage: data?.pageProps?.nextPage ?? null,
-  };
-}
-
-function normalizePuzzles(puzzles) {
-  return puzzles.map((p) => ({
-    id: p.id,
-    title: p.title,
-    link: `https://crosshare.org/crosswords/${p.id}`,
-    pubDate: new Date(p.publishTime).toISOString(),
-    isMini: (p.autoTags || []).includes("mini"),
-  }));
-}
-
-// merge new puzzles into existing ones without duplicates, then keep everything sorted newest to oldest
-function mergeUniqueById(existing, incoming) {
-  const map = new Map();
-
-  [...existing, ...incoming].forEach((item) => {
-    map.set(item.id, item);
-  });
-
-  return Array.from(map.values()).sort(
-    (a, b) => new Date(b.pubDate) - new Date(a.pubDate),
-  );
-}
-
-function getSpotlightItem(list, mode) {
-  if (mode === "mini") {
-    return list.find((x) => x.isMini) || null;
-  }
-
-  if (mode === "full") {
-    return list.find((x) => !x.isMini) || null;
-  }
-
-  return list.find((x) => !x.isMini) || list[0] || null;
-}
-
-function getGridPuzzles(list, mode) {
-  const spotlight = getSpotlightItem(list, mode);
-
-  const filtered =
-    mode === "mini"
-      ? list.filter((x) => x.isMini)
-      : mode === "full"
-        ? list.filter((x) => !x.isMini)
-        : list;
-
-  return filtered.filter((x) => x.id !== spotlight?.id);
-}
 
 export default function XML({ mode = "all" }) {
   const [items, setItems] = useState([]);
@@ -180,6 +133,7 @@ export default function XML({ mode = "all" }) {
   const [loading, setLoading] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const [hasMoreServerPages, setHasMoreServerPages] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   const buildIdRef = useRef(null);
   const nextPageRef = useRef(null);
@@ -192,7 +146,7 @@ export default function XML({ mode = "all" }) {
     const neededCount = targetPage * PAGE_SIZE;
     let workingItems = [...itemsRef.current];
 
-    if (getGridPuzzles(workingItems, mode).length >= neededCount) return;
+    if (filterByMode(workingItems, mode).length >= neededCount) return;
     if (!buildIdRef.current || !nextPageRef.current) return;
 
     fetchingRef.current = true;
@@ -200,7 +154,7 @@ export default function XML({ mode = "all" }) {
 
     try {
       while (
-        getGridPuzzles(workingItems, mode).length < neededCount &&
+        filterByMode(workingItems, mode).length < neededCount &&
         nextPageRef.current
       ) {
         const result = await fetchArchivePagePuzzles(
@@ -208,15 +162,21 @@ export default function XML({ mode = "all" }) {
           nextPageRef.current,
         );
 
-        const normalized = normalizePuzzles(result.puzzles);
-        workingItems = mergeUniqueById(workingItems, normalized);
+        workingItems = mergeUniqueById(
+          workingItems,
+          normalizePuzzles(result.puzzles),
+        );
 
         nextPageRef.current = result.nextPage;
         setHasMoreServerPages(Boolean(result.nextPage));
+
+        itemsRef.current = workingItems;
       }
 
-      itemsRef.current = workingItems;
       setItems(workingItems);
+    } catch (err) {
+      console.error("Failed to load more puzzles:", err);
+      setItems(itemsRef.current);
     } finally {
       fetchingRef.current = false;
       setLoadingMore(false);
@@ -224,9 +184,13 @@ export default function XML({ mode = "all" }) {
   }
 
   useEffect(() => {
+    // Switching tabs re-filters from scratch, so reset paging too.
+    setPage(1);
+
     async function loadInitial() {
       try {
         setLoading(true);
+        setFailed(false);
 
         const buildId = await getBuildId();
         buildIdRef.current = buildId;
@@ -238,7 +202,7 @@ export default function XML({ mode = "all" }) {
         setHasMoreServerPages(Boolean(first.nextPage));
 
         while (
-          getGridPuzzles(workingItems, mode).length < PAGE_SIZE &&
+          filterByMode(workingItems, mode).length < PAGE_SIZE &&
           nextPageRef.current
         ) {
           const result = await fetchArchivePagePuzzles(
@@ -259,6 +223,7 @@ export default function XML({ mode = "all" }) {
         setItems(workingItems);
       } catch (err) {
         console.error("Failed to load puzzles:", err);
+        setFailed(true);
       } finally {
         setLoading(false);
       }
@@ -267,12 +232,7 @@ export default function XML({ mode = "all" }) {
     loadInitial();
   }, [mode]);
 
-  const spotlightItem = useMemo(
-    () => getSpotlightItem(items, mode),
-    [items, mode],
-  );
-
-  const gridPuzzles = useMemo(() => getGridPuzzles(items, mode), [items, mode]);
+  const gridPuzzles = useMemo(() => filterByMode(items, mode), [items, mode]);
 
   const totalLoadedPages = Math.ceil(gridPuzzles.length / PAGE_SIZE);
   const start = (page - 1) * PAGE_SIZE;
@@ -284,7 +244,7 @@ export default function XML({ mode = "all" }) {
     await ensureEnoughForPage(targetPage);
 
     const availablePages = Math.ceil(
-      getGridPuzzles(itemsRef.current, mode).length / PAGE_SIZE,
+      filterByMode(itemsRef.current, mode).length / PAGE_SIZE,
     );
 
     if (targetPage <= availablePages) {
@@ -301,49 +261,61 @@ export default function XML({ mode = "all" }) {
 
   return (
     <Page>
-      <Header mode={mode} />
+      <Header />
 
-      {spotlightItem && <Spotlight crossword={spotlightItem} />}
+      <Shell>
+        <Leaderboard />
 
-      {loading && (
-        <div style={{ textAlign: "center", marginTop: 20 }}>Loading...</div>
-      )}
+        <Columns>
+          <Main>
+            <Tabs mode={mode} />
 
-      <CrosswordGridWrap>
-        <CrosswordGrid>
-          {currentPageItems.map((item) => (
-            <CrosswordBox
-              key={item.id}
-              title={item.title}
-              link={item.link}
-              pubDate={item.pubDate}
-            />
-          ))}
-        </CrosswordGrid>
-      </CrosswordGridWrap>
+            {loading ? (
+              <Status>Loading puzzles…</Status>
+            ) : failed ? (
+              <Status>
+                We couldn't load the puzzles just now. Please try again later.
+              </Status>
+            ) : (
+              <>
+                <CrosswordGrid>
+                  {currentPageItems.map((item) => (
+                    <PuzzleTile key={item.id} puzzle={item} siblings={items} />
+                  ))}
+                </CrosswordGrid>
 
-      {!loading && (
-        <PageNavigator>
-          <BackButton
-            onClick={handlePrev}
-            disabled={!canGoPrev}
-            canGoPrev={canGoPrev}
-          >
-            ←
-          </BackButton>
+                <PageNavigator>
+                  <NavGroup>
+                    <PageLink as={Link} to="/">
+                      HOME
+                    </PageLink>
 
-          <PageNumber>Page {page}</PageNumber>
+                    <PageLink
+                      onClick={handlePrev}
+                      disabled={!canGoPrev}
+                      $hidden={!canGoPrev}
+                    >
+                      PREV
+                    </PageLink>
+                  </NavGroup>
 
-          <ForwardButton
-            onClick={handleNext}
-            disabled={!canGoNext || loadingMore}
-            canGoNext={canGoNext}
-            loadingMore={loadingMore}
-          >
-            →
-          </ForwardButton>
-        </PageNavigator>
-      )}
+                  <PageLink
+                    onClick={handleNext}
+                    disabled={!canGoNext || loadingMore}
+                    $hidden={!canGoNext && !loadingMore}
+                  >
+                    {loadingMore ? "LOADING…" : "NEXT"}
+                  </PageLink>
+                </PageNavigator>
+              </>
+            )}
+          </Main>
+
+          <Sidebar />
+        </Columns>
+      </Shell>
+
+      <Footer />
     </Page>
   );
 }
