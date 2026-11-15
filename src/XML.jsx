@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import PuzzleTile from "./components/PuzzleTile";
 import Header from "./components/Header";
 import Tabs from "./components/Tabs";
@@ -17,6 +16,11 @@ import {
 } from "./api/crosshare";
 
 const PAGE_SIZE = 12; // 3 columns x 4 rows, matching the redesign
+
+// Archive pages are numbered sequentially, so search can pull several at once
+// instead of walking nextPage one round-trip at a time.
+const SEARCH_BATCH = 6;
+const SEARCH_DEBOUNCE_MS = 250;
 
 const Page = styled.div`
   display: flex;
@@ -80,13 +84,6 @@ const PageNavigator = styled.nav`
   border-top: 1px solid #000000;
 `;
 
-// Holds HOME and PREV together on the left, so NEXT keeps the right edge.
-const NavGroup = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 18px;
-`;
-
 const PageLink = styled.button`
   background: none;
   border: none;
@@ -114,6 +111,47 @@ const PageLink = styled.button`
   }
 `;
 
+const SearchBox = styled.input`
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto 26px;
+  padding: 11px 16px;
+
+  font-family:
+    "Open Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 15px;
+  color: #000000;
+
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+
+  &:focus {
+    outline: none;
+    border-color: #60a0e5;
+    box-shadow: 0 0 0 3px rgba(96, 160, 229, 0.25);
+  }
+`;
+
+const SearchNote = styled.p`
+  font-family:
+    "Open Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 13px;
+  color: #555555;
+  text-align: center;
+  margin: -14px 0 20px;
+`;
+
 const Status = styled.p`
   font-family:
     "Open Sans",
@@ -127,6 +165,36 @@ const Status = styled.p`
   padding: 32px 0;
 `;
 
+function normalize(text) {
+  return (text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+// Every word has to appear somewhere in the title, constructor, or date —
+// dates in both the tile's 09/20/2026 form and as "September 20 2026".
+function matchesQuery(puzzle, terms) {
+  const d = new Date(puzzle.pubDate);
+  const dates = Number.isNaN(d.getTime())
+    ? ""
+    : [
+        d.toLocaleDateString("en-US", {
+          month: "2-digit",
+          day: "2-digit",
+          year: "numeric",
+        }),
+        d.toLocaleDateString("en-US", {
+          month: "long",
+          day: "numeric",
+          year: "numeric",
+        }),
+      ].join(" ");
+
+  const haystack = normalize(`${puzzle.title} ${puzzle.author || ""} ${dates}`);
+  return terms.every((term) => haystack.includes(term));
+}
+
 export default function XML({ mode = "all" }) {
   const [items, setItems] = useState([]);
   const [page, setPage] = useState(1);
@@ -134,6 +202,9 @@ export default function XML({ mode = "all" }) {
   const [loadingMore, setLoadingMore] = useState(false);
   const [hasMoreServerPages, setHasMoreServerPages] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [query, setQuery] = useState("");
+  const [debouncedQuery, setDebouncedQuery] = useState("");
+  const [searchFailed, setSearchFailed] = useState(false);
 
   const buildIdRef = useRef(null);
   const nextPageRef = useRef(null);
@@ -232,7 +303,91 @@ export default function XML({ mode = "all" }) {
     loadInitial();
   }, [mode]);
 
-  const gridPuzzles = useMemo(() => filterByMode(items, mode), [items, mode]);
+  useEffect(() => {
+    const timer = setTimeout(
+      () => setDebouncedQuery(query.trim()),
+      SEARCH_DEBOUNCE_MS,
+    );
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  useEffect(() => {
+    setPage(1);
+  }, [debouncedQuery]);
+
+  // A search has to see the whole archive, not just the pages paged through so
+  // far. Results fill in as batches land; once everything is loaded, later
+  // searches are instant.
+  useEffect(() => {
+    if (!debouncedQuery || loading || !nextPageRef.current) return undefined;
+
+    let cancelled = false;
+    setSearchFailed(false);
+
+    async function loadRest() {
+      // A NEXT click may be mid-fetch; let it finish rather than racing it.
+      while (fetchingRef.current) {
+        await new Promise((resolve) => setTimeout(resolve, 100));
+        if (cancelled) return;
+      }
+
+      fetchingRef.current = true;
+
+      try {
+        while (!cancelled && nextPageRef.current) {
+          const first = nextPageRef.current;
+          const pages = Array.from(
+            { length: SEARCH_BATCH },
+            (_, i) => first + i,
+          );
+          const results = await Promise.all(
+            pages.map((n) => fetchArchivePagePuzzles(buildIdRef.current, n)),
+          );
+
+          let workingItems = itemsRef.current;
+          let next = null;
+          for (const result of results) {
+            workingItems = mergeUniqueById(
+              workingItems,
+              normalizePuzzles(result.puzzles),
+            );
+            next = result.nextPage;
+            if (!next) break;
+          }
+
+          nextPageRef.current = next;
+          itemsRef.current = workingItems;
+          setItems(workingItems);
+          setHasMoreServerPages(Boolean(next));
+        }
+      } catch (err) {
+        console.error("Failed to search the archive:", err);
+        if (!cancelled) setSearchFailed(true);
+      } finally {
+        fetchingRef.current = false;
+      }
+    }
+
+    loadRest();
+    return () => {
+      cancelled = true;
+    };
+  }, [debouncedQuery, loading]);
+
+  const gridPuzzles = useMemo(() => {
+    const inMode = filterByMode(items, mode);
+    const terms = normalize(debouncedQuery).split(/\s+/).filter(Boolean);
+    if (!terms.length) return inMode;
+    return inMode.filter((puzzle) => matchesQuery(puzzle, terms));
+  }, [items, mode, debouncedQuery]);
+
+  const searching = Boolean(debouncedQuery);
+  // Driven by what's left to load, not by whether a fetch is in flight, so
+  // there's no gap where an unfinished search looks finished.
+  const searchingArchive = searching && hasMoreServerPages && !searchFailed;
+  const resultCount = `${gridPuzzles.length} ${
+    gridPuzzles.length === 1 ? "result" : "results"
+  }`;
 
   const totalLoadedPages = Math.ceil(gridPuzzles.length / PAGE_SIZE);
   const start = (page - 1) * PAGE_SIZE;
@@ -240,6 +395,13 @@ export default function XML({ mode = "all" }) {
 
   async function handleNext() {
     const targetPage = page + 1;
+
+    // Search results are already filtered from what's loaded; the archive
+    // fetch above keeps feeding them.
+    if (searching) {
+      if (targetPage <= totalLoadedPages) setPage(targetPage);
+      return;
+    }
 
     await ensureEnoughForPage(targetPage);
 
@@ -257,7 +419,8 @@ export default function XML({ mode = "all" }) {
   }
 
   const canGoPrev = page > 1;
-  const canGoNext = page < totalLoadedPages || hasMoreServerPages;
+  const canGoNext =
+    page < totalLoadedPages || (!searching && hasMoreServerPages);
 
   return (
     <Page>
@@ -270,6 +433,24 @@ export default function XML({ mode = "all" }) {
           <Main>
             <Tabs mode={mode} />
 
+            <SearchBox
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={`Search ${mode === "mini" ? "minis" : "crosswords"} by title, constructor, or date`}
+              aria-label={`Search ${mode === "mini" ? "minis" : "crosswords"}`}
+            />
+
+            {searching && !loading && !failed && (
+              <SearchNote aria-live="polite">
+                {searchingArchive
+                  ? `${gridPuzzles.length} found so far, searching older puzzles…`
+                  : searchFailed && hasMoreServerPages
+                    ? `Couldn't search older puzzles. Showing ${resultCount} from recent ones.`
+                    : resultCount}
+              </SearchNote>
+            )}
+
             {loading ? (
               <Status>Loading puzzles…</Status>
             ) : failed ? (
@@ -278,6 +459,10 @@ export default function XML({ mode = "all" }) {
               </Status>
             ) : (
               <>
+                {searching && !hasMoreServerPages && !gridPuzzles.length && (
+                  <Status>No puzzles match "{debouncedQuery}".</Status>
+                )}
+
                 <CrosswordGrid>
                   {currentPageItems.map((item) => (
                     <PuzzleTile key={item.id} puzzle={item} siblings={items} />
@@ -285,19 +470,13 @@ export default function XML({ mode = "all" }) {
                 </CrosswordGrid>
 
                 <PageNavigator>
-                  <NavGroup>
-                    <PageLink as={Link} to="/">
-                      HOME
-                    </PageLink>
-
-                    <PageLink
-                      onClick={handlePrev}
-                      disabled={!canGoPrev}
-                      $hidden={!canGoPrev}
-                    >
-                      PREV
-                    </PageLink>
-                  </NavGroup>
+                  <PageLink
+                    onClick={handlePrev}
+                    disabled={!canGoPrev}
+                    $hidden={!canGoPrev}
+                  >
+                    PREV
+                  </PageLink>
 
                   <PageLink
                     onClick={handleNext}

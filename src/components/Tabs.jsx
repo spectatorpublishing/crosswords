@@ -1,11 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
+// The outer tracks are equal, so the tab pair stays centered over the search
+// box with the home button hanging off its left edge.
 const TabRow = styled.nav`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
   margin: 0 auto 26px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: auto 1fr;
+  }
+`;
+
+const Pair = styled.div`
+  display: flex;
+`;
+
+const Home = styled(Link)`
+  justify-self: end;
+  display: grid;
+  place-items: center;
+  width: 50px;
+
+  font-size: 20px;
+  color: #000000;
+
+  &:hover {
+    color: #60a0e5;
+  }
 `;
 
 const Tab = styled(Link)`
@@ -45,20 +72,26 @@ const Tab = styled(Link)`
 
 const Tabs = ({ mode }) => (
   <TabRow>
-    <Tab
-      to="/minis"
-      $active={mode === "mini"}
-      aria-current={mode === "mini" ? "page" : undefined}
-    >
-      Minis
-    </Tab>
-    <Tab
-      to="/crosswords"
-      $active={mode === "full"}
-      aria-current={mode === "full" ? "page" : undefined}
-    >
-      Crosswords
-    </Tab>
+    <Home to="/" aria-label="Games home" title="Games home">
+      <FontAwesomeIcon icon={faHouse} />
+    </Home>
+
+    <Pair>
+      <Tab
+        to="/minis"
+        $active={mode === "mini"}
+        aria-current={mode === "mini" ? "page" : undefined}
+      >
+        Minis
+      </Tab>
+      <Tab
+        to="/crosswords"
+        $active={mode === "full"}
+        aria-current={mode === "full" ? "page" : undefined}
+      >
+        Crosswords
+      </Tab>
+    </Pair>
   </TabRow>
 );
 

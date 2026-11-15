@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Header from "../components/Header";
 import PuzzleTile from "../components/PuzzleTile";
 import { Leaderboard } from "../components/AdSlot";
-import Sidebar from "../components/Sidebar";
+import ContactLinks from "../components/ContactLinks";
 import Footer from "../components/Footer";
 import {
   embedUrl,
@@ -35,20 +35,8 @@ const Shell = styled.div`
   box-sizing: border-box;
 `;
 
-const Columns = styled.div`
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: 40px;
-  align-items: start;
-  margin-top: 28px;
-
-  @media (max-width: 900px) {
-    grid-template-columns: minmax(0, 1fr);
-  }
-`;
-
 const Main = styled.main`
-  min-width: 0;
+  margin-top: 28px;
 `;
 
 const Breadcrumb = styled.div`
@@ -147,6 +135,10 @@ const SeeAllButton = styled(Link)`
   &:hover {
     background: #262626;
   }
+`;
+
+const Contact = styled(ContactLinks)`
+  margin-top: 40px;
 `;
 
 const Status = styled.p`
@@ -288,52 +280,50 @@ export default function PuzzlePage() {
       <Shell>
         <Leaderboard />
 
-        <Columns>
-          <Main>
-            <Breadcrumb>
-              <a href={MULTIMEDIA_URL}>Multimedia</a> |{" "}
-              <Link to="/">Games</Link> |{" "}
-              <Link to={listPath}>
-                {puzzle.isMini ? "Minis" : "Crosswords"}
-              </Link>
-            </Breadcrumb>
+        <Main>
+          <Breadcrumb>
+            <a href={MULTIMEDIA_URL}>Multimedia</a>
+            {" | "}
+            <Link to="/">Games</Link>
+            {" | "}
+            <Link to={listPath}>{puzzle.isMini ? "Minis" : "Crosswords"}</Link>
+          </Breadcrumb>
 
-            <Title>{puzzle.title}</Title>
+          <Title>{puzzle.title}</Title>
 
-            <Byline>
-              {puzzle.author ? `By ${puzzle.author} ` : ""}
-              <BylineDate>
-                {puzzle.author ? "• " : ""}
-                {formatBylineDate(puzzle.pubDate)}
-              </BylineDate>
-            </Byline>
+          <Byline>
+            {puzzle.author ? `By ${puzzle.author} ` : ""}
+            <BylineDate>
+              {puzzle.author ? "• " : ""}
+              {formatBylineDate(puzzle.pubDate)}
+            </BylineDate>
+          </Byline>
 
-            <EmbedFrame
-              src={embedUrl(puzzle.id)}
-              title={puzzle.title}
-              allowFullScreen
-            />
+          <EmbedFrame
+            src={embedUrl(puzzle.id)}
+            title={puzzle.title}
+            allowFullScreen
+          />
 
-            <RelatedGrid>
-              {related.map((item) => (
-                <PuzzleTile
-                  key={item.id}
-                  puzzle={item}
-                  siblings={allPuzzles}
-                  variant={item.id === puzzle.id ? "selected" : "default"}
-                />
-              ))}
-            </RelatedGrid>
+          <RelatedGrid>
+            {related.map((item) => (
+              <PuzzleTile
+                key={item.id}
+                puzzle={item}
+                siblings={allPuzzles}
+                variant={item.id === puzzle.id ? "selected" : "default"}
+              />
+            ))}
+          </RelatedGrid>
 
-            <SeeAllRow>
-              <SeeAllButton to={listPath}>
-                See all {puzzle.isMini ? "Minis" : "Crosswords"}
-              </SeeAllButton>
-            </SeeAllRow>
-          </Main>
+          <SeeAllRow>
+            <SeeAllButton to={listPath}>
+              See all {puzzle.isMini ? "Minis" : "Crosswords"}
+            </SeeAllButton>
+          </SeeAllRow>
 
-          <Sidebar withLinks />
-        </Columns>
+          <Contact />
+        </Main>
       </Shell>
 
       <Footer />
